@@ -1,0 +1,1365 @@
+@font-face {
+  font-family: "Comfortaa-light";
+  src: url(../fonts/comfortaa-light.ttf);
+}
+@font-face {
+  font-family: "Gardensc-regular";
+  src: url(../fonts/gardensc-regular.otf);
+}
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria/geometria.eot');
+  src: url('../fonts/geometria/geometria.eot?#iefix') format('embedded-opentype'), /* IE < 9 */ url('../fonts/geometria/geometria.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/geometria/geometria.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria/geometria.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/geometria/geometria.svg#geometria') format('svg');
+  
+  /* IE 9 Compatibility Mode */
+  /* Chrome < 4, Legacy iOS */
+}
+button,
+button[type="submit"],
+input[type="submit"] {
+  background-color: #8f313e;
+}
+@keyframes btn_anime {
+  0% {
+    background-color: #8f313e;
+  }
+  100% {
+    background-color: #4d7ab0;
+  }
+}
+.all_caf_btn {
+  background-color: #8f313e;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.all_caf_btn:hover {
+  animation: btn_anime 1s linear;
+  background-color: #4d7ab0;
+  color: #ffffff;
+}
+.all_caf_link:hover {
+  animation: btn_anime 1s linear;
+  background-color: #4d7ab0;
+  color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.3);
+}
+.linkW {
+  color: #ffffff;
+  font-size: 18px;
+}
+.linkW:hover {
+  color: #8f313e;
+}
+.linkB {
+  color: #8590aa;
+  font-size: 18px;
+}
+.linkB:hover {
+  color: #8f313e;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Geometria";
+  text-transform: none !important;
+  font-size: 18px;
+}
+.back-to-top {
+  background-color: #8f313e;
+}
+.header .header-main.sticky {
+  background: #333333;
+}
+.header .header-main.plugin .main-menu .nav li.current-menu-parent > a,
+.header .header-main.plugin .main-menu .nav li.current-menu-item > a,
+.header .header-main.plugin.sticky .main-menu .nav > li.current-menu-parent > a,
+.header .header-main.plugin .main-menu .nav li:hover > a {
+  color: #90bef5 !important;
+}
+.header .header-main.sticky .logo .default-logo {
+  display: block;
+}
+#mobile_menu .mobile-main-menu.plugin .nav li.current-menu-parent > a {
+  color: #4d7ab0;
+}
+.header .header-main.plugin #menu-button span {
+  background: #8f313e;
+}
+.header .header-main.plugin #menu-button span,
+.header .header-main.plugin #menu-button span:before,
+.header .header-main.plugin #menu-button span:after {
+  background: #8f313e;
+}
+.header .header-main.sticky .main-menu .nav > li > a {
+  color: #ffffff !important;
+  text-transform: none !important;
+}
+.header .header-main.plugin.sticky .main-menu .nav > li:hover > a {
+  color: #90bef5 !important;
+}
+.slider3 {
+  background-color: #ffffff;
+}
+.slider3 h2 {
+  color: #4d7ab0;
+  font-size: 32px;
+  padding-bottom: 46px;
+}
+.slider3 .work-slider-dots .dots-count {
+  color: #8590aa;
+  font-size: 24px;
+}
+.slider3 .work-slider .work-slide-text h2 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+.slider3 .work-slider .work-slide-text p {
+  color: #8590aa;
+  font-size: 18px;
+}
+.slider3_r {
+  background-color: #e7e3d4;
+}
+.slider3_r h2 {
+  color: #8f313e;
+  font-size: 32px;
+  padding-bottom: 46px;
+}
+.slider3_r .work-slider-dots .dots-count {
+  color: #777777;
+  font-size: 24px;
+}
+.slider3_r .work-slider .work-slide-text h2 {
+  color: #8f313e;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+.slider3_r .work-slider .work-slide-text p {
+  color: #777777;
+  font-size: 18px;
+}
+.slider2 {
+  background-color: #e7e3d4;
+}
+.slider2 h2 {
+  color: #8f313e;
+  font-size: 32px;
+}
+.slider2 .owl-carousel.student-review .owl-nav button {
+  background-color: #8f313e !important;
+  margin-top: 20px;
+}
+.slider2 .owl-carousel.student-review .owl-nav button i.fa {
+  color: #e7e3d4;
+}
+.slider2 .owl-carousel.student-review .owl-nav button:hover {
+  background-color: #741225 !important;
+}
+.slider2 .style--two h5 {
+  color: #8f313e;
+  font-size: 24px;
+  text-align: center;
+}
+.banner.analytic {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+.banner.analytic .banner-content h1 {
+  color: #90bef5;
+  font-size: 46px;
+}
+.banner.analytic .banner-content p {
+  color: #c4dbf6;
+  font-size: 18px;
+}
+.banner.analytic .link {
+  color: #ffffff;
+}
+.banner.analytic .link:hover {
+  color: #90bef5;
+}
+.main section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.main .icon_map {
+  background-color: #e7e3d4;
+}
+.main .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.main .icon_map .section-title h2 {
+  color: #333333;
+}
+.main .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.main .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.main .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.main .order_screen,
+.main .admin_order {
+  background-color: #e7e3d4;
+}
+.main .order_screen h2,
+.main .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.main .order_screen p,
+.main .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.main .admin_order {
+  background-color: #e7e3d4;
+}
+.main .admin_order h2 {
+  color: #8f313e;
+}
+.main .admin_order p {
+  color: #777777;
+}
+.main .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.main .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.main .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.main .back_office {
+  background-color: #ffffff;
+}
+.main .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.main .caf-form h2 {
+  color: #8f313e;
+}
+.main section.banner {
+  background-image: url("../images/bg/main-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.restaurant section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.restaurant .icon_map {
+  background-color: #e7e3d4;
+}
+.restaurant .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.restaurant .icon_map .section-title h2 {
+  color: #333333;
+}
+.restaurant .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.restaurant .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.restaurant .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.restaurant .order_screen,
+.restaurant .admin_order {
+  background-color: #e7e3d4;
+}
+.restaurant .order_screen h2,
+.restaurant .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.restaurant .order_screen p,
+.restaurant .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.restaurant .admin_order {
+  background-color: #e7e3d4;
+}
+.restaurant .admin_order h2 {
+  color: #8f313e;
+}
+.restaurant .admin_order p {
+  color: #777777;
+}
+.restaurant .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.restaurant .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.restaurant .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.restaurant .back_office {
+  background-color: #ffffff;
+}
+.restaurant .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.restaurant .caf-form h2 {
+  color: #8f313e;
+}
+.restaurant section.banner {
+  background-image: url("../images/bg/restaurant-bg.jpg ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.restaurant #take-order h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.restaurant #take-order .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.restaurant #take-order .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.restaurant .slider3 {
+  background-color: #e7e3d4;
+}
+.restaurant .slider3 h2 {
+  color: #8f313e;
+  font-size: 32px;
+  padding-bottom: 46px;
+}
+.restaurant .slider3 .work-slider-dots .dots-count {
+  color: #777777;
+  font-size: 24px;
+}
+.restaurant .slider3 .work-slider .work-slide-text h2 {
+  color: #8f313e;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+.restaurant .slider3 .work-slider .work-slide-text p {
+  color: #777777;
+  font-size: 18px;
+}
+.restaurant #chief_screen h2 {
+  color: #4d7ab0;
+  font-size: 32px;
+}
+.restaurant #bring-order {
+  background-image: url("../images/img-businesses/restaurant/bg-waiter.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.restaurant #bring-order h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.restaurant #bring-order .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.fastfood section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.fastfood .icon_map {
+  background-color: #e7e3d4;
+}
+.fastfood .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.fastfood .icon_map .section-title h2 {
+  color: #333333;
+}
+.fastfood .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.fastfood .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.fastfood .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.fastfood .order_screen,
+.fastfood .admin_order {
+  background-color: #e7e3d4;
+}
+.fastfood .order_screen h2,
+.fastfood .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.fastfood .order_screen p,
+.fastfood .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.fastfood .admin_order {
+  background-color: #e7e3d4;
+}
+.fastfood .admin_order h2 {
+  color: #8f313e;
+}
+.fastfood .admin_order p {
+  color: #777777;
+}
+.fastfood .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.fastfood .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.fastfood .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.fastfood .back_office {
+  background-color: #ffffff;
+}
+.fastfood .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.fastfood .caf-form h2 {
+  color: #8f313e;
+}
+.shop section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.shop .icon_map {
+  background-color: #e7e3d4;
+}
+.shop .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.shop .icon_map .section-title h2 {
+  color: #333333;
+}
+.shop .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.shop .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.shop .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.shop .order_screen,
+.shop .admin_order {
+  background-color: #e7e3d4;
+}
+.shop .order_screen h2,
+.shop .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.shop .order_screen p,
+.shop .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.shop .admin_order {
+  background-color: #e7e3d4;
+}
+.shop .admin_order h2 {
+  color: #8f313e;
+}
+.shop .admin_order p {
+  color: #777777;
+}
+.shop .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.shop .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.shop .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.shop .back_office {
+  background-color: #ffffff;
+}
+.shop .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.shop .caf-form h2 {
+  color: #8f313e;
+}
+.shop section.banner {
+  background-image: url("../images/bg/shop-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.bar {
+  background-color: #e7e3d4;
+}
+.bar section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.bar .icon_map {
+  background-color: #e7e3d4;
+}
+.bar .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.bar .icon_map .section-title h2 {
+  color: #333333;
+}
+.bar .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.bar .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.bar .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.bar .order_screen,
+.bar .admin_order {
+  background-color: #e7e3d4;
+}
+.bar .order_screen h2,
+.bar .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.bar .order_screen p,
+.bar .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.bar .admin_order {
+  background-color: #e7e3d4;
+}
+.bar .admin_order h2 {
+  color: #8f313e;
+}
+.bar .admin_order p {
+  color: #777777;
+}
+.bar .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.bar .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.bar .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.bar .back_office {
+  background-color: #ffffff;
+}
+.bar .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.bar .caf-form h2 {
+  color: #8f313e;
+}
+.bar section.banner {
+  background-image: url("../images/bg/bar-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.bar .slider_vertical h1 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.bar .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.bar .slider_vertical .swiper-slide {
+  background-color: #e7e3d4;
+}
+.bar .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.bar .slider_vertical .main-slider__arrow:hover {
+  background: #e2aab2;
+}
+.cafe section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe .icon_map {
+  background-color: #e7e3d4;
+}
+.cafe .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.cafe .icon_map .section-title h2 {
+  color: #333333;
+}
+.cafe .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.cafe .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.cafe .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.cafe .order_screen,
+.cafe .admin_order {
+  background-color: #e7e3d4;
+}
+.cafe .order_screen h2,
+.cafe .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.cafe .order_screen p,
+.cafe .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.cafe .admin_order {
+  background-color: #e7e3d4;
+}
+.cafe .admin_order h2 {
+  color: #8f313e;
+}
+.cafe .admin_order p {
+  color: #777777;
+}
+.cafe .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.cafe .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.cafe .back_office {
+  background-color: #ffffff;
+}
+.cafe .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.cafe .caf-form h2 {
+  color: #8f313e;
+}
+.cafe section.banner {
+  background-image: url("../images/bg/restaurant-bg.jpg ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe #take-order h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.cafe #take-order .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.cafe #take-order .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.cafe .slider3 {
+  background-color: #e7e3d4;
+}
+.cafe .slider3 h2 {
+  color: #8f313e;
+  font-size: 32px;
+  padding-bottom: 46px;
+}
+.cafe .slider3 .work-slider-dots .dots-count {
+  color: #777777;
+  font-size: 24px;
+}
+.cafe .slider3 .work-slider .work-slide-text h2 {
+  color: #8f313e;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+.cafe .slider3 .work-slider .work-slide-text p {
+  color: #777777;
+  font-size: 18px;
+}
+.cafe #chief_screen h2 {
+  color: #4d7ab0;
+  font-size: 32px;
+}
+.cafe #bring-order {
+  background-image: url("../images/img-businesses/restaurant/bg-waiter.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe #bring-order h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.cafe #bring-order .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.cafe section.banner {
+  background-image: url("../images/bg/cafe-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe #bring-order {
+  background-image: url("../images/img-businesses/cafe/cafe-order-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.coffee_house {
+  background-color: #e7e3d4;
+}
+.coffee_house section.banner {
+  background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.coffee_house .icon_map {
+  background-color: #e7e3d4;
+}
+.coffee_house .icon_map .section-title {
+  margin-bottom: 0 !important;
+}
+.coffee_house .icon_map .section-title h2 {
+  color: #333333;
+}
+.coffee_house .slider_vertical h1 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.coffee_house .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.coffee_house .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.coffee_house .order_screen,
+.coffee_house .admin_order {
+  background-color: #e7e3d4;
+}
+.coffee_house .order_screen h2,
+.coffee_house .admin_order h2 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.coffee_house .order_screen p,
+.coffee_house .admin_order p {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.coffee_house .admin_order {
+  background-color: #e7e3d4;
+}
+.coffee_house .admin_order h2 {
+  color: #8f313e;
+}
+.coffee_house .admin_order p {
+  color: #777777;
+}
+.coffee_house .chef_screen {
+  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.coffee_house .chef_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.coffee_house .chef_screen .single-service p {
+  color: #777777;
+  font-size: 18px;
+}
+.coffee_house .back_office {
+  background-color: #ffffff;
+}
+.coffee_house .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.coffee_house .caf-form h2 {
+  color: #8f313e;
+}
+.coffee_house section.banner {
+  background-image: url("../images/bg/bar-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.coffee_house .slider_vertical h1 {
+  color: #8f313e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.coffee_house .slider_vertical .dot-line.style--two:before {
+  background-color: #4d7ab0;
+}
+.coffee_house .slider_vertical .swiper-slide {
+  background-color: #e7e3d4;
+}
+.coffee_house .slider_vertical .swiper-slide p {
+  font-size: 18px;
+  color: #777777;
+}
+.coffee_house .slider_vertical .main-slider__arrow:hover {
+  background: #e2aab2;
+}
+.coffee_house section.banner {
+  background-image: url("../images/bg/coffee-house-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.back_office h2.black {
+  color: #4d7ab0;
+}
+.back_office .chaptar .chaptar-box.active {
+  background-color: #4d7ab0;
+}
+.back_office .chaptar .chaptar-box {
+  padding: 20px;
+  padding-top: 25px;
+}
+.back_office .chaptar .chaptar-box h3 {
+  font-size: 18px;
+  text-align: center;
+}
+.back_office .chaptar .chaptar-box:hover {
+  background-color: #4d7ab0;
+}
+.terminal section.banner {
+  background-image: url("../images/bg/bg-terminal.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.terminal .terminal_for_business {
+  background-color: #e7e3d4;
+}
+.terminal .terminal_for_business h2 {
+  color: #8f313e;
+  font-size: 32px;
+}
+.terminal .terminal_for_business p {
+  color: #777777;
+}
+.terminal .terminal_for_platforms {
+  background-color: #ffffff;
+}
+.terminal .terminal_for_platforms h2 {
+  color: #4d7ab0;
+}
+.terminal .terminal_for_platforms p {
+  color: #8590aa;
+  font-size: 18px;
+}
+.terminal .terminal_for_platforms .single-service img {
+  width: 20%;
+}
+.terminal .terminal_for_platforms .single-service h3 {
+  color: #4d7ab0;
+  font-size: 24px;
+}
+.terminal .terminal_for_device {
+  text-align: center;
+  background-image: url("../images/bg/kass.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.terminal .terminal_for_device .testimonial-single {
+  background-color: rgba(1, 1, 1, 0.7);
+}
+.terminal .terminal_for_device h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.terminal .terminal_for_device .owl-carousel.student-review .owl-nav button {
+  background-color: rgba(1, 1, 1, 0.7) !important;
+  margin-top: 20px;
+}
+.terminal .terminal_for_device .owl-carousel.student-review .owl-nav button i.fa {
+  color: #ffffff;
+}
+.terminal .terminal_for_device .owl-carousel.student-review .owl-nav button:hover {
+  background-color: rgba(1, 1, 1, 0.9) !important;
+}
+.terminal .terminal_for_device .style--two h5 {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+.terminal .terminal_for_oborud {
+  background-color: #e7e3d4;
+}
+.terminal .terminal_for_oborud h2 {
+  color: #8f313e;
+  font-size: 32px;
+}
+.terminal .terminal_for_oborud h3 {
+  color: #8f313e;
+  font-size: 24px;
+}
+.terminal .terminal_for_oborud img {
+  width: 40%;
+}
+.terminal .terminal_for_funk {
+  background-color: #e7e3d4;
+}
+.terminal .terminal_for_funk h2 {
+  color: #8f313e;
+  font-size: 32px;
+}
+.terminal .terminal_for_funk .swiper-container.how-work-slider .swiper-slide {
+  height: 80px !important;
+  border-radius: 5px;
+  padding: 2% 6% ;
+}
+.terminal .terminal_for_funk .swiper-container.how-work-slider .swiper-slide .content h3 {
+  font-size: 24px;
+}
+.terminal .terminal_for_funk .swiper-container.how-work-slider .swiper-slide.active {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.terminal .terminal_for_tems {
+  background-color: #ffffff;
+}
+.terminal .terminal_for_tems h2 {
+  color: #4d7ab0;
+  font-size: 32px;
+}
+.terminal .terminal_for_tems .owl-carousel.student-review .owl-nav button {
+  background-color: #c4dbf6 !important;
+  margin-top: 20px;
+}
+.terminal .terminal_for_tems .owl-carousel.student-review .owl-nav button i.fa {
+  color: #ffffff;
+}
+.terminal .terminal_for_tems .owl-carousel.student-review .owl-nav button:hover {
+  background-color: #4d7ab0 !important;
+}
+.terminal .terminal_for_tems .style--two h5 {
+  color: #4d7ab0;
+  font-size: 24px;
+  text-align: center;
+}
+.terminal .caf-form {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.terminal .caf-form h2 {
+  color: #8f313e;
+}
+.three_part_menu h2.black {
+  color: #4d7ab0;
+}
+.three_part_menu .chaptar .chaptar-box.active {
+  background-color: #4d7ab0;
+}
+.three_part_menu .chaptar .chaptar-box {
+  padding: 20px;
+  padding-top: 25px;
+}
+.three_part_menu .chaptar .chaptar-box h3 {
+  font-size: 18px;
+  text-align: center;
+}
+.three_part_menu .chaptar .chaptar-box:hover {
+  background-color: #4d7ab0;
+}
+.wherehouse section.banner {
+  background-image: url("../images/bg/wherehouse-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.finance section.banner {
+  background-image: url("../images/bg/bg-finans.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.marketing section.banner {
+  background-image: url("../images/bg/bg-marketing.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer {
+  padding: 0px;
+  padding-top: 40px !important;
+  background-image: url("../images/bg/main-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.footer .contacts {
+  text-align: center;
+}
+.footer .contacts .icons {
+  background-color: #8f313e;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 7px 0px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+}
+.footer .contacts .icons:hover {
+  animation: btn_anime 1s linear;
+  background-color: #4d7ab0;
+  color: #ffffff;
+}
+.footer .contacts p {
+  color: #8590aa;
+}
+.footer .footer_center p {
+  width: 100%;
+  text-align: center;
+}
+.footer .imgIcons {
+  margin: 40px;
+}
+.footer .imgIcons .imgIcon {
+  width: 46px;
+  height: 46px;
+  margin: 6px;
+}
+.footer .imgShops {
+  width: 150px;
+}
+.footer .copyright-footer {
+  color: #ffffff;
+}
+.back-to-top {
+  width: 46px;
+  height: 46px;
+}
+.back-to-top i {
+  display: block;
+  font-size: 30px;
+  padding-top: 6px;
+}

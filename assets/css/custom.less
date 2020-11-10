@@ -1,0 +1,779 @@
+@font-face {
+    font-family: "Comfortaa-light"; 
+    src: url(../fonts/comfortaa-light.ttf); 
+}
+@font-face {
+    font-family: "Gardensc-regular"; 
+    src: url(../fonts/gardensc-regular.otf); 
+}
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/geometria/geometria.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/geometria/geometria.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/geometria/geometria.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/geometria/geometria.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/geometria/geometria.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/geometria/geometria.svg#geometria') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+//переменные
+
+@red: #8F313E;
+@blue: #4D7AB0;
+@moloko: #E7E3D4;
+@l_blue: #C4DBF6;
+@m_blue: #90BEF5;
+@blue_gray: #8590AA;
+@red_dark: #741225;
+@gray: #777;
+@white: #fff;
+@black: #333;
+
+
+@p: 18px;
+@h3: 24px;
+@h2: 32px;
+@h1: 46px;
+
+@media only screen and (max-device-width: 720px) {
+    @p: 16px;
+    @h3: 18px;
+    @h2: 22px;
+    @h1: 260px;
+}
+
+//общие стили для кнопок и ссылок
+button, button[type="submit"], input[type="submit"] {
+    background-color: @red;
+}
+
+
+
+@keyframes btn_anime {
+    0% {
+        background-color: @red;
+    }
+    100% {
+        background-color: @blue;
+    }
+}
+
+.all_caf_btn{
+    background-color: @red;
+    padding: 10px 20px;
+    margin: 10px;
+    color: @white;
+    border-radius: 5px;
+    
+    &:hover {
+        animation: btn_anime 1s linear;
+        background-color: @blue;
+        color: @white;
+//        box-shadow: 5px 5px 5px rgba(50,50,50,0.3);
+    }
+}
+
+
+.all_caf_link{
+    
+    &:hover {
+        animation: btn_anime 1s linear;
+        background-color: @blue;
+        color: @white;
+        box-shadow: 5px 5px 5px rgba(50,50,50,0.3);
+    }
+    
+}
+
+.linkW{
+    color: @white;
+    font-size: @p;
+    
+    &:hover{
+        color: @red;
+    }
+}
+.linkB{
+    color: @blue_gray;
+    font-size: @p;
+    
+    &:hover{
+        color: @red;
+    }
+}
+
+.bg_img(@url){
+    background-image: url(@url);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+        
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+     
+} 
+
+//стили для шапки и подвала
+body, h1, h2, h3, h4, h5, p{
+    
+      font-family: "Geometria";
+      text-transform: none !important;
+      font-size: @p;
+}
+
+.back-to-top{
+    background-color: @red;
+}
+
+.header .header-main.sticky {
+    background: @black;
+}
+.header .header-main.plugin .main-menu .nav li.current-menu-parent > a, .header .header-main.plugin .main-menu .nav li.current-menu-item > a, .header .header-main.plugin.sticky .main-menu .nav > li.current-menu-parent > a,  .header .header-main.plugin .main-menu .nav li:hover > a {
+    color: @m_blue !important;
+}
+.header .header-main.sticky .logo .default-logo {
+     display: block;
+}
+
+#mobile_menu .mobile-main-menu.plugin .nav li.current-menu-parent > a{
+    color: @blue;
+}
+
+//burger
+.header .header-main.plugin #menu-button span{
+    background: @red;
+}
+.header .header-main.plugin #menu-button span, .header .header-main.plugin #menu-button span:before, .header .header-main.plugin #menu-button span:after {
+    background: @red;
+}
+
+
+.header .header-main.sticky .main-menu .nav > li > a {
+    color: @white !important;
+    text-transform: none !important;
+}
+.header .header-main.plugin.sticky .main-menu .nav > li:hover > a {
+    color: @m_blue !important;
+}
+
+.slider3{
+    h2{
+           color: @blue;
+           font-size: @h2;  
+           padding-bottom: @h1;
+        }
+         background-color: @white;
+    
+    .work-slider-dots{
+        .dots-count{
+           color: @blue_gray;
+           font-size: @h3;     
+        }
+    }
+    .work-slider{
+        .work-slide-text{
+            h2{
+                color: @black;
+                font-size: @h3;
+                margin-bottom: 20px;
+                padding-bottom: 0px;
+            }
+            p{
+              color: @blue_gray;
+              font-size: @p;   
+            }
+        }
+    }
+}
+.slider3_r{
+    h2{
+           color: @red;
+           font-size: @h2;  
+           padding-bottom: @h1;
+        }
+         background-color: @moloko;
+    
+    .work-slider-dots{
+        .dots-count{
+           color: @gray;
+           font-size: @h3;     
+        }
+    }
+    .work-slider{
+        .work-slide-text{
+            h2{
+                color: @red;
+                font-size: @h3;
+                margin-bottom: 20px;
+                padding-bottom: 0px;
+            }
+            p{
+              color: @gray;
+              font-size: @p;   
+            }
+        }
+    }
+}
+
+.slider2{
+        h2{
+           color: @red;
+           font-size: @h2;  
+        }
+         background-color: @moloko;
+        .owl-carousel.student-review .owl-nav button{
+            background-color: @red !important;
+            margin-top: 20px;
+            i.fa {
+                color: @moloko;
+            }
+            
+        }
+        
+        .owl-carousel.student-review .owl-nav button:hover{
+            background-color: @red_dark !important;
+        }
+        .style--two{
+            
+            h5{
+                color: @red;
+                font-size: @h3; 
+                text-align: center;
+            } 
+        }
+    }
+
+
+
+
+//стили для страницы терминала ресторана
+
+.banner.analytic {
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        .banner-content{
+            h1{
+               color: @m_blue; 
+               font-size: @h1;
+            }
+            p{
+                color: @l_blue; 
+                font-size: @p;
+            }
+        }
+        .link{
+            color: @white;
+            &:hover{
+                color: @m_blue;
+            }
+            
+        }
+        
+    }
+.main{
+  .fastfood;
+    section.banner{
+        .bg_img( "../images/bg/main-bg.png ");
+         text-align: center;  
+    }  
+    
+    
+}
+//стили для страницы restaurant
+.restaurant{
+    .fastfood;
+    section.banner{
+        .bg_img( "../images/bg/restaurant-bg.jpg ");
+         
+    }
+    #take-order{
+        h1{
+            color: @blue; 
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 1%;
+        }
+        .dot-line.style--two:before {
+            background-color: @blue;   
+        }
+        .swiper-slide  p {
+            font-size: @p;
+            color: @gray;
+        }
+    }
+    .slider3{
+        .slider3_r;
+    }
+    #chief_screen{
+        h2{
+            color: @blue; 
+            font-size: @h2;
+        }
+    }
+    #bring-order{
+        .bg_img( "../images/img-businesses/restaurant/bg-waiter.jpg");
+        
+        h2{
+           color: @white;
+           font-size: @h2;  
+        }
+        .single-service{
+            
+            p{
+                color: @gray;  
+                font-size: @p; 
+                
+            }
+        }
+    }
+    #payment{
+        
+    }
+}
+
+
+
+
+//стили для страницы  fastfood
+
+.fastfood{
+    
+    section.banner{
+        .bg_img( "../images/bg/fast-food-bg.png ");
+         
+    }
+    
+    .icon_map{
+        background-color: @moloko; 
+        .section-title{
+           margin-bottom: 0 !important;
+           h2{
+               color: @black;
+            } 
+        }
+        
+    }
+    
+    .slider_vertical{
+        h1{
+            color: @blue; 
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 1%;
+        }
+        .dot-line.style--two:before {
+            background-color: @blue;   
+        }
+        .swiper-slide  p {
+            font-size: @p;
+            color: @gray;
+        }
+          
+    }
+
+    
+    .order_screen, .admin_order{
+        h2{
+            color: @red;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 3%; 
+        }
+        p{
+            color: @gray;  
+            font-size: @p; 
+            padding-bottom: 10px;
+        }
+        background-color: @moloko;
+    }
+    .admin_order{
+        h2{
+            color: @red;
+        }
+        p{
+            color: @gray;
+        }
+        background-color: @moloko;
+    }
+    .chef_screen{
+        .bg_img( "../images/img-businesses/fast-food/fastfood-order.jpg");
+        
+        h2{
+           color: @white;
+           font-size: @h2;  
+        }
+        .single-service{
+            
+            p{
+                color: @gray;  
+                font-size: @p; 
+                
+            }
+        }
+    }
+    
+    .back_office{
+      background-color: @white;    
+    }
+    
+    .caf-form{
+        background-color: @moloko;
+        padding-top: 80px;
+        h2{
+           color: @red; 
+        }
+    }
+}
+//стили для страницы  shop
+
+.shop{ 
+   .fastfood;
+   section.banner{
+        .bg_img( "../images/bg/shop-bg.png");
+         
+    }
+    
+}
+
+//стили для страницы  shop
+.bar{
+   
+  .fastfood;
+  section.banner{
+        .bg_img( "../images/bg/bar-bg.png");
+         
+    }
+    background-color: @moloko;
+    .slider_vertical{
+        h1{
+            color: @red; 
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 1%;
+        }
+        .dot-line.style--two:before {
+            background-color: @blue;   
+        }
+        .swiper-slide{
+            background-color: @moloko;
+            p{
+                font-size: @p;
+                color: @gray;
+            }
+        }
+        .main-slider__arrow:hover{
+           background: lighten(@red, 40%); 
+            
+        }
+          
+    }
+}
+.cafe{
+   
+  .restaurant;
+  section.banner{
+        .bg_img( "../images/bg/cafe-bg.png");
+         
+    }
+    #bring-order{
+        .bg_img( "../images/img-businesses/cafe/cafe-order-bg.jpg");
+    }
+}
+.coffee_house{
+    
+    .bar;
+    section.banner{
+        .bg_img( "../images/bg/coffee-house-bg.png ");
+         
+    }
+}
+
+
+
+
+.back_office{
+        h2.black{
+            color: @blue; 
+        }
+        .chaptar{
+            
+            .chaptar-box.active{
+                background-color: @blue; 
+            }
+            .chaptar-box{
+                padding: 20px;
+                padding-top: 25px;
+                h3{
+                  font-size: @p;
+                  text-align: center;
+                }
+                &:hover{
+                    background-color: @blue;
+                }
+            }
+            
+        }
+    }
+
+
+
+.terminal{
+    section.banner{
+        .bg_img( "../images/bg/bg-terminal.png");
+         text-align: center;  
+    }
+    .terminal_for_business{
+        background-color: @moloko;
+        
+        h2{
+            color: @red;
+            font-size: @h2;
+        }
+        p{
+            color: @gray;
+        }
+    }
+    .terminal_for_platforms{
+        background-color: @white;
+        h2{
+            color: @blue;
+        }
+        p{
+            color: @blue_gray;
+            font-size: @p;
+        }
+        .single-service{
+            img{
+                width: 20%;
+            }
+            h3{
+                color: @blue;
+                font-size: @h3;
+            }
+        }
+    }
+    .terminal_for_device{
+        text-align: center;
+        .testimonial-single{
+            background-color: rgba(1, 1, 1 , 0.7);
+        }
+       .bg_img( "../images/bg/kass.jpg");
+        
+         h2{
+           color: @white;
+           font-size: @h2;  
+        }
+        
+        .owl-carousel.student-review .owl-nav button{
+            background-color: rgba(1, 1, 1 , 0.7) !important;
+            margin-top: 20px;
+            i.fa {
+                color: @white;
+            }
+            
+        }
+        
+        .owl-carousel.student-review .owl-nav button:hover{
+            background-color: rgba(1, 1, 1 , 0.9) !important;
+        }
+        .style--two{
+            
+            h5{
+                color: @white;
+                font-size: @h3; 
+                text-align: center;
+            } 
+        }
+        
+        
+    }
+    .terminal_for_oborud{
+        background-color: @moloko;
+        h2{
+           color: @red;
+           font-size: @h2;  
+        }
+        h3{
+           color: @red;
+           font-size: @h3;
+        }
+        img{
+            width: 40%;
+        }
+    }
+    
+    
+     .terminal_for_funk{
+        
+        background-color: @moloko;
+        h2{
+           color: @red;
+           font-size: @h2;  
+        }
+         .swiper-container.how-work-slider {
+             .swiper-slide{
+                 height: 80px !important;
+                
+                 border-radius:5px;
+                 padding: 2% 6% ;
+               
+                 .content{
+                     h3{
+                        font-size: @h3; 
+                     }
+                 } 
+             }
+         }
+         .swiper-container.how-work-slider {
+             .swiper-slide.active{
+                 background-color: @white;
+                 border-radius: 5px;
+             }
+         }
+          
+    }
+    
+    
+     .terminal_for_tems{
+        h2{
+           color: @blue;
+           font-size: @h2;  
+        }
+         background-color: @white;
+        .owl-carousel.student-review .owl-nav button{
+            background-color: @l_blue !important;
+            margin-top: 20px;
+            i.fa {
+                color: @white;
+            }
+            
+        }
+        
+        .owl-carousel.student-review .owl-nav button:hover{
+            background-color: @blue !important;
+        }
+        .style--two{
+            
+            h5{
+                color: @blue;
+                font-size: @h3; 
+                text-align: center;
+            } 
+        }
+    }
+    
+    .caf-form{
+        background-color: @moloko;
+        padding-top: 80px;
+        h2{
+           color: @red; 
+        }
+    }
+    
+    
+}
+.three_part_menu{
+       h2.black{
+            color: @blue; 
+        }
+        .chaptar{
+            
+            .chaptar-box.active{
+                background-color: @blue; 
+            }
+            .chaptar-box{
+                padding: 20px;
+                padding-top: 25px;
+                h3{
+                  font-size: @p;
+                  text-align: center;
+                }
+                &:hover{
+                    background-color: @blue;
+                }
+            }
+            
+        } 
+    }
+.wherehouse{
+     section.banner{
+        .bg_img( "../images/bg/wherehouse-bg.png");
+         text-align: center;  
+    }
+}
+.finance{
+     section.banner{
+        .bg_img( "../images/bg/bg-finans.png ");
+         text-align: center;  
+    }
+}
+.marketing{
+     section.banner{
+        .bg_img( "../images/bg/bg-marketing.png ");
+         text-align: center;  
+    }
+}
+
+.footer{
+    padding: 0px;
+    padding-top: 40px !important;
+    .bg_img( "../images/bg/main-bg.png ");
+    .contacts{
+        text-align: center;
+        .icons{
+            .all_caf_btn;
+            display: inline-block;
+            text-align: center;
+            padding: 7px 0px;
+            width: 46px;
+            height: 46px;
+            border-radius: 50px;
+        }
+        p{
+            color: @blue_gray;
+        }
+    }
+    .footer_center{
+        p{
+            width: 100%;
+          
+               text-align: center;
+           
+        }
+        
+    }
+    
+    .imgIcons{
+        margin: 40px;
+        .imgIcon{
+        width: 46px;
+        height: 46px;
+        margin: 6px;
+        }
+        
+    }
+    .imgShops{
+           width: 150px;
+    }
+    .copyright-footer{
+        color: @white;
+    }
+}
+
+.back-to-top{
+    width: 46px;
+    height: 46px;
+    i{
+        display: block;
+        font-size: 30px;
+        padding-top: 6px;
+    }
+}
+
+
+//media

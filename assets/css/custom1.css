@@ -1,0 +1,295 @@
+@import url("../fonts/alegreyasans/alegreyasans.css");
+/*16 - 22 - 30 -40*/
+
+/*bootom*/
+
+.btn-pay.analytic, .analytic.e-btn {
+    background: #8E313E;
+}
+
+
+/*end*/
+
+
+body, h1, h2, h3, h4, h5, p{
+    
+/*    font-family: 'Alegreya Sans';*/
+      text-transform: none !important;
+      color: #777;
+}
+p{
+    font-size: 16px;
+}
+
+.header-main{
+    padding-top: -40px !important;
+}
+
+.btn-crs.plug {
+    background: #BE182F;
+    color: #fff;
+}
+.btn-crs.plug:hover {
+    background: #5F9CBE;
+    color: #0B1559;
+}
+
+.header .header-main.sticky {
+    background: rgba(191, 179, 48, 0.8);
+    background: rgba(191, 179, 48, 0.8);
+    background: rgba(50, 50, 50, 1);
+}
+.header .header-main.sticky .logo .default-logo {
+     display: block;
+}
+.header .header-main.sticky .main-menu .nav > li > a {
+     color: #fff !important; 
+}
+.header .header-main.sticky .main-menu .nav > li:hover {
+     color: #5F9CBE !important; 
+}
+
+#mobile_menu .mobile-main-menu.plugin .nav li.current-menu-parent > a{
+    color: #5F9CBE;
+}
+.header .header-main.plugin #menu-button span{
+    background: #5F9CBE;
+}
+
+.btn-crs.s-btn.plug {
+    background: #212F89;
+    color: #ffffff;
+}
+.btn-crs.s-btn.plug:hover {
+    background: #5F9CBE;
+    color: #ffffff;
+}
+.banner.style--two.plugins .banner-content h1{
+    font-size: 40px;
+    color: #5F9CBE;
+    padding-top: 15%;
+}
+
+.header .header-main.plugin.sticky .main-menu .nav > li.current-menu-parent > a,  .header .header-main.plugin .main-menu .nav li.current-menu-parent > a, .header .header-main.plugin .main-menu .nav li.current-menu-item > a, .header .header-main.plugin .main-menu .nav li:hover > a {
+    color: #5F9CBE !important;
+   
+}
+h1{
+     font-size: 30px;
+     color: #8F313E;
+}
+h3{
+     font-size: 22px;
+}
+
+
+
+
+
+.feature-content.pos{
+   background: #fff;
+    color: #000;
+}
+
+.pos h3{
+    color: #8F313E;
+    padding: 4% 0%;
+    padding-bottom: 8%;
+    font-size: 22px;
+}
+.list-check.pos li:after{
+   color: #8F313E; 
+}
+.list-check.pos p{
+   color: #000; 
+}
+
+
+
+
+
+
+/*
+.section-title.host h2{
+   font-size: 30px;
+   color: #0B1559;
+}
+.single-service .service-content h3{
+   font-size: 22px;
+   color: #0B1559;
+}
+.single-service.style--six .service-icon{
+    background-color: #727DC4;
+    width: 96px;
+    height: 96px;
+}
+.single-service.style--six{
+    border: solid 2px #f5f5f5;
+}
+
+
+
+
+.list-check.cards li:after{
+   color: #7C0818; 
+}
+
+
+
+.plugin-feature-bg{
+    background-color: #E3D676; 
+}
+.section-title h2.black {
+    color: #7C0818;
+    margin-top: 8%;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section-title h2.black1 {
+    color: #0B1559;
+    margin-top: 8%;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+
+.first-text{
+    
+    padding: 2% 4%;
+    margin-bottom: 5%;
+}
+
+
+.about-block{
+    background-color: #FFFAD5;
+    
+}
+.about-block p{
+    color: #444;
+}
+
+.host_c1 {
+    color: #5464C4;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 8%
+}
+
+.list-uncheck.host li h3{
+    color: #727DC4;
+    font-size: 22px;
+    text-align: left;
+    padding-bottom: 1%;
+    
+}
+.list-uncheck.host li p {
+    font-size: 16px;
+}
+
+
+.list-uncheck.host li p{
+    max-width: none;
+}
+.list-check.cards li h3{
+   color: #7C0818; 
+}
+.section-title p {
+    max-height: none;
+}
+.back-bg{
+    background-color: #FFFAD5;
+}
+ .back-bg p{
+    color: #000; 
+}
+
+.section-title p {
+   
+    text-align: center;
+}
+
+
+
+
+.cta-content.book .paperback .order-box, .cta-content.book .paperback .box {
+    padding: 20px 10px;
+    background: #FFF;
+    width: 90%;
+}
+
+.cta-content.book .paperback .order-box .btn-book.s-btn
+{
+    border-radius: 6px;
+    display: block;
+    width: 60%;
+    margin: 2% auto;
+    font-size: 16px;
+    background: #BE182F;
+    color: #fff;
+} 
+
+.cta-content.book .paperback .order-box .btn-book.s-btn:hover {
+    background: #8F313E;
+    color: #ddd;
+    box-shadow: 2px 2px 5px rgba(122,122,122,0.4);
+}
+.cta-content.book .paperback .order-box b
+{
+    font-size: 16px;
+    color: #8F313E;
+    text-align: center;
+}
+.cta-content.book .paperback .order-box p
+{
+    font-size: 16px;
+    color: #444;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+
+
+.back-to-top.email {
+    background-color: #8F313E;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new style*/
+
+/*part terminal for restaurant*/
+
+
+
+
+.banner.analytic .banner-content h1{
+    
+    color: #5F9CBE;
+}
