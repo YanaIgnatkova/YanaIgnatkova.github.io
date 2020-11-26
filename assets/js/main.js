@@ -440,15 +440,20 @@ We may release future updates so it will overwrite this file. it's better and sa
     var accordionToggle = $('[data-accordion-tab="toggle"]');
     accordionToggle.each(function(){
         $(this).children('.accordion-content').hide();
+        
         $(this).on('click', function(){
             $(this).addClass('active').siblings().removeClass('active');
             if ($(this).hasClass('active')){
                 $(this).children('.accordion-content').slideDown(500).parents('[data-accordion-tab="toggle"]').siblings().children('.accordion-content').slideUp(500);
             }
         });
+        
         if($(this).hasClass('active')){
             $(this).children('.accordion-content').show();
         }
+        
+       
+        
     });
 
     /*==================================
