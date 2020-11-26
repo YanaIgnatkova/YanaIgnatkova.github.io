@@ -54,10 +54,15 @@ rgb(75%, 9%, 18%);
 
         <!-- ======= Custom Stylesheet ======= -->
         <link rel="stylesheet" href="../assets/css/custom.css">
+        
+        
+        
+        <link rel="stylesheet" href="../assets/css/styleAccordion.css">
+
 
     </head>
 
-    <body class="wherehouse">
+    <body class="sales-report">
     <!-- Preloader -->
         <div class="preloader">
             <div class='loader-circle'>
@@ -92,7 +97,7 @@ rgb(75%, 9%, 18%);
 
                     <!-- Offcanvas Close -->
                     <div class="offcanvas-close">
-                        <img src="../assets/img/icons/close.svg" class="svg" alt="">
+                        <img src="../assets/images/icons/close.svg" class="svg" alt="">
                     </div>
                     <!-- End Offcanvas Close -->
                 </div>
@@ -127,9 +132,9 @@ rgb(75%, 9%, 18%);
                                             </ul>
                             <!-- End Submenu -->
                         </li>
-                        <li><a href="#">Цены</a></li>
-                        <li><a href="#">Оборудование</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="../price.html">Цены</a></li>
+                        <li><a href="../pricing.html">Оборудование</a></li>
+                        <li><a href="../contacts.html">Контакты</a></li>
                        
                     </ul>
                 </div>
@@ -195,10 +200,9 @@ rgb(75%, 9%, 18%);
                                             </ul>
                                             <!-- End Submenu -->
                                         </li>
-                                        <li><a href="#">Цены</a></li>
-                                        <li><a href="#">Оборудование</a></li>
-                                      
-                                        <li><a href="#">Контакты</a></li>
+                                        <li><a href="../price.html">Цены</a></li>
+                                        <li><a href="../pricing.html">Оборудование</a></li>
+                                        <li><a href="../contacts.html">Контакты</a></li>
 
                                     </ul>
                                 </div>
@@ -215,6 +219,9 @@ rgb(75%, 9%, 18%);
             <!-- Header Style One End -->
         </header>
         <!-- End Header -->   
+        
+         
+        
         
         <!-- Banner -->
         <section class="banner analytic">
@@ -247,119 +254,229 @@ rgb(75%, 9%, 18%);
             </div>
         </section>
         <!-- End Banner -->
-
-          <section class="three_part_menu pt-80 pb-80">
         
+        
+        
+        <!-- Service Style 4 -->
+        <section class="pb-30 pt-30 analytic-fbg opportunities_part">
+            <div class="container">
+               
+                <div class="row justify-content-center mt-50">
+                    
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".2s">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                            
+                            <div class="service-content">
+                                <h3>Неограниченное количество пользователей</h3>
+                                <p>Дайте доступ своему бухгалтеру, фин. директору, инвесторам, управляющему. Все включено в подписку.</p>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".3s">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                            
+                            <div class="service-content">
+                                <h3>Доступ из любой <br> точки мира</h3>
+                                <p>Вся аналитика доступна в браузере, из любой точки мира с доступом в интернет.</p>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                            
+                            <div class="service-content">
+                                <h3>Гибкие фильтры <br> во всех отчетах</h3>
+                                <p>Посмотреть чеки Антона, оплаченные банковской картой с фискальными товарам и примененной акцией «1+1» в первом зале за последний месяц? Не проблема!</p>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End Service Style 4 --> 
+        
+        
+        
+        
+        <!-- FAQ -->
+        <section class="pt-100 pb-100">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <!-- Section Title -->
-                        <div class="section-title book">
-                            <h2 class="black">Какой функционал?</h2>
+                    <div class="col-lg-12">
+                        <div class="section-title semi-bold text-center">
+                            <h2 class="management_c1">Всё, что нужно для детального анализа продаж</h2>
+                            
                         </div>
-                        <!-- End Section Title -->
                     </div>
                 </div>
-                <div class="row mt-30 justify-content-center">
-                    <div class="col-lg-3 com-md-12 order-1 order-lg-0">
-                        <!-- Chaptar -->
-                        <div class="chaptar tab-btn">
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box active" data-tab-select="tab1">
-                                <h3>Чеки </h3>
+                <div class="row align-items-center justify-content-center mt-10">
+                    <div class="col-lg-6 for_funk">
+                        <div class="opprt_accordion">
+                            <ul>
+                              <li data-tab-select="fun1">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>Чеки</h2>
+                                <div>
+                                    <p>
+                                        Этот настраиваемый отчет, показывает информацию по всем чекам и их статусу (закрыт, активен, отменен и тд) за выбранный период. Значок “+” позволяет развернуть чек и получить более подробную информацию.</p>
+                                   
+                                  </div>
+                                </li>
+                              <li data-tab-select="fun2">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>Резервы</h2>
+                                <div>
+                                    <p>
+                                        Предварительные заказы столиков и банкетов. Создаются на кассовом терминале.</p>
                                 
+                                   
+                                  </div>
+                              </li>
+                              <li data-tab-select="fun3">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>Итоги</h2>
+                                <div>
+                                    <p>
+                                         Удобное отображение всех продаж за выбранный период.
+                                    </p>
+                                 </div> 
+                              </li>
                                 
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab2">
-                                <h3>Резервы</h3>
-                               
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab3">
-                                <h3>Итоги </h3>
-                                
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab5">
-                                <h3>Реализация </h3>
-                                
-                            </div>
-                            <!-- End Chaptar Box -->
-                          
-                        </div>
-                        <!-- End Chaptar -->
-                    </div>
-                    <div class="col-lg-5 com-md-12 order-0 order-lg-1 text-center">
-                        <div class="tab-content chaptar-img">
-                            <div class="active" data-tab="tab1">
-                                <img src="../assets/images/img-opportunities/sales-report/report-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/sales-report.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab2">
-                                <img src="../assets/images/img-opportunities/cooking-dish/dish-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/cooking-dish.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab3">
-                                <img src="../assets/images/img-opportunities/wherehouse/wherehose-laptop-ost.png" data-rjs="2" alt="">
-                                <a href="../opportunities/wherehouse.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab4">
-                                <img src="../assets/images/img-opportunities/security/security-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/security.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab5">
-                                <img src="../assets/images/img-opportunities/marketing/marketing-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/marketing.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab6">
-                                <img src="../assets/images/img-opportunities/finance/finance-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/finance.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab7">
-                                <img src="../assets/images/img-opportunities/marketing/marketing-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/marketing.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            <div data-tab="tab8">
-                                <img src="../assets/images/img-opportunities/finance/finance-main.png" data-rjs="2" alt="">
-                                <a href="../opportunities/finance.html" class="linkB"> Узнать больше...</a>
-                            </div>
-                            
+                               <li data-tab-select="fun4">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>Реализация</h2>
+                                <div>
+                                    <p>
+                                        Настраиваемый отчет, показывает информацию о проданных и списанных товарах по заведениям и за выбранный период, с указанием количества и сумм выручки и прибыли.
+                                    </p>
+                                 </div> 
+                              </li>
+                              
+                            </ul>
+        
                         </div>
                     </div>
-                    <div class="col-lg-3 com-md-12 order-2">
-                        <!-- Chaptar -->
-                        <div class="chaptar tab-btn">
-                            
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab6">
-                                <h3>АВС-анализ </h3>
-                               
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab7">
-                                <h3>Категории</h3>
-                               
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab8">
-                                <h3>История счетов</h3>
+                    <div class="col-lg-5">
+                        <div class="accordion-right">
+                            <div data-tab="fun1" class="active"><img src="../assets/images/img-opportunities/sales-report/copm-report-cheki.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun2"><img src="../assets/images/img-opportunities/sales-report/copm-report-reserv.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun3"><img src="../assets/images/img-opportunities/sales-report/copm-report-itog.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun4"><img src="../assets/images/img-opportunities/sales-report/copm-report-realiz.png" data-rjs="2" alt=""></div>
                                 
-                                
-                            </div>
-                            <!-- End Chaptar Box -->
-                         
                         </div>
-                        <!-- End Chaptar -->
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center mt-50">
+                    <div class="col-lg-5 order-2 order-lg-1">
+                        <div class="accordion-right">
+                            <div data-tab="fun5" class="active"><img src="../assets/images/img-opportunities/sales-report/copm-report-abc.png" data-rjs="2" alt=""></div>
+                                <div data-tab="fun6"><img src="../assets/images/img-opportunities/sales-report/copm-report-kategor.png" data-rjs="2" alt=""></div>
+                                <div data-tab="fun7"><img src="../assets/images/img-opportunities/sales-report/copm-report-istoria.png" data-rjs="2" alt=""></div>
+                                
+                                
+                        </div>
+                    </div>
+                    <div class="col-lg-6 for_funk order-1 order-lg-2">
+                         <div class="opprt_accordion">
+                            <ul>
+                              <li data-tab-select="fun5">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>АВС-анализ</h2>
+                                <div>
+                                    <p>
+                                        данный документ создается для перемещения товаров/продукции/полуфабрикатов  с одного склада на другой. При проведении перемещения происходит перерасчет остатков на складах. 
+                                        <br>
+                                        При создании нового перемещения необходимо указать с какого склада перемещается продукция и на какой. Способ выбора перемещаемых товаров аналогичен накладной. </p>
+                                   
+                                  </div>
+                                </li>
+                              <li data-tab-select="fun6">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>Категории </h2>
+                                <div>
+                                    <p>Метод, позволяющий определить наиболее значимые ресурсы компании с точки зрения валовых продаж и валовой прибыли.</p>
+                                
+                                   
+                                  </div>
+                              </li>
+                              <li data-tab-select="fun7">
+                                <input type="checkbox" checked>
+                                <i></i>
+                                <h2>История счетов</h2>
+                                <div>
+                                    <p>
+                                        Отчет содержит информацию по истории счетов клиентов заведения. Ведет учет всех поступающих заказов в заведении. Тут можно отслеживать как статус заказа, так и выполненные с ним действия – объединение, разделение счетов, их корректировка и удаление. 
+                                    </p>
+                                 </div> 
+                              </li>
+                                
+                               
+                            </ul>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End FAQ -->
+        
+        
+        
+        
+        <!-- Feature 3 -->
+        <section class="pb-100 pt-100 position-relative for_boss">
+          
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-12 order-1 order-lg-0">
+                        <div class="feature-content plug">
+                            <!-- Section Title -->
+                            <div class="section-title">
+                                <h2 class="black">Отслеживайте статистику в любое время. </h2>
+                                <p>С приложением «Кафеста Босс» - все отчёты продаж всегда под рукой.</p>
+                            </div>
+                            <!-- End Section Title -->
+
+                            <ul class="list-check cards">
+                                <li>
+                                  
+                                    <p>Итоги за день, неделю или месяц, удобные графики помогут вам быстро анализировать работу вашего заведения. </p>
+                                </li>
+                                <li>
+                                    
+                                    <p>Актуальная информация по параметрам: оплаты, продукты, работники, категории. Меняя диапазон дат можно уточнить данные или изучить картину в целом.</p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 order-0 order-lg-1">
+                        <div class="feature-img plug text-center">
+                            <img src="../assets/images/img-opportunities/sales-report/boss0.png"     data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        
         </section>
+        <!-- Feature 3 -->
+       
 <!-- Footer -->
         <footer class="footer style--two analytic">
             <!-- Footer Main -->
