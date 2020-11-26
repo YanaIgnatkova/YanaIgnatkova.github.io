@@ -23,6 +23,7 @@
 @blue: #4D7AB0;
 @moloko: #E7E3D4;
 @l_blue: #C4DBF6;
+@ll_blue: #F8FBFF;
 @m_blue: #90BEF5;
 @blue_gray: #8590AA;
 @red_dark: #741225;
@@ -157,10 +158,13 @@ body, h1, h2, h3, h4, h5, p{
     color: @white !important;
     text-transform: none !important;
 }
+
 .header .header-main.plugin.sticky .main-menu .nav > li:hover > a {
     color: @m_blue !important;
 }
-
+.header .header-main .main-menu .nav li a{
+    text-transform:  none !important;
+}
 .slider3{
     h2{
            color: @blue;
@@ -275,6 +279,445 @@ body, h1, h2, h3, h4, h5, p{
         }
         
     }
+
+//.feature-box{
+//    .img{
+//         margin-bottom: 1%;
+//        img{
+//          width: 70%;
+//          margin: 5% 15%;
+//        } 
+//    }
+//    p{
+//        padding: 1% 8%;
+//    }
+//}
+
+.feature-box{
+    .img{
+         margin-bottom: 1%;
+        img{
+          width: 90%;
+          margin:  5%;
+        } 
+    }
+    p{
+        padding: 1% 8%;
+    }
+}
+
+.feature-box:before {
+    position: absolute;
+    content: "Шаг 1";
+    width: 100%;
+    text-align: center;
+    background-color: @l_blue;
+    padding: 5px;
+    border-radius: 10px;
+    left: 0;
+    //top: 50px;
+    font-size: @h2;
+    font-weight: 600;
+    line-height: 1;
+    color: @blue;
+}
+.feature-box:before {
+    content: "Шаг 1.";
+}
+.feature-box.twoo:before {
+    content: "Шаг 2.";
+}
+.feature-box:after{
+  background: rgba(0,0,0,0);
+  position: absolute;
+  width: 1116%;
+  height: 100%;
+  content: "";
+  left: -1000%;
+  top: 0;
+  z-index: -1;
+  border-top-right-radius: 150px;
+}
+.feature-box.three:before {
+    content: "Шаг 3.";
+}
+.feature-box.four:before {
+    content: "Шаг 4.";
+}
+.feature-box.five:before {
+    content: "Шаг 5.";
+}
+.feature-box.six:before {
+    content: "Шаг 6.";
+}
+//.feature-box:before, .feature-box.two:before, .feature-box.two h2, .feature-box.three:before, .feature-box.three h2, .rating strong {
+//    color: @red;
+//}
+.feature-box:before, .feature-box.two:before, .feature-box.two h2, .feature-box.three:before, .feature-box.three h2, .rating strong {
+    color: @blue;
+}
+
+
+.part_left{
+          float: left;
+          width: 50%;
+//          padding: 2% 5%;
+          padding-right: 0;
+      }
+
+
+.part_right{
+          float: right;
+          width: 50%;
+//          padding: 5%;
+          padding-left: 0;
+      }
+
+.steps{
+        
+    .col-lg-4{
+        margin: 0;
+        padding: 0;
+    }
+    .step{
+    background-color: @l_blue;
+    border-radius: 80px 80px 5px 5px;
+    .img{
+        background-color: @white;
+        border-radius: 80px;
+        
+        img{
+            width: 70%;
+            margin:  15%;
+        }
+    }
+    .desk{
+        margin: 0 10%;
+        h3{
+            font-size: @h2;
+            text-align: center;
+            color: @black;
+            padding-top: 7%;
+            padding-bottom: 3%;
+        }
+        .img{
+            background-color: @white;
+            
+        
+            img{
+                width: 84%;
+                margin: 10% 8%;
+                margin-bottom: 5%;
+            }
+        }
+        .part_left{
+            p{
+              width: 48%;
+                padding-left: 15px;
+                position:absolute; /* добавили */
+	           bottom: 25px; /* добавили */  
+            }
+            
+        }
+        .part_right{
+            p{
+              width: 48%;
+                padding-right: 15px;
+                position:absolute; /* добавили */
+	           bottom: 25px; /* добавили */  
+            }
+            
+        }
+        h3{
+            color: @blue_gray;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+    }
+    
+    
+}
+
+
+.step2{
+    background-color: @l_blue;
+    border-radius: 5px 5px 80px 80px ;
+    .img{
+        background-color: @white;
+        border-radius: 80px;
+        padding: 2px;
+        img{
+            width: 80%;
+            margin: 10%;
+        }
+    }
+    .desk{
+        margin: 0 10%;
+        h3{
+            font-size: @h2;
+            text-align: center;
+            color: @black;
+            padding-top: 7%;
+            padding-bottom: 3%;
+        }
+        p{
+            padding-bottom: 5%;
+        }
+    }
+}
+}
+
+
+
+.steps2{
+    .step{
+        box-shadow: 0 0 15px rgba(122,122,122,0.5);
+        height: 100%;
+        .img{
+            background-color: @white;
+            img{
+                width: 70%;
+                margin: 10% 15%;
+                margin-bottom: 5%;
+            }
+        }
+        
+        h3{
+            color: @white;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 5%;
+            margin-top: 10%;
+            width:  100%;
+        }
+        p{
+            margin: 0 4%;
+        }
+    }
+    .arrow {
+	width: 300px;
+	padding: 10px 10px;
+	position: relative;
+	//background: @l_blue;
+    background: @blue;
+        
+	border-radius: 3px;   
+    }
+    .arrow:before {
+        content: ""; 
+        border: solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        //border-top-color: @l_blue;
+        border-top-color: @blue;
+        border-width: 16px;
+        margin-left: -16px;
+    }
+  
+}
+
+
+
+//выбрано
+.steps3{
+    .step3{
+        display: block;
+        border-radius: 10px;
+        //border: solid 2px @l_blue;
+        background-color: @l_blue;
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.3);
+        box-shadow: 0 0 15px rgba(122,122,122,0.5);
+        height: 90%;
+        margin: 50px 0;
+        .img{
+            img{
+                
+                width: 84%;
+                margin: 10% 8%;
+                margin-bottom: 5%;
+            }
+        }
+        .part_left{
+            background-color: @white;
+            height: 100%;
+            float: left;
+            width: 50%;
+            
+            p{
+                margin: 10%;
+                max-height: 90%;
+                overflow-Y: auto;
+                color: @black;
+                  
+            }
+            
+        }
+        .part_right{
+            height: 100%;
+            width: 50%;
+            float: right;
+            p{
+                margin: 10%;
+                color: @black;
+                max-height: 100%;
+                overflow-Y: auto;
+            
+            }
+            
+        }
+        h3{
+            color: @blue;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        .arrow_right {
+            
+            padding: 2% 1%;
+            position: relative;
+            background: @white;
+            border-radius: 3px;   
+        }
+        .arrow_right:before {
+            content: ""; 
+            border: solid transparent;
+            position: absolute;    
+            left: 100%;
+            top: 50%;
+            border-left-color: @white;
+            border-width: 20px;
+            margin-top: -20px;
+        }
+        
+        .arrow_left {
+            
+            padding: 20px 10px;
+            position: relative;
+            background: @white;
+            border-radius: 3px;   
+        }
+        .arrow_left:before {
+            content: ""; 
+            border: solid transparent;
+            position: absolute;  
+            right: 100%;
+            top: 50%;
+            border-right-color: @white;
+            border-width: 20px;
+            margin-top: -20px;
+        }
+    }
+    
+    .step3.two{
+      .part_left{
+            background-color: @l_blue;
+          
+        }
+        .part_right{
+            background-color: @white;            
+        }  
+    }
+}
+
+  
+@media screen and (max-width: 768px) {
+    
+  .steps3{
+    .step3{
+        .part_left{    
+            float:left;
+            width: 100%;
+            height: auto;
+            padding-bottom: 10px;
+            
+        }
+        .part_right{   
+            float:right;
+            width: 100%; 
+            height: auto;
+            padding-bottom: 10px;
+        }
+        
+        .arrow_right {
+            //down
+           
+	       padding: 10px 10px;
+	       position: relative;
+	       background: @white;
+	       border-radius: 3px;    
+        }
+        .arrow_right:before {
+            //down
+            content: ""; 
+	        border: solid transparent;
+            position: absolute;
+            top: 104%;
+            left: 50%;
+            border-top-color: @white;
+            border-width: 20px;
+            margin-left: -20px;
+        }
+        
+        .arrow_left {
+             //down
+           
+	       padding: 10px 10px;
+	       position: relative;
+	       background: @white;
+	       border-radius: 3px;     
+        }
+        .arrow_left:before {
+            //down
+            content: ""; 
+	        border: solid transparent;
+            position: absolute;
+            top: 104%;
+            left: 50%;
+            border-top-color: @white;
+            border-width: 20px;
+            margin-left: -20px;
+        }
+    }
+    
+       .step3.two{
+          .part_left{
+                float:none ;
+
+            }
+            .part_right{
+               float:none;           
+            }  
+        }
+    } 
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main{
   .fastfood;
     section.banner{
@@ -472,6 +915,31 @@ body, h1, h2, h3, h4, h5, p{
         }
           
     }
+    .steps3{
+        .step3{
+            
+            background-color: #F3F1EA;
+            
+            h3{
+                color: @red;
+                font-size: @h2;
+                text-align: center;
+                margin-bottom: 5%;
+            }
+            
+        }
+
+        .step3.two{
+          .part_left{
+                background-color: #F3F1EA;
+
+            }
+            .part_right{
+                background-color: @white;            
+            }  
+        }
+    } 
+    
 }
 .cafe{
    
@@ -700,24 +1168,163 @@ body, h1, h2, h3, h4, h5, p{
             
         } 
     }
+
+.swiper-container.how-work-slider .swiper-slide .content h3{
+    font-size: @h3; 
+    margin-bottom: 0px;
+}
+
+.bace-back{
+     
+    .management_c1{
+        color: @blue;
+        font-size: @h2;
+    }
+    .for_funk{
+        
+        .accordion.management{
+           .accordion-card{
+               padding: 3%;
+               &:first-child{
+                   border-top: 1px solid #fff;
+               }
+               .accordion-title{
+                   h3{
+                       color: @blue;
+                       font-size: @h3;
+                       padding-left: 5%;
+                       &:after{
+                           right: 10%;
+                       }
+                   }
+               } 
+            }  
+        }   
+        
+          
+    }
+    
+}
+
+
+
+.opportunities_part{
+    background-color: @moloko;
+    
+    .single-service{
+        i{
+            font-size: @h2;
+            color: @red;
+        }
+        
+        .service-content{
+           h3{
+                color: @red;
+                font-size: @h3;
+
+            }
+            p{
+                color: @black;
+                font-size: @p;
+                text-align: left;
+
+            } 
+        }
+    }
+    
+}
+
+.for_boss{
+    background-color: @moloko;
+    .feature-content{
+        .section-title{
+            h2.black{
+                 color: @red;
+                 font-size: @h2;
+            }
+            p{
+                color: @black;
+                font-size: @p;
+                text-align: left;
+            }
+        }
+        ul.list-check{
+            li{
+                p{
+                    color: @black;
+                    font-size: @p;
+                    text-align: left;
+                }
+                &:after{
+                    color: @red;
+                }
+            }
+        }
+    }
+    .feature-img {
+        img{
+            width: 85%;
+        }
+    }
+}
 .wherehouse{
-     section.banner{
+    section.banner{
         .bg_img( "../images/bg/wherehouse-bg.png");
          text-align: center;  
     }
+    
+    .bace-back;
 }
+
+
 .finance{
-     section.banner{
-        .bg_img( "../images/bg/bg-finans.png ");
+    .bace-back;
+    section.banner{
+        .bg_img( "../images/bg/finance-bg.png ");
+         text-align: center;  
+    }
+}
+.security{
+    .bace-back;
+    section.banner{
+        .bg_img( "../images/bg/security-bg.png ");
          text-align: center;  
     }
 }
 .marketing{
-     section.banner{
-        .bg_img( "../images/bg/bg-marketing.png ");
+    section.banner{
+        .bg_img( "../images/bg/marketing-bg.png ");
+         text-align: center;  
+    }
+    .bace-back;
+}
+.sales-report{
+    .bace-back;
+    section.banner{
+        .bg_img( "../images/bg/sales-bg.png");
          text-align: center;  
     }
 }
+.cooking-dish{
+    .bace-back;
+    section.banner{
+        .bg_img( "../images/bg/cooking.png");
+         text-align: center;  
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     padding: 0px;
@@ -774,6 +1381,266 @@ body, h1, h2, h3, h4, h5, p{
         padding-top: 6px;
     }
 }
-
+.page_contacts{
+    
+    section.banner{
+        .bg_img( "../images/bg/main-bg.png");
+         text-align: center;
+        .banner-content{
+            h1{
+               color: @white; 
+            }
+        }
+         
+    }
+    
+    
+    .p_contacts{
+    background-color: @moloko;
+    .service-content{
+        text-align: center;
+        h3{
+            color: @red;
+            font-size:@h3;
+        }
+        p{
+            color: @black;
+            
+            a{
+                color: @red;
+                
+                &:hover{
+                    color: @blue;
+                }
+            }
+        }
+    }
+}
+}
 
 //media
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.price{
+   section.banner{
+        .bg_img( "../images/bg/main-bg.png ");
+         text-align: center;  
+         padding-bottom: 0px;
+    } 
+    
+    h2{
+        margin-top: 10%;
+        margin-bottom: 3%;
+        font-size: @h2;
+        color: @blue;
+        text-align: center;
+    }
+    p{
+        margin-bottom: 5%;
+        font-size: @p;
+        color: @black;
+        text-align: center;
+    }
+    .info{
+       margin-top: 2%;
+       p{
+        margin-bottom: 0px;
+        font-size: @p;
+        color: @black;
+        text-align: left;
+        } 
+    }
+    #cafe, #cafe, #coffee-house, #shop{
+        margin-bottom: 5%;
+    }
+    .caf-form{
+//        background-color: rgba(0, 0, 0, 0.03);
+        background-color: @ll_blue;
+        
+    }
+    
+}
+
+/*table*/
+
+    button.tablinks{
+        background-color: rgba(255,255,255, 0.7);
+        color: @blue;
+        font-size: @h3;
+        padding: 1% 2%;
+        margin: 0 5px;
+        border-radius: 8px  8px 0 0  ;
+        
+    }
+    button.active{
+        background-color: rgba(255,255,255, 1);
+//        border: 
+    }
+
+
+
+
+
+/*!
+// CSS only Responsive Tables
+// http://dbushell.com/2016/03/04/css-only-responsive-tables/
+// by David Bushell
+*/
+.fa-check-circle{
+    color: @blue;
+}
+.fa-times-circle{
+    color: @red;
+}
+
+.rtable {
+  /*!
+  // IE needs inline-block to position scrolling shadows otherwise use:
+  // display: block;
+  // max-width: min-content;
+  */
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;  
+  overflow-x: auto;
+  margin: auto;
+  // optional - looks better for small cell values
+  white-space: nowrap;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.rtable,
+.rtable--flip tbody {
+  // optional - enable iOS momentum scrolling
+  -webkit-overflow-scrolling: touch;
+  
+  // scrolling shadows
+  background: radial-gradient(left, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 0 center,
+              radial-gradient(right, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 100% center;
+  background-size: 10px 100%, 10px 100%;
+  background-attachment: scroll, scroll;
+  background-repeat: no-repeat;
+}
+
+// change these gradients from white to your background colour if it differs
+// gradient on the first cells to hide the left shadow
+.rtable td:first-child,
+.rtable--flip tbody tr:first-child {
+  background-image: linear-gradient(to right, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: 20px 100%;
+}
+
+// gradient on the last cells to hide the right shadow
+.rtable td:last-child,
+.rtable--flip tbody tr:last-child {
+  background-image: linear-gradient(to left, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 20px 100%;
+}
+
+.rtable th {
+  font-size: @p;
+  text-align: left;
+  color: @black;
+  background: @ll_blue;
+/*    max-width: 250px;*/
+}
+
+
+.rtable th,
+.rtable td {
+  padding: 6px 12px;
+  border: 1px solid @gray;
+  color: @black;
+  
+}
+.rtable td.title_price, .rtable th.title_price{
+    color: @blue;
+    font-size: @h3  ;
+}
+
+.rtable--flip {
+  display: flex;
+  overflow: hidden;
+  background: none;
+}
+
+.rtable--flip thead {
+  display: flex;
+  flex-shrink: 0;
+  min-width: min-content;
+}
+
+.rtable--flip tbody {
+  display: flex;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.rtable--flip tr {
+  display: flex;
+  flex-direction: column;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+
+.rtable--flip td,
+.rtable--flip th {
+  display: block;
+}
+
+.rtable--flip td {
+  background-image: none !important;
+  // border-collapse is no longer active
+  border-left: 0;
+}
+
+// border-collapse is no longer active
+.rtable--flip th:not(:last-child),
+.rtable--flip td:not(:last-child) {
+  border-bottom: 0;
+}
+
+
+@media only screen and (max-device-width: 800px) {
+    
+    .rtable th {
+        width: 180px;
+        height: 70px;
+        white-space: normal;
+    }
+    .rtable th,
+    .rtable td {
+      
+      height: 70px;
+        align-content: center;
+        vertical-align: middle;
+    }
+    
+    button.tablinks{
+        width: 44%;
+         white-space: normal;
+        font-size: @p;
+        margin: 8px 6px;
+        border-radius: 8px;
+    }
+}
