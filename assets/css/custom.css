@@ -14,6 +14,9 @@
   /* IE 9 Compatibility Mode */
   /* Chrome < 4, Legacy iOS */
 }
+.h1_less {
+  font-size: 46px;
+}
 button,
 button[type="submit"],
 input[type="submit"] {
@@ -517,96 +520,6 @@ p {
   }
 }
 .main section.banner {
-  background-image: url("../images/bg/fast-food-bg.png ");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-bottom: 0px;
-  padding-bottom: 40px;
-}
-.main .icon_map {
-  background-color: #e7e3d4;
-}
-.main .icon_map .section-title {
-  margin-bottom: 0 !important;
-}
-.main .icon_map .section-title h2 {
-  color: #333333;
-}
-.main .slider_vertical h1 {
-  color: #4d7ab0;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 1%;
-}
-.main .slider_vertical .dot-line.style--two:before {
-  background-color: #4d7ab0;
-}
-.main .slider_vertical .swiper-slide p {
-  font-size: 18px;
-  color: #777777;
-}
-.main .order_screen,
-.main .admin_order {
-  background-color: #e7e3d4;
-}
-.main .order_screen h2,
-.main .admin_order h2 {
-  color: #8f313e;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 3%;
-}
-.main .order_screen p,
-.main .admin_order p {
-  color: #777777;
-  font-size: 18px;
-  padding-bottom: 10px;
-}
-.main .admin_order {
-  background-color: #e7e3d4;
-}
-.main .admin_order h2 {
-  color: #8f313e;
-}
-.main .admin_order p {
-  color: #777777;
-}
-.main .chef_screen {
-  background-image: url("../images/img-businesses/fast-food/fastfood-order.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-bottom: 0px;
-  padding-bottom: 40px;
-}
-.main .chef_screen h2 {
-  color: #ffffff;
-  font-size: 32px;
-}
-.main .chef_screen .single-service p {
-  color: #777777;
-  font-size: 18px;
-}
-.main .back_office {
-  background-color: #ffffff;
-}
-.main .caf-form {
-  background-color: #e7e3d4;
-  padding-top: 80px;
-}
-.main .caf-form h2 {
-  color: #8f313e;
-}
-.main section.banner {
   background-image: url("../images/bg/main-bg.png ");
   background-repeat: no-repeat;
   background-position: center center;
@@ -618,6 +531,130 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
   text-align: center;
+}
+.main .diagramm h2.black {
+  color: #4d7ab0;
+  font-size: 32px;
+}
+.main .first_items {
+  background-color: #ffffff;
+}
+.main .businesses {
+  background-color: #e7e3d4;
+}
+.main .businesses h2.black {
+  color: #8f313e;
+  font-size: 32px;
+}
+.main .back_front {
+  background-color: #ffffff;
+}
+.main .back_front h2 {
+  color: #4d7ab0;
+  font-size: 32px;
+}
+.main .back_front .feature-content .section-title h3.black {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #4d7ab0;
+  font-size: 24px;
+}
+.main .back_front .feature-content .section-title p {
+  color: #333333;
+  font-size: 18px;
+  text-align: left;
+}
+.main .back_front .feature-content ul.list-check li h4 {
+  color: #333333;
+  font-size: 18px;
+  text-align: left;
+}
+.main .back_front .feature-content ul.list-check li:after {
+  color: #4d7ab0;
+}
+.main .back_front .feature-img img {
+  width: 85%;
+}
+.main .demos {
+  background-color: #e7e3d4;
+  background-image: url("../images/bg/main-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.main .demos h2 {
+  color: #8f313e;
+  color: #ffffff;
+  font-size: 32px;
+}
+.main .demos p {
+  color: #777777;
+  color: #ffffff;
+}
+.main .demos .demos_card {
+  background-color: rgba(222, 222, 222, 0.9);
+  box-shadow: 0 0 15px rgba(122, 122, 122, 0.5);
+  border-radius: 10px;
+  padding: 20px 10px;
+  padding-bottom: 30px;
+}
+.main .demos .demos_card h3 {
+  color: #8f313e;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.main .demos .demos_card div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main .demos .demos_card div p {
+  line-height: 21px;
+  padding: 1% 5%;
+  color: #333333;
+}
+.main .demos .demos_card div a {
+  padding: 15px;
+}
+.main .demos .demos_card div a i {
+  font-size: 14px;
+}
+.main .demos .demos_card div p.log b {
+  color: #333333;
+}
+.main .questions {
+  background-color: #e7e3d4;
+}
+.main .questions h2.black {
+  color: #8f313e;
+  font-size: 32px;
+}
+.main .questions p {
+  color: #333333;
+}
+.main .questions .question_card .single-service {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.main .questions .question_card .single-service .service-content {
+  height: 260px;
+}
+.main .questions .question_card .single-service .service-content h4 {
+  color: #8f313e;
+  font-size: 24px;
+  text-align: left;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.main .questions .question_card .single-service .service-content p {
+  color: #333333;
+  font-size: 18px;
+  text-align: left;
 }
 .restaurant section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
@@ -710,7 +747,7 @@ p {
   color: #8f313e;
 }
 .restaurant section.banner {
-  background-image: url("../images/bg/restaurant-bg.jpg ");
+  background-image: url("../images/bg/restaurant-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1202,7 +1239,7 @@ p {
   color: #8f313e;
 }
 .cafe section.banner {
-  background-image: url("../images/bg/restaurant-bg.jpg ");
+  background-image: url("../images/bg/restaurant-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1486,6 +1523,11 @@ p {
 }
 .terminal .terminal_for_business p {
   color: #777777;
+}
+.terminal .terminal_for_business .service-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #e7e3d4;
 }
 .terminal .terminal_for_platforms {
   background-color: #ffffff;
@@ -1865,6 +1907,44 @@ p {
   padding-bottom: 40px;
   text-align: center;
 }
+.inline_nav {
+  background-color: #ffffff;
+}
+.inline_nav .section-title h2.black {
+  color: #4d7ab0;
+  font-size: 32px;
+}
+.inline_nav .service-content h3 {
+  color: #8590aa;
+  font-size: 18px;
+  padding: 15px 0;
+  border-radius: 5px;
+}
+.inline_nav .service-content h3.active {
+  padding: 15px 0;
+  color: #4d7ab0;
+  font-size: 22px;
+  border-radius: 5px;
+  box-shadow: 0 0 25px rgba(122, 122, 122, 0.3);
+}
+.inline_nav .service-content h3.active:hover {
+  color: #8f313e;
+}
+.inline_nav.red {
+  background-color: #e7e3d4;
+}
+.inline_nav.red .section-title h2.black {
+  color: #8f313e;
+}
+.inline_nav.red .service-content h3 {
+  color: #777777;
+}
+.inline_nav.red .service-content h3.active {
+  color: #8f313e;
+}
+.inline_nav.red .service-content h3.active:hover {
+  color: #4d7ab0;
+}
 .footer {
   padding: 0px;
   padding-top: 40px !important;
@@ -2121,6 +2201,17 @@ button.active {
 .rtable--flip td:not(:last-child) {
   border-bottom: 0;
 }
+.rtable.two th {
+  width: 500px;
+  height: 170px;
+  white-space: nowrap;
+}
+.rtable.two th,
+.rtable.two td {
+  width: 500px;
+  height: 170px;
+  white-space: nowrap;
+}
 @media only screen and (max-device-width: 800px) {
   .rtable th {
     width: 180px;
@@ -2139,5 +2230,16 @@ button.active {
     font-size: 18px;
     margin: 8px 6px;
     border-radius: 8px;
+  }
+  .rtable.two th {
+    width: 180px;
+    height: 170px;
+    white-space: normal;
+  }
+  .rtable.two th,
+  .rtable.two td {
+    height: 170px;
+    align-content: center;
+    vertical-align: middle;
   }
 }
