@@ -300,64 +300,66 @@ rgb(75%, 9%, 18%);
                 </div>
                 <div class="row align-items-center justify-content-center mt-10">
                     <div class="col-lg-6 for_funk">
-                        
-                        <div class="opprt_accordion">
-                            <ul>
-                              <li data-tab-select="fun1">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Инвентаризации</h2>
-                                <div>
-                                    <p>
+                         <div class="accordion management">
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun1">
+                                <div class="accordion-title">
+                                    <h3>Инвентаризации</h3>
+                                </div>
+                                <div class="accordion-content">
+                                <p>
                                         данный документ создается для проверки фактических остатков товаров на складе для сравнения с расчетным количеством.</p>
                                     <p>
                                         Результатом инвентаризации могут быть как недостачи, так и излишки какого-либо товара на складе. При проведении инвентаризации происходит перерасчет расчетного количества остатков на фактическое количество.
                                     </p>
-                                  </div>
-                                </li>
-                              <li data-tab-select="fun2">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Остатки</h2>
-                                <div>
-                                    <p>
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun2">
+                                <div class="accordion-title">
+                                    <h3>Остатки</h3>
+                                </div>
+                                <div class="accordion-content">
+                                     <p>
                                         Остатки - настраиваемый, сводный отчет по складу, где указано, сколько на данный момент осталось товаров, продукции и полуфабрикатов на каждом отдельном складе. </p>
                                 
                                     <p>
                                         Можно экспортировать все данные об остатках в форматах  .xls, .xlsx, .csv
                                     </p>
-                                  </div>
-                              </li>
-                              <li data-tab-select="fun3">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Входящая/исходящая накладные</h2>
-                                <div>
-                                    <p>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun3">
+                                <div class="accordion-title">
+                                    <h3>Входящая/исходящая накладные</h3>
+                                </div>
+                                <div class="accordion-content">
+                                <p>
                                         Входящая накладная - документ, который создается при необходимости внести реальные остатки товаров в программу. При проведении вход. накладной происходит перерасчет остатков на складе и себестоимости товара.
                                         </p>
                                    
                                     <p>
                                          Исходящая накладная - документ, который создается при отгрузке товаров со склада по себестоимости (например возврат тары поставщику). При проведении исходящей накладной происходит перерасчет остатков на складах.
                                     </p>
-                                 </div> 
-                              </li>
-                              <li data-tab-select="fun4">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Исходящие накладные</h2>
-                                <div>
+                                
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun4">
+                                <div class="accordion-title">
+                                    <h3>Исходящие накладные</h3>
+                                </div>
+                                <div class="accordion-content">
                                     <p>
                                         Данный документ создается при отгрузке товаров со склада по себестоимости (например возврат тары поставщику). При проведении исходящей накладной происходит перерасчет остатков на складах.
                                     </p>
                                     <p>
                                         Исходящая накладная создается так же, как и входящая, но помимо прочих параметров можно указать причину возврата товара.  
                                     </p>
-                                  </div>
-                              </li>
-                            </ul>
-        
-                        </div> 
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
                         
                     </div>
                     <div class="col-lg-5">
@@ -381,55 +383,52 @@ rgb(75%, 9%, 18%);
                         </div>
                     </div>
                     <div class="col-lg-6 for_funk order-1 order-lg-2">
-            
-                        <div class="opprt_accordion">
-                            <ul>
-                              <li data-tab-select="fun5">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Перемещение</h2>
-                                <div>
-                                    <p>данный документ создается для перемещения товаров/продукции/полуфабрикатов  с одного склада на другой. При проведении перемещения происходит перерасчет остатков на складах. </p>
+             <div class="accordion management">
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun5">
+                                <div class="accordion-title">
+                                    <h3>Перемещение</h3>
+                                </div>
+                                <div class="accordion-content">
+                                <p>данный документ создается для перемещения товаров/продукции/полуфабрикатов  с одного склада на другой. При проведении перемещения происходит перерасчет остатков на складах. </p>
                                     <p> При создании нового перемещения необходимо указать с какого склада перемещается продукция и на какой. Способ выбора перемещаемых товаров аналогичен накладной.  </p>
-                                </div>
                                 
-                              </li>
-                              <li data-tab-select="fun6">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Списание</h2>
-                                <div>
-                                  <p>данный документ создается при списании товаров/продукции/полуфабрикатов  со склада в результате порчи, истечения срока годности, боя, потерь и тд.</p>
-                                  <p> При проведении списания происходит перерасчет остатков на складе .</p>
                                 </div>
-                                
-                              </li>
-                              <li data-tab-select="fun7">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Движение по складу</h2>
-                                <div>
-                                  <p>Настраиваемый отчет по складу. Предоставляет информацию по наименованию товаров, типу продукта (товары, блюда, полуфабрикаты), категории. </p>
-                                  <p>Отображает приход, расход, остаток по количеству и суммам.</p>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun6">
+                                <div class="accordion-title">
+                                    <h3>Списание</h3>
                                 </div>
+                                <div class="accordion-content">
+                                    <p>данный документ создается при списании товаров/продукции/полуфабрикатов  со склада в результате порчи, истечения срока годности, боя, потерь и тд.</p>
+                                    <p> При проведении списания происходит перерасчет остатков на складе .</p>
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun7">
+                                <div class="accordion-title">
+                                    <h3>Движение по складу</h3>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>Настраиваемый отчет по складу. Предоставляет информацию по наименованию товаров, типу продукта (товары, блюда, полуфабрикаты), категории. </p>
+                                    <p>Отображает приход, расход, остаток по количеству и суммам.</p>
                                 
-                              </li>
-                              <li data-tab-select="fun8">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Товарный отчёт</h2>
-                                <div>
-                                      <p>Документ, подтверждающий количество товара, числящегося за конкретным материально ответственным лицом на начало нового отчетного периода и отражающий движение товаров за прошедший отчетный период. Составляется товарный отчет на основании товаросопроводительных документов.
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun8">
+                                <div class="accordion-title">
+                                    <h3>Товарный отчёт</h3>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>Документ, подтверждающий количество товара, числящегося за конкретным материально ответственным лицом на начало нового отчетного периода и отражающий движение товаров за прошедший отчетный период. Составляется товарный отчет на основании товаросопроводительных документов.
                                     </p>
                                     <p>
                                         В товарном отчете отражается: остаток товаров на начало периода, поступление товаров по ТН-2 или ТТН-1, отпуск товаров покупателю (согласно чеку, квитанции), возврат товаров на склад, остаток товаров. Товарные отчеты составляют по каждой отдельной торговой точке.
-                                    </p> 
+                                    </p>
+                                    
                                 </div>
-                                
-                              </li>
-                            </ul>
-        
-                        </div>  
+                            </div>
+                            
+                        </div>
+                        
                     </div>
                     
                 </div>
@@ -486,6 +485,103 @@ rgb(75%, 9%, 18%);
             </div>
         </section>
         <!-- Feature 3 -->
+        
+        
+         <section class="pb-60 pt-80 analytic-fbg inline_nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <!-- Section Title -->
+                        <div class="section-title style--three wow fadeInUp10" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <h2 class="black">Другие возможности административной панели:</h2>
+                          
+                        </div>
+                        <!-- End Section Title -->
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-50">
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".1s">
+                            <div class="service-content">
+                                <a href="sales-report.html">
+                                     <h3  class="active">Отчёты продаж</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".2s">
+                           
+                            <div class="service-content">
+                                <a href="cooking-dish.html">
+                                     <h3 class="active">Общепит</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".2s">
+                           
+                            <div class="service-content">
+                               
+                                     <h3 >Склад</h3>
+                               
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".3s">
+                            
+                            
+                            <div class="service-content">
+                                <a href="finance.html">
+                                     <h3 class="active">Финансы</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
+                            
+                            
+                           <div class="service-content">
+                                <a href="marketing.html">
+                                     <h3 class="active">Маркетинг</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
+                            
+                            
+                           <div class="service-content">
+                                <a href="security.html">
+                                     <h3 class="active">Безопасность</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
        
 
         <!-- Footer -->

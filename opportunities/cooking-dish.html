@@ -314,39 +314,37 @@ rgb(75%, 9%, 18%);
                 </div>
                 <div class="row align-items-center justify-content-center mt-10">
                     <div class="col-lg-6 for_funk">
-                        
-                        <div class="opprt_accordion">
-                            <ul>
-                              <li data-tab-select="fun1">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Производство</h2>
-                                <div>
-                                    <p>
+                         <div class="accordion management">
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun1">
+                                <div class="accordion-title">
+                                    <h3>Производство</h3>
+                                </div>
+                                <div class="accordion-content">
+                                 <p>
                                     Данный документ ведет учет производимых на кухне блюд и полуфабрикатов (например, соус или тесто для пиццы). Они должны быть внесены в разделе “Номенклатура” - Тех.карты или Полуфабрикаты! При создании Тех.карты или Полуфабриката необходимо выбрать метод списания “По Блюду”!</p>
                                     <p>
                                         При проведении данного документа со склада будут списаны все товары, согласно рецептуры, в том количестве, сколько необходимо для производства указанного количества. При истечении срока годности произведенного блюда/полуфабриката воспользуйтесь разделом меню “Списание”.
                                     </p>
-                                   
-                                  </div>
-                                </li>
-                              <li data-tab-select="fun2">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Технологические карты</h2>
-                                <div>
+                                
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun2">
+                                <div class="accordion-title">
+                                    <h3>Технологические карты</h3>
+                                </div>
+                                <div class="accordion-content">
                                     <p>
                                         Блюдо - это позиции для формирования меню заведения. Данные позиции отображаются на Терминале. </p>
                                     <p>
                                         Тех.карты могут входить в состав другого блюда. Из блюд можно формировать сеты.
                                     </p>
-                                  </div>
-                              </li>
-                              <li data-tab-select="fun3">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Товары</h2>
-                                <div>
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun3">
+                                <div class="accordion-title">
+                                    <h3>Товары</h3>
+                                </div>
+                                <div class="accordion-content">
                                     <p>
                                          Продукт, который подвергся первичной обработке, но нуждается в дальнейшей окончательной обработке. 
                                         
@@ -355,26 +353,24 @@ rgb(75%, 9%, 18%);
                                     <p>
                                         Полуфабрикат может входить в состав блюда или полуфабриката.
                                     </p>
-                                   
-                                 </div> 
-                              </li>
-                              <li data-tab-select="fun4">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Полуфабрикаты</h2>
-                                <div>
+                                
+                                </div>
+                            </div>
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun4">
+                                <div class="accordion-title">
+                                    <h3>Полуфабрикаты</h3>
+                                </div>
+                                <div class="accordion-content">
                                     <p>
                                         данный документ создается при отгрузке товаров со склада по себестоимости (например возврат тары поставщику). При проведении исходящей накладной происходит перерасчет остатков на складах.
                                     </p>
                                     <p>
                                         Исходящая накладная создается так же, как и входящая, но помимо прочих параметров можно указать причину возврата товара.  
                                     </p>
-                                   
-                                 </div> 
-                              </li>
-                              
-                            </ul>
-        
+                                    
+                                </div>
+                            </div>
+                            
                         </div>
                       
                     </div>
@@ -399,54 +395,7 @@ rgb(75%, 9%, 18%);
                         </div>
                     </div>
                     <div class="col-lg-6 for_funk order-1 order-lg-2">
-                        <div class="opprt_accordion">
-                            <ul>
-                              <li data-tab-select="fun5">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Меню</h2>
-                                <div>
-                                    <p>Это перечень блюд и напитков, подаваемых в вашем заведении.</p>
-                                    <p> Рекомендуем заранее продумать как будет отображаться меню для удобства и скорости работы сотрудников. Настраиваемое меню позволяет использовать одно блюдо/товар в разных категориях и подкатегориях меню. Для разных заведений можно транслировать на Терминал свое меню.   </p>
-                                   
-                                  </div>
-                            </li>
-                              <li data-tab-select="fun6">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Модификаторы</h2>
-                                <div>
-                                    <p>позволяют изменять характеристики продаваемого товара.
-                                    </p>
-                                    <p>
-                                    Пример для пиццы:<br/>
-                                    •	выбрать размер<br/>
-                                    •	выбрать толщину теста<br/>
-                                    •	добавить добавки
-                                    </p>
-                                  </div>
-                              </li>
-                              <li data-tab-select="fun7">
-                                <input type="checkbox" checked>
-                                <i></i>
-                                <h2>Разделка/Пересорт</h2>
-                                <div>
-                                   <p>Разделка - операция при которой Вы можете из одного товара получить несколько разных.</p>
-                                    <p>Пересорт - перенос остатков от одного или нескольких товаров в другой товар.</p>
-                                 </div> 
-                              </li>
-                              
-                            </ul>
-        
-                        </div>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+                
                         <div class="accordion management mb-md-60">
                             <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun5">
                                 <div class="accordion-title">
@@ -491,6 +440,103 @@ rgb(75%, 9%, 18%);
         </section>
         <!-- End FAQ -->
      
+        
+           
+         <section class="pb-60 pt-80 analytic-fbg inline_nav red">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <!-- Section Title -->
+                        <div class="section-title style--three wow fadeInUp10" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <h2 class="black">Другие возможности административной панели:</h2>
+                          
+                        </div>
+                        <!-- End Section Title -->
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-50">
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".1s">
+                            <div class="service-content">
+                                <a href="sales-report.html">
+                                     <h3  class="active">Отчёты продаж</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".2s">
+                           
+                            <div class="service-content">
+
+                                     <h3>Общепит</h3>
+                               
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".2s">
+                           
+                            <div class="service-content">
+                                <a href="wherehouse.html">
+                                     <h3 class="active">Склад</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".3s">
+                            
+                            
+                            <div class="service-content">
+                                <a href="finance.html">
+                                     <h3 class="active">Финансы</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
+                            
+                            
+                           <div class="service-content">
+                                <a href="marketing.html">
+                                     <h3 class="active">Маркетинг</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12">
+                        <!-- Single Feature -->
+                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
+                            
+                            
+                           <div class="service-content">
+                                <a href="security.html">
+                                     <h3 class="active">Безопасность</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Single Feature -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
         
 
         <!-- Footer -->
@@ -583,6 +629,9 @@ rgb(75%, 9%, 18%);
             </div>
             <!-- End Footer Main -->
 
+         
+            
+            
             
         </footer>
         <!-- End Footer -->
