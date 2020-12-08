@@ -59,7 +59,7 @@ button, button[type="submit"], input[type="submit"] {
     0% {
         background-color: @red;
     }
-    100% {
+    35% {
         background-color: @blue;
     }
 }
@@ -84,7 +84,7 @@ button, button[type="submit"], input[type="submit"] {
 .all_caf_link{
     
     &:hover {
-        animation: btn_anime 1s linear;
+        animation: btn_anime 1s ease-in-out;
         background-color: @blue;
         color: @white;
         box-shadow: 5px 5px 5px rgba(50,50,50,0.3);
@@ -258,7 +258,9 @@ body, h1, h2, h3, h4, h5, p{
     }
 
 
-
+.cl1{
+  
+}
 
 //стили для страницы терминала ресторана
 
@@ -626,6 +628,103 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
+.steps4{
+    .step4{
+        display: block;
+        border-radius: 10px;
+        //border: solid 2px @l_blue;
+//        background-color: @l_blue;
+//        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.3);
+//        box-shadow: 0 0 15px rgba(122,122,122,0.5);
+        height: 90%;
+        margin: 50px 0;
+        h2.black{
+            color: @blue;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        .img{
+            img{
+                
+                width: 70%;
+                margin-left: 19%;
+                margin-bottom: 5%;
+            }
+        }
+        p{
+            padding: 0% 5%;
+        }
+      
+        h3{
+            color: @blue;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        
+    }
+}
+
+.steps5{
+    h2.black{
+            color: @blue;
+            font-size: @h2;
+            
+            margin-bottom: 5%;
+        }
+     .owl-carousel.student-review .owl-nav button{
+            background-color: @l_blue !important;
+            margin-top: 20px;
+            i.fa {
+                color: @white;
+            }
+            
+        }
+        
+        .owl-carousel.student-review .owl-nav button:hover{
+            background-color: @blue !important;
+        }
+        .style--two{
+            
+            h5{
+                color: @blue;
+                font-size: @h3; 
+                text-align: center;
+            } 
+        }
+    .step5{
+        display: block;
+        border-radius: 10px;
+        //border: solid 2px @l_blue;
+//        background-color: @l_blue;
+//        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.3);
+//        box-shadow: 0 0 15px rgba(122,122,122,0.5);
+        height: 90%;
+        margin: 50px 0;
+        
+        .img{
+            img{
+                
+                width: 70%;
+                margin-left: 19%;
+                margin-bottom: 5%;
+            }
+        }
+        p{
+            padding: 0% 5%;
+        }
+      
+        h3{
+            color: @blue;
+            font-size: @h2;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        
+       
+    }
+}
   
 @media screen and (max-width: 768px) {
     
@@ -838,17 +937,18 @@ body, h1, h2, h3, h4, h5, p{
     }
     .questions{
         background-color: @moloko;
+        .bg_img( "../images/bg/main-bg.png ");
         h2.black{
-            color: @red;
+            color: @white;
             font-size: @h2;
             
         }
         p{
-            color: @black;
+            color: @white;
         }
         .question_card{
             .single-service{
-                 background-color: rgba(255,255,255,0.9);
+                 background-color: rgba(255,255,255,0.8);
            
                       
                 .service-content{
@@ -1659,9 +1759,9 @@ body, h1, h2, h3, h4, h5, p{
         color: @blue;
         text-align: center;
     }
-    p{
+    h3{
         margin-bottom: 5%;
-        font-size: @p;
+        font-size: @h3;
         color: @black;
         text-align: center;
     }
@@ -1830,20 +1930,40 @@ body, h1, h2, h3, h4, h5, p{
   border-bottom: 0;
 }
 
-.rtable.two th {
-    width: 500px;
-    height: 170px;
-    
-    white-space: nowrap;
-}
-    
-.rtable.two th,
-.rtable.two td {
-    width: 500px;
-    height: 170px;
 
-    white-space: nowrap;
+
+.table-wrap{
+	overflow-x:auto;
+}	
+table.table-1 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
 }
+
+table.table-1 th, table.table-1 td {
+	text-align: left;
+    padding: 8px;
+    border: 1px solid @black;
+    font-size: @p;
+    text-align: left;
+    
+    color: @black;
+}
+
+table.table-1 th{
+    font-size: @p;
+    color: @blue;
+}
+table.table-1 th.first, table.table-1 td.first {
+	font-size: @p;
+    text-align: left;
+    font-weight: bold;
+    color: @black;
+    background: @ll_blue;
+    max-width: 600px;
+}
+
 
 @media only screen and (max-device-width: 800px) {
     
@@ -1868,20 +1988,7 @@ body, h1, h2, h3, h4, h5, p{
         border-radius: 8px;
     }
     
-    //table2
-    
-    .rtable.two th {
-        width: 180px;
-        height: 170px;
-        white-space: normal;
-    }
-    .rtable.two th,
-    .rtable.two td {
-      
-      height: 170px;
-        align-content: center;
-        vertical-align: middle;
-    }
+   
     
 }
 
