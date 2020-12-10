@@ -576,7 +576,7 @@ body, h1, h2, h3, h4, h5, p{
         }
         h3{
             color: @blue;
-            font-size: @h2;
+            font-size: @p;
             text-align: center;
             margin-bottom: 5%;
         }
@@ -628,8 +628,8 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
-.steps4{
-    .step4{
+.steps_for_work{
+    .step{
         display: block;
         border-radius: 10px;
         //border: solid 2px @l_blue;
@@ -644,35 +644,61 @@ body, h1, h2, h3, h4, h5, p{
             text-align: center;
             margin-bottom: 5%;
         }
+        .img.two{
+                 background-image: url("../images/bg/belg-circle.png"); 
+                 h3{
+                color: @red;
+                font-size: @h3;
+                text-align: center;
+                margin-bottom: 5%;
+                }
+            }
         .img{
+           background-position: top center;
+           background-image: url("../images/bg/blue-circle.png");
+           background-repeat: no-repeat;
+            
             img{
                 
-                width: 70%;
-                margin-left: 19%;
+                width: 68%;
+                padding-top: 8%;
+                margin-left: 12%;
                 margin-bottom: 5%;
+            }
+            img.shop{
+                
+                width: 60%;
+                padding-top: 8%;
+                margin-left: 20%;
+                margin-bottom: 5%;
+            }
+            h3{
+            color: @blue;
+            font-size: @h3;
+            text-align: center;
+            margin-bottom: 5%;
             }
         }
         p{
             padding: 0% 5%;
         }
       
-        h3{
-            color: @blue;
-            font-size: @h2;
-            text-align: center;
-            margin-bottom: 5%;
-        }
+       
         
     }
 }
 
 .steps5{
-    h2.black{
+   
+    .section-title{
+        h2.black{
             color: @blue;
             font-size: @h2;
             
-            margin-bottom: 5%;
+            margin-bottom: 0px;
         }
+        margin-bottom: 10px;
+    } 
      .owl-carousel.student-review .owl-nav button{
             background-color: @l_blue !important;
             margin-top: 20px;
@@ -689,11 +715,16 @@ body, h1, h2, h3, h4, h5, p{
             
             h5{
                 color: @blue;
-                font-size: @h3; 
+                font-size: @p; 
                 text-align: center;
             } 
         }
+    .owl-carousel.student-review .owl-nav button {
+        top: -60px;
+    }
+   
     .step5{
+        
         display: block;
         border-radius: 10px;
         //border: solid 2px @l_blue;
@@ -701,23 +732,38 @@ body, h1, h2, h3, h4, h5, p{
 //        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.3);
 //        box-shadow: 0 0 15px rgba(122,122,122,0.5);
         height: 90%;
-        margin: 50px 0;
+        margin:  0;
         
         .img{
+            
             img{
                 
-                width: 70%;
-                margin-left: 19%;
+                width: 65%;
+                margin-left: 22%;
                 margin-bottom: 5%;
+                z-index: 2;
+                .fon_circle{
+                    position: absolute;
+                    z-index: 0;
+                    left: 0;
+                    top: 40px;
+                    width: 40%;
+                    height: calc(100% - 180px);
+                    background-color: #857dfb;
+                }
             }
+           
         }
+        
+        
+        
         p{
-            padding: 0% 5%;
+            padding: 0% 2%;
         }
       
         h3{
             color: @blue;
-            font-size: @h2;
+            font-size: @p;
             text-align: center;
             margin-bottom: 5%;
         }
@@ -725,6 +771,9 @@ body, h1, h2, h3, h4, h5, p{
        
     }
 }
+
+
+
   
 @media screen and (max-width: 768px) {
     
@@ -982,20 +1031,14 @@ body, h1, h2, h3, h4, h5, p{
         .bg_img( "../images/bg/restaurant-bg.jpg");
          
     }
-    #take-order{
+    .steps_for_work{
         h1{
             color: @blue; 
             font-size: @h2;
             text-align: center;
             margin-bottom: 1%;
         }
-        .dot-line.style--two:before {
-            background-color: @blue;   
-        }
-        .swiper-slide  p {
-            font-size: @p;
-            color: @gray;
-        }
+     
     }
     .slider3{
         .slider3_r;
@@ -1050,7 +1093,7 @@ body, h1, h2, h3, h4, h5, p{
         
     }
     
-    .slider_vertical{
+    .steps_for_work{
         h1{
             color: @blue; 
             font-size: @h2;
@@ -1109,7 +1152,24 @@ body, h1, h2, h3, h4, h5, p{
     }
     
     .back_office{
-      background-color: @white;    
+        background-color: @white; 
+        .chaptar-box{
+            margin: 15% 0;
+        }
+        .chaptar-img{
+            img{
+                width: 80%;
+            }
+            p{
+                margin-top: 3%;
+                text-align: left;
+                
+            }
+             a.linkB{
+                     text-align: center;
+                }
+           
+        }
     }
     
     .caf-form{
@@ -1140,7 +1200,7 @@ body, h1, h2, h3, h4, h5, p{
          
     }
     background-color: @moloko;
-    .slider_vertical{
+    .steps_for_work{
         h1{
             color: @red; 
             font-size: @h2;

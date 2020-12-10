@@ -425,7 +425,7 @@ p {
 }
 .steps3 .step3 h3 {
   color: #4d7ab0;
-  font-size: 32px;
+  font-size: 18px;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -467,36 +467,60 @@ p {
 .steps3 .step3.two .part_right {
   background-color: #ffffff;
 }
-.steps4 .step4 {
+.steps_for_work .step {
   display: block;
   border-radius: 10px;
   height: 90%;
   margin: 50px 0;
 }
-.steps4 .step4 h2.black {
+.steps_for_work .step h2.black {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 5%;
 }
-.steps4 .step4 .img img {
-  width: 70%;
-  margin-left: 19%;
+.steps_for_work .step .img.two {
+  background-image: url("../images/bg/belg-circle.png");
+}
+.steps_for_work .step .img.two h3 {
+  color: #8f313e;
+  font-size: 24px;
+  text-align: center;
   margin-bottom: 5%;
 }
-.steps4 .step4 p {
+.steps_for_work .step .img {
+  background-position: top center;
+  background-image: url("../images/bg/blue-circle.png");
+  background-repeat: no-repeat;
+}
+.steps_for_work .step .img img {
+  width: 68%;
+  padding-top: 8%;
+  margin-left: 12%;
+  margin-bottom: 5%;
+}
+.steps_for_work .step .img img.shop {
+  width: 60%;
+  padding-top: 8%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.steps_for_work .step .img h3 {
+  color: #4d7ab0;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.steps_for_work .step p {
   padding: 0% 5%;
 }
-.steps4 .step4 h3 {
-  color: #4d7ab0;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 5%;
+.steps5 .section-title {
+  margin-bottom: 10px;
 }
-.steps5 h2.black {
+.steps5 .section-title h2.black {
   color: #4d7ab0;
   font-size: 32px;
-  margin-bottom: 5%;
+  margin-bottom: 0px;
 }
 .steps5 .owl-carousel.student-review .owl-nav button {
   background-color: #c4dbf6 !important;
@@ -510,26 +534,39 @@ p {
 }
 .steps5 .style--two h5 {
   color: #4d7ab0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
+}
+.steps5 .owl-carousel.student-review .owl-nav button {
+  top: -60px;
 }
 .steps5 .step5 {
   display: block;
   border-radius: 10px;
   height: 90%;
-  margin: 50px 0;
+  margin: 0;
 }
 .steps5 .step5 .img img {
-  width: 70%;
-  margin-left: 19%;
+  width: 65%;
+  margin-left: 22%;
   margin-bottom: 5%;
+  z-index: 2;
+}
+.steps5 .step5 .img img .fon_circle {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 40px;
+  width: 40%;
+  height: calc(-80%);
+  background-color: #857dfb;
 }
 .steps5 .step5 p {
-  padding: 0% 5%;
+  padding: 0% 2%;
 }
 .steps5 .step5 h3 {
   color: #4d7ab0;
-  font-size: 32px;
+  font-size: 18px;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -753,16 +790,16 @@ p {
 .restaurant .icon_map .section-title h2 {
   color: #333333;
 }
-.restaurant .slider_vertical h1 {
+.restaurant .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.restaurant .slider_vertical .dot-line.style--two:before {
+.restaurant .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.restaurant .slider_vertical .swiper-slide p {
+.restaurant .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
@@ -815,6 +852,19 @@ p {
 .restaurant .back_office {
   background-color: #ffffff;
 }
+.restaurant .back_office .chaptar-box {
+  margin: 15% 0;
+}
+.restaurant .back_office .chaptar-img img {
+  width: 80%;
+}
+.restaurant .back_office .chaptar-img p {
+  margin-top: 3%;
+  text-align: left;
+}
+.restaurant .back_office .chaptar-img a.linkB {
+  text-align: center;
+}
 .restaurant .caf-form {
   background-color: #e7e3d4;
   padding-top: 80px;
@@ -834,18 +884,11 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
-.restaurant #take-order h1 {
+.restaurant .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
-}
-.restaurant #take-order .dot-line.style--two:before {
-  background-color: #4d7ab0;
-}
-.restaurant #take-order .swiper-slide p {
-  font-size: 18px;
-  color: #777777;
 }
 .restaurant .slider3 {
   background-color: #e7e3d4;
@@ -914,16 +957,16 @@ p {
 .fastfood .icon_map .section-title h2 {
   color: #333333;
 }
-.fastfood .slider_vertical h1 {
+.fastfood .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.fastfood .slider_vertical .dot-line.style--two:before {
+.fastfood .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.fastfood .slider_vertical .swiper-slide p {
+.fastfood .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
@@ -976,6 +1019,19 @@ p {
 .fastfood .back_office {
   background-color: #ffffff;
 }
+.fastfood .back_office .chaptar-box {
+  margin: 15% 0;
+}
+.fastfood .back_office .chaptar-img img {
+  width: 80%;
+}
+.fastfood .back_office .chaptar-img p {
+  margin-top: 3%;
+  text-align: left;
+}
+.fastfood .back_office .chaptar-img a.linkB {
+  text-align: center;
+}
 .fastfood .caf-form {
   background-color: #e7e3d4;
   padding-top: 80px;
@@ -1004,16 +1060,16 @@ p {
 .shop .icon_map .section-title h2 {
   color: #333333;
 }
-.shop .slider_vertical h1 {
+.shop .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.shop .slider_vertical .dot-line.style--two:before {
+.shop .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.shop .slider_vertical .swiper-slide p {
+.shop .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
@@ -1066,6 +1122,19 @@ p {
 .shop .back_office {
   background-color: #ffffff;
 }
+.shop .back_office .chaptar-box {
+  margin: 15% 0;
+}
+.shop .back_office .chaptar-img img {
+  width: 80%;
+}
+.shop .back_office .chaptar-img p {
+  margin-top: 3%;
+  text-align: left;
+}
+.shop .back_office .chaptar-img a.linkB {
+  text-align: center;
+}
 .shop .caf-form {
   background-color: #e7e3d4;
   padding-top: 80px;
@@ -1109,16 +1178,16 @@ p {
 .bar .icon_map .section-title h2 {
   color: #333333;
 }
-.bar .slider_vertical h1 {
+.bar .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.bar .slider_vertical .dot-line.style--two:before {
+.bar .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.bar .slider_vertical .swiper-slide p {
+.bar .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
@@ -1171,6 +1240,19 @@ p {
 .bar .back_office {
   background-color: #ffffff;
 }
+.bar .back_office .chaptar-box {
+  margin: 15% 0;
+}
+.bar .back_office .chaptar-img img {
+  width: 80%;
+}
+.bar .back_office .chaptar-img p {
+  margin-top: 3%;
+  text-align: left;
+}
+.bar .back_office .chaptar-img a.linkB {
+  text-align: center;
+}
 .bar .caf-form {
   background-color: #e7e3d4;
   padding-top: 80px;
@@ -1190,23 +1272,23 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
-.bar .slider_vertical h1 {
+.bar .steps_for_work h1 {
   color: #8f313e;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.bar .slider_vertical .dot-line.style--two:before {
+.bar .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.bar .slider_vertical .swiper-slide {
+.bar .steps_for_work .swiper-slide {
   background-color: #e7e3d4;
 }
-.bar .slider_vertical .swiper-slide p {
+.bar .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
-.bar .slider_vertical .main-slider__arrow:hover {
+.bar .steps_for_work .main-slider__arrow:hover {
   background: #e2aab2;
 }
 .bar .steps3 .step3 {
@@ -1245,16 +1327,16 @@ p {
 .cafe .icon_map .section-title h2 {
   color: #333333;
 }
-.cafe .slider_vertical h1 {
+.cafe .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.cafe .slider_vertical .dot-line.style--two:before {
+.cafe .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.cafe .slider_vertical .swiper-slide p {
+.cafe .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
@@ -1307,6 +1389,19 @@ p {
 .cafe .back_office {
   background-color: #ffffff;
 }
+.cafe .back_office .chaptar-box {
+  margin: 15% 0;
+}
+.cafe .back_office .chaptar-img img {
+  width: 80%;
+}
+.cafe .back_office .chaptar-img p {
+  margin-top: 3%;
+  text-align: left;
+}
+.cafe .back_office .chaptar-img a.linkB {
+  text-align: center;
+}
 .cafe .caf-form {
   background-color: #e7e3d4;
   padding-top: 80px;
@@ -1326,18 +1421,11 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
-.cafe #take-order h1 {
+.cafe .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
-}
-.cafe #take-order .dot-line.style--two:before {
-  background-color: #4d7ab0;
-}
-.cafe #take-order .swiper-slide p {
-  font-size: 18px;
-  color: #777777;
 }
 .cafe .slider3 {
   background-color: #e7e3d4;
@@ -1433,16 +1521,16 @@ p {
 .coffee_house .icon_map .section-title h2 {
   color: #333333;
 }
-.coffee_house .slider_vertical h1 {
+.coffee_house .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.coffee_house .slider_vertical .dot-line.style--two:before {
+.coffee_house .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.coffee_house .slider_vertical .swiper-slide p {
+.coffee_house .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
@@ -1495,6 +1583,19 @@ p {
 .coffee_house .back_office {
   background-color: #ffffff;
 }
+.coffee_house .back_office .chaptar-box {
+  margin: 15% 0;
+}
+.coffee_house .back_office .chaptar-img img {
+  width: 80%;
+}
+.coffee_house .back_office .chaptar-img p {
+  margin-top: 3%;
+  text-align: left;
+}
+.coffee_house .back_office .chaptar-img a.linkB {
+  text-align: center;
+}
 .coffee_house .caf-form {
   background-color: #e7e3d4;
   padding-top: 80px;
@@ -1514,23 +1615,23 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
-.coffee_house .slider_vertical h1 {
+.coffee_house .steps_for_work h1 {
   color: #8f313e;
   font-size: 32px;
   text-align: center;
   margin-bottom: 1%;
 }
-.coffee_house .slider_vertical .dot-line.style--two:before {
+.coffee_house .steps_for_work .dot-line.style--two:before {
   background-color: #4d7ab0;
 }
-.coffee_house .slider_vertical .swiper-slide {
+.coffee_house .steps_for_work .swiper-slide {
   background-color: #e7e3d4;
 }
-.coffee_house .slider_vertical .swiper-slide p {
+.coffee_house .steps_for_work .swiper-slide p {
   font-size: 18px;
   color: #777777;
 }
-.coffee_house .slider_vertical .main-slider__arrow:hover {
+.coffee_house .steps_for_work .main-slider__arrow:hover {
   background: #e2aab2;
 }
 .coffee_house .steps3 .step3 {
