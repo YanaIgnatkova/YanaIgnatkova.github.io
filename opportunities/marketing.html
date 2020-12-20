@@ -57,6 +57,11 @@ rgb(75%, 9%, 18%);
         
         
          <link rel="stylesheet" href="../assets/css/styleAccordion.css">
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     </head>
 
@@ -232,8 +237,8 @@ rgb(75%, 9%, 18%);
                             
                             <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
                                 <div class="banner-btn-group">
-                                    <a href="#" class="all_caf_btn">Демо версия</a>
-                                    <a href="#" class="link">Смотреть видео</a>
+                                    <a href="#" class="all_caf_btn">Демоверсия</a>
+                                    <a href="#" class="link line-btn">Смотреть видео</a>
                                 </div>
 
                             </div>
@@ -241,7 +246,8 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="banner-img wow fadeInRight2" data-wow-duration="1.35s" data-wow-delay=".0s">
-                            <img src="../assets/images/img-opportunities/wherehouse/wherehose-invent.png" width="80%"  class="b-thumb" data-rjs="2" alt="">
+                              <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/marketing-main-big.png"><img src="../assets/images/img-opportunities/marketing/marketing-main-mini.png"></a>
+                          
                         </div>
                     </div>
                     
@@ -262,7 +268,7 @@ rgb(75%, 9%, 18%);
                             
                             <div class="service-content">
                                 <h3>Добавляйте клиентов на терминале</h3>
-                                <p>Добавляйте в базу новых гостей прямо на терминале во время заказа. Сделайте им одноразовую скидку, выдайте карточку или предложите стать участником программы лояльности.</p>
+                                <p>Чтобы не терять клиентов можно добавить их базу прямо в процессе приёма их первого заказа. Выдача бонусных или скидочных карт при первом посещении мотивирует клиентов вернуться снова.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -274,7 +280,7 @@ rgb(75%, 9%, 18%);
                             
                             <div class="service-content">
                                 <h3>Скидки и бонусы</h3>
-                                <p>Предлагайте своим гостям разовые, постоянные и накопительные скидки и бонусы. Для этого в «Кафестe»  есть конструктор акций и программы лояльности.</p>
+                                <p>При помощи программ лояльности, скидок и конструктора акций можно настроить создание и списание бонусов под конкретный бизнес. </p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -285,8 +291,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Смотрите статистику по клиентам</h3>
-                                <p>Узнайте, какие у клиента любимые блюда, какой средний чек, посмотрите контакты, все счета, скидки, бонусы и многое другое. У вас будет полная информация по каждому гостю.</p>
+                                <h3>Анализ статистики по клиентам</h3>
+                                <p>Caffesta хранит контактные данные всех зарегистрированных клиентов, что позволит узнать о предпочтениях посетителя, его среднем чеке и многое другое.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -303,7 +309,7 @@ rgb(75%, 9%, 18%);
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="section-title semi-bold text-center">
-                            <h2 class="management_c1">Базовые возможности маркетинга</h2>
+                            <h2 class="management_c1">Базовые возможности маркетинга в Caffesta</h2>
                             
                         </div>
                     </div>
@@ -311,13 +317,13 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-10">
                     <div class="col-lg-6 for_funk">
                          <div class="accordion management">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun1">
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun1">
                                 <div class="accordion-title">
                                     <h3>Скидки/Надбавки</h3>
                                 </div>
                                 <div class="accordion-content">
                                 <p>
-                                        Произвольная скидка/надбавка на всю сумму чека без привязки к клиенту.
+                                        В Caffesta можно создавать базовые скидки или надбавки, которые не привязаны к конкретному пользователю и применяются кассиром или продавцом в зависимости от определенных условий.
                                     </p>
                                 </div>
                             </div>
@@ -327,7 +333,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        Здесь можно увидеть всех зарегистрированных клиентов в Программе лояльности заведения и их статистику бонусов и скидок, а также суммы их покупок. Клиентов можно добавлять как из админки (бэк офиса), так и из терминала (точки продаж). </p>
+                                        Просмотреть всю статистику по зарегистрированным клиентам можно в одноимённой вкладке. Статистика бонусов и скидок, суммы покупок и многое другое отображено на одном экране. Тут же можно создать нового клиента или изменить информацию о старом. Создавать клиентов можно и на терминале.</p>
                                     
                                     
                                 </div>
@@ -338,7 +344,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        настраиваемые специальные предложения и скидки по-времени.
+                                        Отдельная вкладка посвящена акциям и скидкам, которые ограничены по времени. Настроить период и условия применения можно в одном окне. Если у заведения есть какая-то сезонная акция, то управлять её параметрами можно быстро и удобно.
                                     </p>
                                 
                                 </div>
@@ -349,13 +355,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        Добавление фиксированной скидки или бонусной программы лояльности.
-                                    <br>
-                                        Фиксированная скидка - величина применяемой скидки на товар/блюдо в процентах. 
-                                    <br>
-                                        Бонус - указывается процент, определяющий часть суммы чека, которую клиент может оплатить бонусами.
-                                    <br>
-                                        Дополнительная настройка скидок и бонусов производится в разделе “Программы лояльности”.  
+                                        Более свободное управление скидками и бонусами позволяют скидочные группы. Различные скидки, акции и бонусы можно объединять в группы и добавлять дополнительные условия. 
                                     </p>
                                     
                                 </div>
@@ -366,7 +366,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                      <p>
-                                        Описания и настройки программ лояльности.
+                                        Создание, описание и настройка одной или нескольких программ лояльности происходит на одноимённой вкладке. 
                                     </p>
                                     
                                 </div>
@@ -376,11 +376,26 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5">
                         <div class="accordion-right">
-                            <div data-tab="fun1" class="active"><img src="../assets/images/img-opportunities/marketing/comp-marketing-skidki.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun2"><img src="../assets/images/img-opportunities/marketing/comp-marketing-klienti.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun3"><img src="../assets/images/img-opportunities/marketing/comp-marketing-aksii.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun4"><img src="../assets/images/img-opportunities/marketing/comp-marketing-skid-grupp.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun5"><img src="../assets/images/img-opportunities/marketing/comp-marketing-prodr-loyal.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun1" class="active">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/comp-marketing-skidki-big.png"><img src="../assets/images/img-opportunities/marketing/comp-marketing-skidki-big.png"></a>
+                              
+                            </div>
+                            <div data-tab="fun2">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/comp-marketing-klienti-big.png"><img src="../assets/images/img-opportunities/marketing/comp-marketing-klienti-mini.png"></a>
+                               
+                            </div>
+                            <div data-tab="fun3">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/comp-marketing-aksii-big.png"><img src="../assets/images/img-opportunities/marketing/comp-marketing-aksii-mini.png"></a>
+                               
+                            </div>
+                            <div data-tab="fun4">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/comp-marketing-skid-grupp-big.png"><img src="../assets/images/img-opportunities/marketing/comp-marketing-skid-grupp-mini.png"></a>
+                                
+                            </div>
+                            <div data-tab="fun5">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/comp-marketing-prodr-loyal-big.png"><img src="../assets/images/img-opportunities/marketing/comp-marketing-prodr-loyal-mini.png"></a>
+                               
+                            </div>
                                 
                         </div>
                     </div>

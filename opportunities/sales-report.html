@@ -57,7 +57,9 @@ rgb(75%, 9%, 18%);
         
         
         
-        <link rel="stylesheet" href="../assets/css/styleAccordion.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 
     </head>
@@ -231,14 +233,14 @@ rgb(75%, 9%, 18%);
                     
                     <div class="col-lg-5 col-md-12 text-right">
                         <div class="banner-content">
-                            <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">Разнообразные отчёты о продажах</h1>
+                            <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">Отчёты о продажах</h1>
                             
-                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Комплексное приложение для отслеживая динамики продаж</p>
+                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Комплексное приложение Caffesta позволяет отслеживать динамику продаж</p>
                             
                             <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
                                 <div class="banner-btn-group">
-                                    <a href="#" class="all_caf_btn">Демо версия</a>
-                                    <a href="#" class="link">Смотреть видео</a>
+                                    <a href="#" class="all_caf_btn">Демоверсия</a>
+                                    <a href="#" class="link line-btn">Смотреть видео</a>
                                 </div>
 
                             </div>
@@ -246,7 +248,8 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="banner-img wow fadeInRight2" data-wow-duration="1.35s" data-wow-delay=".0s">
-                            <img src="../assets/images/img-opportunities/wherehouse/wherehose-laptop-ish-nakl.png" width="80%"  class="b-thumb" data-rjs="2" alt="">
+                              <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/report-main-big.png"><img src="../assets/images/img-opportunities/sales-report/report-main-min.png"></a>
+                        
                         </div>
                     </div>
                     
@@ -270,7 +273,7 @@ rgb(75%, 9%, 18%);
                             
                             <div class="service-content">
                                 <h3>Неограниченное количество пользователей</h3>
-                                <p>Дайте доступ своему бухгалтеру, фин. директору, инвесторам, управляющему. Все включено в подписку.</p>
+                                <p>Приложение может использовать любой сотрудник фирмы, у которого есть пароль. Бухгалтеры, маркетологи, специалисты по закупкам или финансам? У Caffesta нет ограничений.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -281,8 +284,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Доступ из любой <br> точки мира</h3>
-                                <p>Вся аналитика доступна в браузере, из любой точки мира с доступом в интернет.</p>
+                                <h3>Доступ в любое время и из любого места</h3>
+                                <p>Чтобы узнать всю актуальную информацию о продажах, нужен лишь доступ в Интернет. Наличие устройства с браузером и доступа к Всемирной сети позволит работать сотрудникам в любой точке мира.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -293,8 +296,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Гибкие фильтры <br> во всех отчетах</h3>
-                                <p>Посмотреть чеки Антона, оплаченные банковской картой с фискальными товарам и примененной акцией «1+1» в первом зале за последний месяц? Не проблема!</p>
+                                <h3>Динамические фильтры в отчётах</h3>
+                                <p>Любой отчёт можно настроить по своему желанию и потребностям, просто выбрав нужные фильтры из списка. Составляя различные комбинации из необходимых параметров, можно получить полную свободу в аналитики. </p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -322,13 +325,13 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-10">
                     <div class="col-lg-6 for_funk">
                          <div class="accordion management">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun1">
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun1">
                                 <div class="accordion-title">
                                     <h3>Чеки</h3>
                                 </div>
                                 <div class="accordion-content">
                                 <p>
-                                        Этот настраиваемый отчет, показывает информацию по всем чекам и их статусу (закрыт, активен, отменен и тд) за выбранный период. Значок “+” позволяет развернуть чек и получить более подробную информацию.</p>
+                                        Вся информация о чековых операциях и их статусах (закрыт, активен, отменён и др.) размещена в одноимённой вкладке. Значок «+» позволяет развернуть чек и получить более подробную информацию.</p>
                                 
                                 </div>
                             </div>
@@ -338,7 +341,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        Предварительные заказы столиков и банкетов. Создаются на кассовом терминале.</p>
+                                        Все предварительные заказы столиков, банкетов или залов собраны в одном отчёте. Фильтруя информацию по датам можно анализировать предстоящий объём работы и затраты.</p>
                                     
                                     
                                 </div>
@@ -349,7 +352,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                 <p>
-                                         Удобное отображение всех продаж за выбранный период.
+                                         Итоги продаж за выбранный период представлены в удобной и понятной таблице. Информация разделена по точкам продаж, цехам, типам оплаты, скидкам и другим параметрам.  
                                     </p>
                                 
                                 </div>
@@ -360,7 +363,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        Настраиваемый отчет, показывает информацию о проданных и списанных товарах по заведениям и за выбранный период, с указанием количества и сумм выручки и прибыли.
+                                        В этом отчёте представлена информация о проданных товарах по заведениям и за выбранный период, с указанием количества и сумм выручки и прибыли.
                                     </p>
                                     
                                 </div>
@@ -373,10 +376,21 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5">
                         <div class="accordion-right">
-                            <div data-tab="fun1" class="active"><img src="../assets/images/img-opportunities/sales-report/copm-report-cheki.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun2"><img src="../assets/images/img-opportunities/sales-report/copm-report-reserv.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun3"><img src="../assets/images/img-opportunities/sales-report/copm-report-itog.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun4"><img src="../assets/images/img-opportunities/sales-report/copm-report-realiz.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun1" class="active">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-cheki-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-cheki-mini.png"></a>
+                              
+                            </div>
+                            <div data-tab="fun2">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-reserv-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-reserv-mini.png"></a>
+                            </div>
+                            <div data-tab="fun3">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-itogi-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-itogi-mini.png"></a>
+                              
+                            </div>
+                            <div data-tab="fun4">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-realiz-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-realiz-mini.png"></a>
+                            
+                            </div>
                                 
                         </div>
                     </div>
@@ -384,24 +398,31 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-50">
                     <div class="col-lg-5 order-2 order-lg-1">
                         <div class="accordion-right">
-                            <div data-tab="fun5" class="active"><img src="../assets/images/img-opportunities/sales-report/copm-report-abc.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun6"><img src="../assets/images/img-opportunities/sales-report/copm-report-kategor.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun7"><img src="../assets/images/img-opportunities/sales-report/copm-report-istoria.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun5" class="active">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-abc-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-abc-mini.png"></a>
+                               
+                            </div>
+                            <div data-tab="fun6">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-kategor-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-kategor-mini.png"></a>
+                                
+                            </div>
+                            <div data-tab="fun7">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/copm-report-istoria-big.png"><img src="../assets/images/img-opportunities/sales-report/copm-report-istoria-mini.png"></a>
+                            
+                            </div>
                                 
                                 
                         </div>
                     </div>
                     <div class="col-lg-6 for_funk order-1 order-lg-2">
                          <div class="accordion management">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun5">
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun5">
                                 <div class="accordion-title">
                                     <h3>АВС-анализ</h3>
                                 </div>
                                 <div class="accordion-content">
                                 <p>
-                                        данный документ создается для перемещения товаров/продукции/полуфабрикатов  с одного склада на другой. При проведении перемещения происходит перерасчет остатков на складах. 
-                                        <br>
-                                        При создании нового перемещения необходимо указать с какого склада перемещается продукция и на какой. Способ выбора перемещаемых товаров аналогичен накладной. </p>
+                                        Данный вид отчёта даёт полное представление о востребованности всех реализуемых товаров. Он поможет определить степень популярности товара и количество принесённый им прибыли. При таком подходе можно найти непопулярные или убыточные товары. </p>
                                 
                                 </div>
                             </div>
@@ -419,7 +440,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                 <p>
-                                        Отчет содержит информацию по истории счетов клиентов заведения. Ведет учет всех поступающих заказов в заведении. Тут можно отслеживать как статус заказа, так и выполненные с ним действия – объединение, разделение счетов, их корректировка и удаление. 
+                                        Вся информация по истории счетов клиентов заведения собрана в одном отчёте, в котором учитываются все поступающие в заведения заказы. В этой вкладке можно отслеживать как статус заказа, так и выполненные с ним действия: объединение, разделение счетов и их корректировка. 
                                     </p>
                                 
                                 </div>
@@ -448,19 +469,19 @@ rgb(75%, 9%, 18%);
                         <div class="feature-content plug">
                             <!-- Section Title -->
                             <div class="section-title">
-                                <h2 class="black">Отслеживайте статистику в любое время. </h2>
-                                <p>С приложением «Кафеста Босс» - все отчёты продаж всегда под рукой.</p>
+                                <h2 class="black">Мобильный доступ к статистике в любое время. </h2>
+                                <p>С приложением «Caffesta  Boss» – все отчёты продаж всегда под рукой.</p>
                             </div>
                             <!-- End Section Title -->
 
                             <ul class="list-check cards">
                                 <li>
                                   
-                                    <p>Итоги за день, неделю или месяц, удобные графики помогут вам быстро анализировать работу вашего заведения. </p>
+                                    <p>Итоги за день, неделю или месяц –  удобные графики помогут быстро анализировать работу любого заведения. </p>
                                 </li>
                                 <li>
                                     
-                                    <p>Актуальная информация по параметрам: оплаты, продукты, работники, категории. Меняя диапазон дат можно уточнить данные или изучить картину в целом.</p>
+                                    <p>Актуальная информация в одном приложении по параметрам: оплаты, продукты, работники, и категории. Меняя диапазон дат, можно уточнить данные или изучить картину в целом.</p>
                                 </li>
                                 
                             </ul>
@@ -468,7 +489,7 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-3 col-md-12 order-0 order-lg-1">
                         <div class="feature-img plug text-center">
-                            <img src="../assets/images/img-opportunities/sales-report/boss0.png"     data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt="">
+                              <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/boss-main-big.png"><img src="../assets/images/img-opportunities/sales-report/boss-main-mini.png"  data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt=""></a>
                         </div>
                     </div>
                 </div>

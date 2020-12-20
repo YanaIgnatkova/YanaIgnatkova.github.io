@@ -58,6 +58,10 @@ rgb(75%, 9%, 18%);
         
         <link rel="stylesheet" href="../assets/css/styleAccordion.css">
 
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     </head>
 
@@ -227,12 +231,12 @@ rgb(75%, 9%, 18%);
                         <div class="banner-content">
                             <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">Автоматизация цеха питания</h1>
                             
-                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Удобные функции для создания блюд</p>
+                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Широкий спектр функций для создания товаров и их модификаций</p>
                             
                             <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
                                 <div class="banner-btn-group">
-                                    <a href="#" class="all_caf_btn">Демо версия</a>
-                                    <a href="#" class="link">Смотреть видео</a>
+                                    <a href="#" class="all_caf_btn">Демоверсия</a>
+                                    <a href="#" class="link line-btn">Смотреть видео</a>
                                 </div>
 
                             </div>
@@ -240,7 +244,8 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="banner-img wow fadeInRight2" data-wow-duration="1.35s" data-wow-delay=".0s">
-                            <img src="../assets/images/img-opportunities/wherehouse/wherehose-invent.png" width="80%"  class="b-thumb" data-rjs="2" alt="">
+                              <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/dish-main-big.png"><img src="../assets/images/img-opportunities/cooking-dish/dish-main-mini.png"></a>
+                          
                         </div>
                     </div>
                     
@@ -264,8 +269,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Управляйте ценами </h3>
-                                <p>Меняйте цены на товары и тех. карты прямо в списке. По нажатию кнопки "обновить базу" все цены автоматически обновятся на терминале.</p>
+                                <h3>Удобное управление ценами </h3>
+                                <p>Изменить цены товаров или техкарт можно прямо в списках. После обновления базы все цены обновятся на терминалах в заведениях автоматически.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -276,8 +281,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Продавайте на развес</h3>
-                                <p>Для стейков, орехов на развес или печенья укажите цену за 100 г. При продаже официант будет вводить на терминале только вес, а стоимость пересчитается автоматически.</p>
+                                <h3>Продажа на развес</h3>
+                                <p>Для весовых товаров можно указать цену за определённый вес. Во время продажи нужно только указать вес, а стоимость Caffesta автоматически пересчитает.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -288,8 +293,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Контролируйте себестоимость</h3>
-                                <p>Себестоимость тех. карт рассчитывается автоматически с учетом поставок ингредиентов и остатков на складе. Себестоимость будет пересчитываться после каждой новой поставки.</p>
+                                <h3>Полный контроль себестоимости</h3>
+                                <p>Для техкарт себестоимость вычисляется автоматически с учётом поставок ингредиентов и остатков на складе. После каждой новой поставки она будет перерасчитана программой Caffesta автоматически.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -315,15 +320,13 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-10">
                     <div class="col-lg-6 for_funk">
                          <div class="accordion management">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun1">
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun1">
                                 <div class="accordion-title">
                                     <h3>Производство</h3>
                                 </div>
                                 <div class="accordion-content">
                                  <p>
-                                    Данный документ ведет учет производимых на кухне блюд и полуфабрикатов (например, соус или тесто для пиццы). Они должны быть внесены в разделе “Номенклатура” - Тех.карты или Полуфабрикаты! При создании Тех.карты или Полуфабриката необходимо выбрать метод списания “По Блюду”!</p>
-                                    <p>
-                                        При проведении данного документа со склада будут списаны все товары, согласно рецептуры, в том количестве, сколько необходимо для производства указанного количества. При истечении срока годности произведенного блюда/полуфабриката воспользуйтесь разделом меню “Списание”.
+                                    Данный документ ведёт учёт производимых прямо на точке продажи товаров или блюд. При проведении данного документа со склада спишутся все товары, согласно рецептуре, в том количестве, сколько необходимо для производства указанного количества. 
                                     </p>
                                 
                                 </div>
@@ -334,9 +337,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        Блюдо - это позиции для формирования меню заведения. Данные позиции отображаются на Терминале. </p>
-                                    <p>
-                                        Тех.карты могут входить в состав другого блюда. Из блюд можно формировать сеты.
+                                        Блюдо или техкарты - это позиции для формирования меню или каталога заведения. Данные позиции отображаются на Терминале. Техкарты могут входить в состав другого блюда. Из них можно формировать сеты.
                                     </p>
                                 </div>
                             </div>
@@ -346,12 +347,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                         Продукт, который подвергся первичной обработке, но нуждается в дальнейшей окончательной обработке. 
-                                        
-                                    </p>
-                                    
-                                    <p>
-                                        Полуфабрикат может входить в состав блюда или полуфабриката.
+                                         В данной кладке отображены продукты, который подверглись первичной обработке, но нуждается в дальнейшей окончательной обработке.
                                     </p>
                                 
                                 </div>
@@ -362,10 +358,7 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                     <p>
-                                        данный документ создается при отгрузке товаров со склада по себестоимости (например возврат тары поставщику). При проведении исходящей накладной происходит перерасчет остатков на складах.
-                                    </p>
-                                    <p>
-                                        Исходящая накладная создается так же, как и входящая, но помимо прочих параметров можно указать причину возврата товара.  
+                                        При закупке или производстве частично готовых блюд или товаров необходимо вносить данные о них во вкладку Полуфабрикаты.   
                                     </p>
                                     
                                 </div>
@@ -376,10 +369,22 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5">
                         <div class="accordion-right">
-                            <div data-tab="fun1" class="active"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-proizv.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun2"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-teh-cart.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun3"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-tovar.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun4"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-polyfabr.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun1" class="active">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-proizv-big.png"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-proizv-min.png"></a>
+                           
+                            </div>
+                            <div data-tab="fun2">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-teh-cart-big.png"><img src="../assets/images/img-opportunities//cooking-dish/comp-cook-teh-cart-mini.png"></a>
+                               
+                            </div>
+                            <div data-tab="fun3">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-tovar-big.png"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-tovar-mini.png"></a>
+                               
+                            </div>
+                            <div data-tab="fun4">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-polyfabr-big.png"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-polyfabr-mini.png"></a>
+                    
+                            </div>
                                 
                         </div>
                     </div>
@@ -387,9 +392,17 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-50">
                     <div class="col-lg-5 order-2 order-lg-1">
                         <div class="accordion-right">
-                            <div data-tab="fun5" class="active"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-menu.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun6"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-modif.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun7"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-razdelka.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun5" class="active">
+                                <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-menu-big.png"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-menu-mini.png"></a>
+                               
+                            </div>
+                            <div data-tab="fun6">
+                                  <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-modif-big.png"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-modif-mini.png"></a>
+                            </div>
+                            <div data-tab="fun7">
+                            
+                                 <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/comp-cook-razdelka-big.png"><img src="../assets/images/img-opportunities/cooking-dish/comp-cook-razdelka-min.png"></a>
+                            </div>
                                 
                                 
                         </div>
@@ -397,13 +410,12 @@ rgb(75%, 9%, 18%);
                     <div class="col-lg-6 for_funk order-1 order-lg-2">
                 
                         <div class="accordion management mb-md-60">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun5">
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun5">
                                 <div class="accordion-title">
                                     <h3>Меню</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>Это перечень блюд и напитков, подаваемых в вашем заведении.</p>
-                                    <p> Рекомендуем заранее продумать как будет отображаться меню для удобства и скорости работы сотрудников. Настраиваемое меню позволяет использовать одно блюдо/товар в разных категориях и подкатегориях меню. Для разных заведений можно транслировать на Терминал свое меню.   </p>
+                                    <p>Это перечень всей продукции, подаваемой в заведении. В меню можно создать папки и подпапки, чтобы удобно сортировать\сгруппировать\расположить товары. Для разных заведений можно транслировать на Терминал своё меню.</p>
                                 </div>
                             </div>
                             <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun6">
@@ -411,13 +423,7 @@ rgb(75%, 9%, 18%);
                                     <h3>Модификаторы </h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>позволяют изменять характеристики продаваемого товара.
-                                    </p>
-                                    <p>
-                                    Пример для пиццы:<br/>
-                                    •	выбрать размер<br/>
-                                    •	выбрать толщину теста<br/>
-                                    •	добавить добавки
+                                    <p>Разнообразить ассортимент продукции, при этом не создавая множество техкарт и товаров, помогут модификаторы. Они позволяют изменять характеристики продаваемого товара.
                                     </p>
                                 </div>
                             </div>
@@ -426,8 +432,8 @@ rgb(75%, 9%, 18%);
                                     <h3>Разделка/Пересорт</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>Разделка - операция при которой Вы можете из одного товара получить несколько разных.</p>
-                                    <p>Пересорт - перенос остатков от одного или нескольких товаров в другой товар.</p>
+                                    <p>Разделка позволяет из одного товара получить несколько разных.</p>
+                                    <p>При пересортировке остатков одного или нескольких товаров в другой товар используется операция Пересорт.</p>
                                 </div>
                             </div>
                             

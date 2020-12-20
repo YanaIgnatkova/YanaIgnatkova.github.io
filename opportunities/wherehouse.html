@@ -56,6 +56,10 @@ rgb(75%, 9%, 18%);
         <link rel="stylesheet" href="../assets/css/custom.css">
         
         <link rel="stylesheet" href="../assets/css/styleAccordion.css">
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     </head>
 
@@ -226,12 +230,12 @@ rgb(75%, 9%, 18%);
                         <div class="banner-content">
                             <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">Автоматизация складского учёта</h1>
                             
-                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Все необходимые функции для работы со складом </p>
+                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Все необходимые функции для работы со складом в комплексном приложении Caffesta</p>
                             
                             <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
                                 <div class="banner-btn-group">
-                                    <a href="#" class="all_caf_btn">Демо версия</a>
-                                    <a href="#" class="link">Смотреть видео</a>
+                                    <a href="#" class="all_caf_btn">Демоверсия</a>
+                                    <a href="#" class="link line-btn">Смотреть видео</a>
                                 </div>
 
                             </div>
@@ -239,7 +243,8 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="banner-img wow fadeInRight2" data-wow-duration="1.35s" data-wow-delay=".0s">
-                            <img src="../assets/images/img-opportunities/wherehouse/wherehose-invent.png" width="80%"  class="b-thumb" data-rjs="2" alt="">
+                              <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/warehouse-main-big.png"><img src="../assets/images/img-opportunities/warehouse/warehouse-main-mini.png"></a>
+                          
                         </div>
                     </div>
                     
@@ -262,7 +267,7 @@ rgb(75%, 9%, 18%);
                             
                             <div class="service-content">
                                 <h3>Быстрая инвентаризация</h3>
-                                <p>Вы полюбите делать инвентаризацию. Просто вбейте фактические остатки продуктов, блюд и полуфабрикатов — все остальное система сделает сама.</p>
+                                <p>Процесс инвентаризации займёт несколько минут. Ввести фактические остатки товаров, продуктов, блюд или полуфабрикатов и нажать кнопку – всё, что нужно для получения нужного отчёта. </p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -273,8 +278,8 @@ rgb(75%, 9%, 18%);
                             <i class="fa fa-check-circle-o" aria-hidden="true"></i>
                             
                             <div class="service-content">
-                                <h3>Учет в фасовках</h3>
-                                <p>Добавляйте поставки ящиками, упаковками и другими фасовками. При поставке газированной воды в упаковке по 12 штук, укажите количество упаковок, а «Кафеста»  сам посчитает бутылки.</p>
+                                <h3>Учёт товаров в фасовках</h3>
+                                <p>Caffesta сама рассчитает количество товара, если он поставляется ящиками, упаковками и другими фасовками. Нужно просто вести количество упаковок, а программа сама сделает необходимые вычисления и внесёт нужное число в базу.</p>
                             </div>
                         </div>
                         <!-- End Single Feature -->
@@ -301,15 +306,13 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-10">
                     <div class="col-lg-6 for_funk">
                          <div class="accordion management">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun1">
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun1">
                                 <div class="accordion-title">
                                     <h3>Инвентаризации</h3>
                                 </div>
                                 <div class="accordion-content">
                                 <p>
-                                        данный документ создается для проверки фактических остатков товаров на складе для сравнения с расчетным количеством.</p>
-                                    <p>
-                                        Результатом инвентаризации могут быть как недостачи, так и излишки какого-либо товара на складе. При проведении инвентаризации происходит перерасчет расчетного количества остатков на фактическое количество.
+                                        Быстрый способ проверки фактических остатков товаров на складе для сравнения с расчётным количеством. Отслеживать как недостачи, так и излишки какого-либо товара теперь будет программа. 
                                     </p>
                                 </div>
                             </div>
@@ -319,10 +322,10 @@ rgb(75%, 9%, 18%);
                                 </div>
                                 <div class="accordion-content">
                                      <p>
-                                        Остатки - настраиваемый, сводный отчет по складу, где указано, сколько на данный момент осталось товаров, продукции и полуфабрикатов на каждом отдельном складе. </p>
+                                        Этот сводный отчёт наглядно показывает сколько на данный момент осталось товаров, продукции или полуфабрикатов на каждом отдельном складе. </p>
                                 
                                     <p>
-                                        Можно экспортировать все данные об остатках в форматах  .xls, .xlsx, .csv
+                                       Все данные об остатках можно экспортировать в форматах .xls, .xlsx, .csv.
                                     </p>
                                     
                                     
@@ -330,33 +333,34 @@ rgb(75%, 9%, 18%);
                             </div>
                             <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun3">
                                 <div class="accordion-title">
-                                    <h3>Входящая/исходящая накладные</h3>
+                                    <h3>Входящие и исходящие накладные</h3>
                                 </div>
                                 <div class="accordion-content">
-                                <p>
-                                        Входящая накладная - документ, который создается при необходимости внести реальные остатки товаров в программу. При проведении вход. накладной происходит перерасчет остатков на складе и себестоимости товара.
-                                        </p>
-                                   
                                     <p>
-                                         Исходящая накладная - документ, который создается при отгрузке товаров со склада по себестоимости (например возврат тары поставщику). При проведении исходящей накладной происходит перерасчет остатков на складах.
+                                        Входящая накладная создаётся при необходимости внести реальные остатки товаров в программу по ценам поставщика. 
                                     </p>
+
+                                    <p>
+                                        Исходящая накладная создаётся при отгрузке товаров со склада по себестоимости (возврат тары поставщику). 
+                                    </p>
+                                    <p>
+                                        При проведении накладных происходит перерасчёт остатков.
+                                    </p>
+
                                 
                                 </div>
                             </div>
                             <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun4">
                                 <div class="accordion-title">
-                                    <h3>Исходящие накладные</h3>
+                                    <h3>Перемещение</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>
-                                        Данный документ создается при отгрузке товаров со склада по себестоимости (например возврат тары поставщику). При проведении исходящей накладной происходит перерасчет остатков на складах.
-                                    </p>
-                                    <p>
-                                        Исходящая накладная создается так же, как и входящая, но помимо прочих параметров можно указать причину возврата товара.  
-                                    </p>
-                                    
+                                <p>Данный документ создаётся для для перемещения готовых товаров, блюд, полуфабрикатов с одного склада на другой. При проведении документа перемещения остатки на складах пересчитываются. </p>
+                                   
+                                
                                 </div>
                             </div>
+                           
                             
                         </div>
                     
@@ -364,10 +368,15 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-5">
                         <div class="accordion-right">
-                            <div data-tab="fun1" class="active"><img src="../assets/images/img-opportunities/wherehouse/comp-invent.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun2"><img src="../assets/images/img-opportunities/wherehouse/comp-ost.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun3"><img src="../assets/images/img-opportunities/wherehouse/comp-vho-nakl.png" data-rjs="2" alt=""></div>
-                            <div data-tab="fun4"><img src="../assets/images/img-opportunities/wherehouse/comp-ishod-nakl.png" data-rjs="2" alt=""></div>
+                            <div data-tab="fun1" class="active">
+                                <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-invent-big.png"><img src="../assets/images/img-opportunities/warehouse/comp-invent-min.png"></a></div>
+                            <div data-tab="fun2">
+                                <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-ost-big.png"><img src="../assets/images/img-opportunities/warehouse/comp-ost-mini.png"></a></div>
+                            <div data-tab="fun3">
+                                <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-vho-nakl-big.png"><img src="../assets/images/img-opportunities/warehouse/comp-vho-nakl-mini.png"></a></div>
+                             <div data-tab="fun4">
+                                    <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-tov-ontch-big.png"><img src="../assets/images/img-opportunities/warehouse//comp-tov-ontch-mini.png"></a></div>
+                            
                                 
                         </div>
                     </div>
@@ -375,53 +384,42 @@ rgb(75%, 9%, 18%);
                 <div class="row align-items-center justify-content-center mt-50">
                     <div class="col-lg-5 order-2 order-lg-1">
                         <div class="accordion-right">
-                            <div data-tab="fun5" class="active"><img src="../assets/images/img-opportunities/wherehouse/comp-perem.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun6"><img src="../assets/images/img-opportunities/wherehouse/comp-spis.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun7"><img src="../assets/images/img-opportunities/wherehouse/comp-vdvig-sklad.png" data-rjs="2" alt=""></div>
-                                <div data-tab="fun8"><img src="../assets/images/img-opportunities/wherehouse/comp-tov-ontch.png" data-rjs="2" alt=""></div>
+                               
+                                <div data-tab="fun5" class="active">
+                                    <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-spis-big.png"><img src="../assets/images/img-opportunities/warehouse/comp-spis-min.png"></a></div>
+                                <div data-tab="fun6">
+                                    <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-vdvig-sklad-big.png"><img src="../assets/images/img-opportunities/warehouse/comp-vdvig-sklad-min.png"></a></div>
+                                <div data-tab="fun7">
+                                    <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/comp-tov-ontch-big.png"><img src="../assets/images/img-opportunities/warehouse/comp-tov-ontch-mini.png"></a></div>
                                 
                         </div>
                     </div>
                     <div class="col-lg-6 for_funk order-1 order-lg-2">
-             <div class="accordion management">
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun5">
-                                <div class="accordion-title">
-                                    <h3>Перемещение</h3>
-                                </div>
-                                <div class="accordion-content">
-                                <p>данный документ создается для перемещения товаров/продукции/полуфабрикатов  с одного склада на другой. При проведении перемещения происходит перерасчет остатков на складах. </p>
-                                    <p> При создании нового перемещения необходимо указать с какого склада перемещается продукция и на какой. Способ выбора перемещаемых товаров аналогичен накладной.  </p>
-                                
-                                </div>
-                            </div>
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun6">
+                        <div class="accordion management">
+                           
+                            <div data-accordion-tab="toggle" class="accordion-card active" data-tab-select="fun5">
                                 <div class="accordion-title">
                                     <h3>Списание</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>данный документ создается при списании товаров/продукции/полуфабрикатов  со склада в результате порчи, истечения срока годности, боя, потерь и тд.</p>
-                                    <p> При проведении списания происходит перерасчет остатков на складе .</p>
+                                    <p>Этот документ создаётся при списании при списании как готовых, так и неготовых товаров, блюд, полуфабрикатов в результате порчи, истечения срока годности, боя, потерь и т.д. При проведении списания на складе происходит перерасчёт остатков.</p>
                                 </div>
                             </div>
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun7">
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun6">
                                 <div class="accordion-title">
                                     <h3>Движение по складу</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>Настраиваемый отчет по складу. Предоставляет информацию по наименованию товаров, типу продукта (товары, блюда, полуфабрикаты), категории. </p>
-                                    <p>Отображает приход, расход, остаток по количеству и суммам.</p>
+                                    <p>Настраиваемый отчёт, который отображает приход, расход, остаток по количеству и суммам. По мимо прочего предоставляет информацию по наименованию товаров, типу продукта (товары, блюда, полуфабрикаты), категории.</p>
                                 
                                 </div>
                             </div>
-                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun8">
+                            <div data-accordion-tab="toggle" class="accordion-card" data-tab-select="fun7">
                                 <div class="accordion-title">
                                     <h3>Товарный отчёт</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>Документ, подтверждающий количество товара, числящегося за конкретным материально ответственным лицом на начало нового отчетного периода и отражающий движение товаров за прошедший отчетный период. Составляется товарный отчет на основании товаросопроводительных документов.
-                                    </p>
-                                    <p>
-                                        В товарном отчете отражается: остаток товаров на начало периода, поступление товаров по ТН-2 или ТТН-1, отпуск товаров покупателю (согласно чеку, квитанции), возврат товаров на склад, остаток товаров. Товарные отчеты составляют по каждой отдельной торговой точке.
+                                    <p>Документ, подтверждающий количество товара, числящегося за конкретным материально ответственным лицом на начало нового отчётного периода и отражающий движение товаров за прошедший отчётный период. Составляется товарный отчёт на основании товаросопроводительных документов. Данные отчёты составляют по каждой отдельной торговой точке.
                                     </p>
                                     
                                 </div>
@@ -458,7 +456,7 @@ rgb(75%, 9%, 18%);
                         <div class="feature-content plug">
                             <!-- Section Title -->
                             <div class="section-title">
-                                <h2 class="black">С приложением «Кафеста Босс» - вся информация о складе всегда под рукой.</h2>
+                                <h2 class="black">С приложением «Caffesta Boss»   информация о складе всегда под рукой</h2>
                               
                             </div>
                             <!-- End Section Title -->
@@ -466,11 +464,11 @@ rgb(75%, 9%, 18%);
                             <ul class="list-check cards">
                                 <li>
                                   
-                                    <p>В одноименном разделе приложения «Кафеста Босс» вы сможете видеть все происходящие операции по складу в режиме реального времени.		</p>
+                                    <p>В одноименном разделе приложения «Caffesta Boss» можно видеть все происходящие операции по складу в режиме реального времени.		</p>
                                 </li>
                                 <li>
                                     
-                                    <p>Если у вас больше одного склада, то вы можете анализировать их работу раздельно. Для переключения между кладами нужно просто выбрать нужный вам склад в выпадающем списке.</p>
+                                    <p>Если имеется более одного склада, то можно анализировать их работу раздельно. Для переключения между кладами нужно просто выбрать нужный склад в выпадающем списке.</p>
                                 </li>
                                 
                             </ul>
@@ -478,7 +476,9 @@ rgb(75%, 9%, 18%);
                     </div>
                     <div class="col-lg-3 col-md-12 order-0 order-lg-1">
                         <div class="feature-img plug text-center">
-                            <img src="../assets/images/img-opportunities/wherehouse/boss1.png"     data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt="">
+                              <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/boss1.png"><img src="../assets/images/img-opportunities/warehouse/boss1.png"  data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt=""></a>
+                            
+                            
                         </div>
                     </div>
                 </div>
