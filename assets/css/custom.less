@@ -108,7 +108,15 @@ button, button[type="submit"], input[type="submit"] {
         color: @red;
     }
 }
-
+.line-btn{
+  
+    &:before{
+        background-color:  @white;
+    }
+    &:after{
+        background-color: @m_blue;
+    }
+}
 .bg_img(@url){
     background-image: url(@url);
     background-repeat: no-repeat;
@@ -280,6 +288,7 @@ body, h1, h2, h3, h4, h5, p{
         .link{
             color: @white;
             &:hover{
+              //  color: darken(@white, 20%);
                 color: @m_blue;
             }
             

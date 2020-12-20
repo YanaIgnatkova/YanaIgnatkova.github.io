@@ -62,6 +62,12 @@ input[type="submit"] {
 .linkB:hover {
   color: #8f313e;
 }
+.line-btn:before {
+  background-color: #ffffff;
+}
+.line-btn:after {
+  background-color: #90bef5;
+}
 body,
 h1,
 h2,

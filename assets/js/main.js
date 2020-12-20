@@ -390,7 +390,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     sync2.on("click", ".owl-item", function (e) {
         e.preventDefault();
         var number = $(this).index();
-        sync1.data('owl.carousel').to(number, 300, true);
+        sync1.data('owl.carousel').to(number, 3000, true);
     });
 
     /*==================================

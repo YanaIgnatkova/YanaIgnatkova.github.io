@@ -24,3 +24,5 @@ function openPrice(evt, priceName) {
     document.getElementById(priceName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+			
