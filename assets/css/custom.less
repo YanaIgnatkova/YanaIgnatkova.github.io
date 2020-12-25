@@ -109,7 +109,10 @@ button, button[type="submit"], input[type="submit"] {
     }
 }
 .line-btn{
-  
+    color: @white;
+    &:hover{
+        color:  @white;
+    }
     &:before{
         background-color:  @white;
     }
@@ -178,6 +181,15 @@ body, h1, h2, h3, h4, h5, p{
 .header .header-main .main-menu .nav li a{
     text-transform:  none !important;
 }
+
+.contact-form-left{
+   .content{
+        margin-bottom: 20px;
+    } 
+    img{
+        margin: 10px 20px;
+    }
+} 
 .slider3{
     h2{
            color: @blue;
@@ -885,7 +897,41 @@ body, h1, h2, h3, h4, h5, p{
     section.banner{
         .bg_img( "../images/bg/main-bg.png ");
          text-align: center;  
-    } 
+    }
+    .about{
+        background-color: @moloko;
+        h2{
+            color: @red;
+            font-size: @h2;
+            margin-bottom: 3%;
+        }
+        .feature-content{
+            p{
+                color: @gray;
+                font-size: @p;
+            }
+        }
+    }
+    
+    .about_programm{
+        background-color: @white;
+        .bg_img( "../images/bg/main-bg.png ");
+        h2.black{
+            color: @white;
+            font-size: @h2;
+        }
+        .single-service{
+            min-height: 300px;
+            .service-content{
+                h3{
+                    color: @blue;
+                    text-align: center;
+                    font-size: @h3;
+                }
+            }
+        }
+        
+    }
     .diagramm{
        h2.black{
             color: @blue;
@@ -900,10 +946,21 @@ body, h1, h2, h3, h4, h5, p{
          h2.black{
             color: @red;
             font-size: @h2;
-        } 
+        }
+        .service-icon{
+//            background-color: lighten(@blue_gray, 10%);
+            background-color: @moloko;
+            width: 200px;
+            height: 200px;
+            border-radius: 300px;
+        }
+        .service-content{
+            color: @blue_gray;
+        }
     }
     .back_front{
         background-color: @white;
+        
         h2{
             color: @blue;
             font-size: @h2;
@@ -932,6 +989,20 @@ body, h1, h2, h3, h4, h5, p{
                     &:after{
                         color: @blue;
                     }
+                }
+            }
+            
+            
+            .line-btn{
+                color: @blue;
+                &:hover{
+                    color:  @m_blue;
+                }
+                &:before{
+                    background-color:  @blue;
+                }
+                &:after{
+                    background-color: @m_blue;
                 }
             }
         }
@@ -1010,7 +1081,7 @@ body, h1, h2, h3, h4, h5, p{
            
                       
                 .service-content{
-                    height: 260px;
+                    min-height: 300px;
 
                     h4{
                         color: @red;
@@ -1326,6 +1397,7 @@ body, h1, h2, h3, h4, h5, p{
             width: 100px;
             height: 100px;
             background-color: @moloko;
+            border-radius: 100px;
         }
     }
     .terminal_for_platforms{
@@ -1532,7 +1604,13 @@ body, h1, h2, h3, h4, h5, p{
 
 .opportunities_part{
     background-color: @moloko;
-    
+    .section-title{
+        h2{
+            font-size: @h2;
+            color: @red; 
+        }
+        
+    }
     .single-service{
         i{
             font-size: @h2;
@@ -1589,7 +1667,7 @@ body, h1, h2, h3, h4, h5, p{
         }
     }
 }
-.wherehouse{
+.warehouse{
     section.banner{
         .bg_img( "../images/bg/wherehouse-bg.png");
          text-align: center;  

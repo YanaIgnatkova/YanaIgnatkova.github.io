@@ -62,6 +62,12 @@ input[type="submit"] {
 .linkB:hover {
   color: #8f313e;
 }
+.line-btn {
+  color: #ffffff;
+}
+.line-btn:hover {
+  color: #ffffff;
+}
 .line-btn:before {
   background-color: #ffffff;
 }
@@ -114,6 +120,12 @@ p {
 }
 .header .header-main .main-menu .nav li a {
   text-transform: none !important;
+}
+.contact-form-left .content {
+  margin-bottom: 20px;
+}
+.contact-form-left img {
+  margin: 10px 20px;
 }
 .slider3 {
   background-color: #ffffff;
@@ -641,6 +653,43 @@ p {
   padding-bottom: 40px;
   text-align: center;
 }
+.main .about {
+  background-color: #e7e3d4;
+}
+.main .about h2 {
+  color: #8f313e;
+  font-size: 32px;
+  margin-bottom: 3%;
+}
+.main .about .feature-content p {
+  color: #777777;
+  font-size: 18px;
+}
+.main .about_programm {
+  background-color: #ffffff;
+  background-image: url("../images/bg/main-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.main .about_programm h2.black {
+  color: #ffffff;
+  font-size: 32px;
+}
+.main .about_programm .single-service {
+  min-height: 300px;
+}
+.main .about_programm .single-service .service-content h3 {
+  color: #4d7ab0;
+  text-align: center;
+  font-size: 24px;
+}
 .main .diagramm h2.black {
   color: #4d7ab0;
   font-size: 32px;
@@ -654,6 +703,15 @@ p {
 .main .businesses h2.black {
   color: #8f313e;
   font-size: 32px;
+}
+.main .businesses .service-icon {
+  background-color: #e7e3d4;
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+}
+.main .businesses .service-content {
+  color: #8590aa;
 }
 .main .back_front {
   background-color: #ffffff;
@@ -680,6 +738,18 @@ p {
 }
 .main .back_front .feature-content ul.list-check li:after {
   color: #4d7ab0;
+}
+.main .back_front .feature-content .line-btn {
+  color: #4d7ab0;
+}
+.main .back_front .feature-content .line-btn:hover {
+  color: #90bef5;
+}
+.main .back_front .feature-content .line-btn:before {
+  background-color: #4d7ab0;
+}
+.main .back_front .feature-content .line-btn:after {
+  background-color: #90bef5;
 }
 .main .back_front .feature-img img {
   width: 85%;
@@ -761,7 +831,7 @@ p {
   background-color: rgba(255, 255, 255, 0.8);
 }
 .main .questions .question_card .single-service .service-content {
-  height: 260px;
+  min-height: 300px;
 }
 .main .questions .question_card .single-service .service-content h4 {
   color: #8f313e;
@@ -1711,6 +1781,7 @@ p {
   width: 100px;
   height: 100px;
   background-color: #e7e3d4;
+  border-radius: 100px;
 }
 .terminal .terminal_for_platforms {
   background-color: #ffffff;
@@ -1868,6 +1939,10 @@ p {
 .opportunities_part {
   background-color: #e7e3d4;
 }
+.opportunities_part .section-title h2 {
+  font-size: 32px;
+  color: #8f313e;
+}
 .opportunities_part .single-service i {
   font-size: 32px;
   color: #8f313e;
@@ -1904,7 +1979,7 @@ p {
 .for_boss .feature-img img {
   width: 85%;
 }
-.wherehouse section.banner {
+.warehouse section.banner {
   background-image: url("../images/bg/wherehouse-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1917,22 +1992,22 @@ p {
   padding-bottom: 40px;
   text-align: center;
 }
-.wherehouse .management_c1 {
+.warehouse .management_c1 {
   color: #4d7ab0;
   font-size: 32px;
 }
-.wherehouse .for_funk .accordion.management .accordion-card {
+.warehouse .for_funk .accordion.management .accordion-card {
   padding: 3%;
 }
-.wherehouse .for_funk .accordion.management .accordion-card:first-child {
+.warehouse .for_funk .accordion.management .accordion-card:first-child {
   border-top: 1px solid #fff;
 }
-.wherehouse .for_funk .accordion.management .accordion-card .accordion-title h3 {
+.warehouse .for_funk .accordion.management .accordion-card .accordion-title h3 {
   color: #4d7ab0;
   font-size: 24px;
   padding-left: 5%;
 }
-.wherehouse .for_funk .accordion.management .accordion-card .accordion-title h3:after {
+.warehouse .for_funk .accordion.management .accordion-card .accordion-title h3:after {
   right: 10%;
 }
 .finance .management_c1 {
