@@ -27,7 +27,7 @@ input[type="submit"] {
     background-color: #8f313e;
   }
   35% {
-    background-color: #4d7ab0;
+    background-color: #69242e;
   }
 }
 .all_caf_btn {
@@ -39,7 +39,7 @@ input[type="submit"] {
 }
 .all_caf_btn:hover {
   animation: btn_anime 1s linear;
-  background-color: #4d7ab0;
+  background-color: #69242e;
   color: #ffffff;
 }
 .all_caf_link:hover {
@@ -64,9 +64,10 @@ input[type="submit"] {
 }
 .line-btn {
   color: #ffffff;
+  text-transform: none;
 }
 .line-btn:hover {
-  color: #ffffff;
+  color: #90bef5;
 }
 .line-btn:before {
   background-color: #ffffff;
@@ -845,8 +846,101 @@ p {
   font-size: 18px;
   text-align: left;
 }
+.advantage_part {
+  background-color: #ffffff;
+  color: #8590aa;
+}
+.advantage_part i {
+  font-size: 32px;
+  color: #4d7ab0;
+}
+.advantage_part .service-content h3 {
+  color: #4d7ab0;
+  font-size: 24px;
+}
+.all_devices {
+  background-color: #ffffff;
+  color: #8590aa;
+}
+.all_devices i {
+  font-size: 32px;
+  color: #4d7ab0;
+}
+.all_devices .feature-content h3.black {
+  color: #4d7ab0;
+  font-size: 32px;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.all_devices .feature-content p {
+  padding-bottom: 2%;
+}
+.demos {
+  background-color: #e7e3d4;
+  background-image: url("../images/bg/main-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.demos .section-title h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.demos .section-title p {
+  color: #777777;
+  color: #ffffff;
+}
+.demos .demos_card {
+  background-color: #777777;
+  box-shadow: 0 0 15px rgba(122, 122, 122, 0.5);
+  border-radius: 10px;
+  padding: 2% 1%;
+  padding-bottom: 30px;
+}
+.demos .demos_card h3 {
+  color: #90bef5;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.demos .demos_card div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.demos .demos_card div p {
+  line-height: 21px;
+  padding: 1% 5%;
+  color: #333333;
+}
+.demos .demos_card div a {
+  padding: 15px;
+}
+.demos .demos_card div a i {
+  font-size: 18px;
+}
+.demos .demos_card div p.log b {
+  color: #90bef5;
+}
 .restaurant section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.restaurant .demos {
+  background-image: url("../images/bg/fast-food-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -960,6 +1054,18 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
+.restaurant .demos {
+  background-image: url("../images/bg/restaurant-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
 .restaurant .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
@@ -992,6 +1098,21 @@ p {
   color: #4d7ab0;
   font-size: 32px;
 }
+.restaurant .menu_online {
+  background-image: url("../images/bg/menu-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.restaurant .menu_online .section-title h2 {
+  color: #8f313e;
+}
 .restaurant #bring-order {
   background-image: url("../images/img-businesses/restaurant/bg-waiter.jpg");
   background-repeat: no-repeat;
@@ -1014,6 +1135,18 @@ p {
 }
 .fastfood section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.fastfood .demos {
+  background-image: url("../images/bg/fast-food-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1127,6 +1260,18 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
+.shop .demos {
+  background-image: url("../images/bg/fast-food-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
 .shop .icon_map {
   background-color: #e7e3d4;
 }
@@ -1230,11 +1375,35 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
+.shop .demos {
+  background-image: url("../images/bg/shop-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
 .bar {
   background-color: #e7e3d4;
 }
 .bar section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.bar .demos {
+  background-image: url("../images/bg/fast-food-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1382,8 +1551,32 @@ p {
 .bar .steps3 .step3.two .part_right {
   background-color: #ffffff;
 }
+.bar .demos {
+  background-image: url("../images/bg/bar.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
 .cafe section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe .demos {
+  background-image: url("../images/bg/fast-food-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1497,6 +1690,18 @@ p {
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
+.cafe .demos {
+  background-image: url("../images/bg/restaurant-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
 .cafe .steps_for_work h1 {
   color: #4d7ab0;
   font-size: 32px;
@@ -1528,6 +1733,21 @@ p {
 .cafe #chief_screen h2 {
   color: #4d7ab0;
   font-size: 32px;
+}
+.cafe .menu_online {
+  background-image: url("../images/bg/menu-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.cafe .menu_online .section-title h2 {
+  color: #8f313e;
 }
 .cafe #bring-order {
   background-image: url("../images/img-businesses/restaurant/bg-waiter.jpg");
@@ -1578,6 +1798,18 @@ p {
 }
 .coffee_house section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.coffee_house .demos {
+  background-image: url("../images/bg/fast-food-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1725,8 +1957,32 @@ p {
 .coffee_house .steps3 .step3.two .part_right {
   background-color: #ffffff;
 }
+.coffee_house .demos {
+  background-image: url("../images/bg/bar.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
 .coffee_house section.banner {
   background-image: url("../images/bg/coffee-house-bg.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+.coffee_house .demos {
+  background-image: url("../images/bg/coffee-house.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -1767,6 +2023,32 @@ p {
   padding-bottom: 40px;
   text-align: center;
 }
+.terminal .terminal_map {
+  background-color: #ffffff;
+}
+.terminal .terminal_map h2 {
+  color: #4d7ab0;
+  font-size: 32px;
+  text-align: center;
+}
+.terminal .terminal_map h3 {
+  color: #8590aa;
+  font-size: 24px;
+  text-align: center;
+}
+.terminal .terminal_map img {
+  padding: 1% 30%;
+}
+.terminal .terminal_map .single-service {
+  padding: 0px;
+  margin-bottom: 1%;
+}
+.terminal .terminal_map .single-service-main {
+  padding: 0px;
+  margin-bottom: 1%;
+  padding: 2%;
+  border-radius: 20px;
+}
 .terminal .terminal_for_business {
   background-color: #e7e3d4;
 }
@@ -1801,39 +2083,56 @@ p {
   font-size: 24px;
 }
 .terminal .terminal_for_device {
+  background-color: #ffffff;
+}
+.terminal .terminal_for_device .style--three {
   text-align: center;
-  background-image: url("../images/bg/kass.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-bottom: 0px;
-  padding-bottom: 40px;
 }
-.terminal .terminal_for_device .testimonial-single {
-  background-color: rgba(1, 1, 1, 0.7);
-}
-.terminal .terminal_for_device h2 {
-  color: #ffffff;
+.terminal .terminal_for_device .style--three h2 {
+  color: #4d7ab0;
   font-size: 32px;
 }
-.terminal .terminal_for_device .owl-carousel.student-review .owl-nav button {
-  background-color: rgba(1, 1, 1, 0.7) !important;
-  margin-top: 20px;
-}
-.terminal .terminal_for_device .owl-carousel.student-review .owl-nav button i.fa {
-  color: #ffffff;
-}
-.terminal .terminal_for_device .owl-carousel.student-review .owl-nav button:hover {
-  background-color: rgba(1, 1, 1, 0.9) !important;
-}
-.terminal .terminal_for_device .style--two h5 {
-  color: #ffffff;
+.terminal .terminal_for_device .feature-content .section-title h3.black {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #4d7ab0;
   font-size: 24px;
+}
+.terminal .terminal_for_device .feature-content .section-title p {
+  color: #333333;
+  font-size: 18px;
+  text-align: left;
+}
+.terminal .terminal_for_device .feature-content ul.list-check li h4 {
+  color: #4d7ab0;
+  font-size: 18px;
+  text-align: left;
+}
+.terminal .terminal_for_device .feature-content ul.list-check li:after {
+  color: #4d7ab0;
+}
+.terminal .terminal_for_device .feature-content a {
+  width: 100%;
+  color: #4d7ab0;
   text-align: center;
+}
+.terminal .terminal_for_device .feature-content a:hover {
+  color: #90bef5;
+}
+.terminal .terminal_for_device .feature-content .line-btn {
+  color: #4d7ab0;
+}
+.terminal .terminal_for_device .feature-content .line-btn:hover {
+  color: #90bef5;
+}
+.terminal .terminal_for_device .feature-content .line-btn:before {
+  background-color: #4d7ab0;
+}
+.terminal .terminal_for_device .feature-content .line-btn:after {
+  background-color: #90bef5;
+}
+.terminal .terminal_for_device .feature-img img {
+  width: 85%;
 }
 .terminal .terminal_for_oborud {
   background-color: #e7e3d4;
@@ -1844,10 +2143,10 @@ p {
 }
 .terminal .terminal_for_oborud h3 {
   color: #8f313e;
-  font-size: 24px;
+  font-size: 18px;
 }
 .terminal .terminal_for_oborud img {
-  width: 40%;
+  width: 100%;
 }
 .terminal .terminal_for_funk {
   background-color: #e7e3d4;
@@ -1856,39 +2155,54 @@ p {
   color: #8f313e;
   font-size: 32px;
 }
-.terminal .terminal_for_funk .swiper-container.how-work-slider .swiper-slide {
+.terminal .terminal_for_funk .single-service .service-icon {
+  width: 80%;
+  height: auto;
+}
+.terminal .terminal_for_funk .single-service.style--three {
+  padding: 2%;
+  margin-bottom: 6%;
+}
+.terminal .terminal_for_funk p {
+  text-align: left;
+}
+.terminal .terminal_for_menus {
+  background-color: #e7e3d4;
+}
+.terminal .terminal_for_menus h2 {
+  color: #8f313e;
+  font-size: 32px;
+}
+.terminal .terminal_for_menus .swiper-container.how-work-slider .swiper-slide {
   height: 80px !important;
   border-radius: 5px;
   padding: 2% 6% ;
 }
-.terminal .terminal_for_funk .swiper-container.how-work-slider .swiper-slide .content h3 {
+.terminal .terminal_for_menus .swiper-container.how-work-slider .swiper-slide .content h3 {
   font-size: 24px;
 }
-.terminal .terminal_for_funk .swiper-container.how-work-slider .swiper-slide.active {
+.terminal .terminal_for_menus .swiper-container.how-work-slider {
+  height: 100%;
+}
+.terminal .terminal_for_menus .swiper-container.how-work-slider .swiper-slide.active {
   background-color: #ffffff;
   border-radius: 5px;
+}
+.terminal .terminal_for_menus .single-service .service-icon {
+  width: 80%;
+  height: auto;
 }
 .terminal .terminal_for_tems {
   background-color: #ffffff;
 }
-.terminal .terminal_for_tems h2 {
+.terminal .terminal_for_tems h3 {
   color: #4d7ab0;
   font-size: 32px;
-}
-.terminal .terminal_for_tems .owl-carousel.student-review .owl-nav button {
-  background-color: #c4dbf6 !important;
-  margin-top: 20px;
-}
-.terminal .terminal_for_tems .owl-carousel.student-review .owl-nav button i.fa {
-  color: #ffffff;
-}
-.terminal .terminal_for_tems .owl-carousel.student-review .owl-nav button:hover {
-  background-color: #4d7ab0 !important;
-}
-.terminal .terminal_for_tems .style--two h5 {
-  color: #4d7ab0;
-  font-size: 24px;
   text-align: center;
+}
+.terminal .terminal_for_tems p {
+  text-align: center;
+  margin-top: 3%;
 }
 .terminal .caf-form {
   background-color: #e7e3d4;
@@ -2203,6 +2517,10 @@ p {
 .inline_nav.red .service-content h3.active:hover {
   color: #4d7ab0;
 }
+.equipment .swiper-slide {
+  margin: 2px;
+  padding: 2px;
+}
 .footer {
   padding: 0px;
   padding-top: 40px !important;
@@ -2235,7 +2553,7 @@ p {
 }
 .footer .contacts .icons:hover {
   animation: btn_anime 1s linear;
-  background-color: #4d7ab0;
+  background-color: #69242e;
   color: #ffffff;
 }
 .footer .contacts p {

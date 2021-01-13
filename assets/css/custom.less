@@ -60,7 +60,7 @@ button, button[type="submit"], input[type="submit"] {
         background-color: @red;
     }
     35% {
-        background-color: @blue;
+        background-color: darken(@red, 10%);
     }
 }
 
@@ -74,7 +74,7 @@ button, button[type="submit"], input[type="submit"] {
     
     &:hover {
         animation: btn_anime 1s linear;
-        background-color: @blue;
+        background-color: darken(@red, 10%);
         color: @white;
 //        box-shadow: 5px 5px 5px rgba(50,50,50,0.3);
     }
@@ -110,8 +110,9 @@ button, button[type="submit"], input[type="submit"] {
 }
 .line-btn{
     color: @white;
+    text-transform: none;
     &:hover{
-        color:  @white;
+        color:  @m_blue;
     }
     &:before{
         background-color:  @white;
@@ -1104,12 +1105,118 @@ body, h1, h2, h3, h4, h5, p{
     
     
 }
+.advantage_part{
+   background-color: @white;
+   color: @blue_gray;
+    
+   i{
+       font-size: @h2;
+       color: @blue;
+   }
+    
+
+    .service-content{
+        h3{
+            color: @blue;
+            font-size: @h3;
+        }
+
+    }
+   
+}
+
+
+.all_devices{
+   background-color: @white;
+   color: @blue_gray;
+    
+   i{
+       font-size: @h2;
+       color: @blue;
+   }
+    
+
+    .feature-content{
+        h3.black{
+            color: @blue;
+            font-size: @h2;
+            padding-bottom: 5%;
+            text-align: center;
+        }
+        p{
+            padding-bottom: 2%;
+        }
+       
+    }
+}
+
+.demos{
+        background-color: @moloko;
+        .bg_img( "../images/bg/main-bg.png ");
+        .section-title {
+                h2{
+                color: @white;
+               
+                font-size: @h2;
+            }
+            p{
+                color: @gray;
+                color: @white;
+            }
+        }
+        .demos_card{
+//            background-color: rgba(77,77,77,0.2);
+            background-color: @gray;
+            box-shadow: 0 0 15px rgba(122,122,122,0.5);
+            border-radius: 10px;
+            padding: 2% 1%;
+            padding-bottom: 30px;
+            
+            h3{
+                color: @m_blue;
+                font-size: @h3;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            
+            div{
+                margin-top: 30px;
+                margin-bottom: 30px;
+               
+                p{
+                    line-height: @p+3;
+                    padding: 1% 5%;
+                    color: @black;
+                }
+                a{
+                    padding: 15px;
+                    i{
+                        font-size: @p;
+                    }
+                   
+                }
+                p.log{
+                    
+                    b{
+                      color: @m_blue;  
+                    }
+                }
+            }
+            
+        }
+    }
+
+
 //стили для страницы restaurant
 .restaurant{
     .fastfood;
     section.banner{
         .bg_img( "../images/bg/restaurant-bg.jpg");
          
+    }
+    .demos{
+     
+        .bg_img( "../images/bg/restaurant-bg.jpg");
     }
     .steps_for_work{
         h1{
@@ -1129,6 +1236,15 @@ body, h1, h2, h3, h4, h5, p{
             font-size: @h2;
         }
     }
+    .menu_online{
+         .bg_img( "../images/bg/menu-bg.jpg");
+        .section-title{
+            h2{
+                color: @red;
+            }
+        }
+    }
+    
     #bring-order{
         .bg_img( "../images/img-businesses/restaurant/bg-waiter.jpg");
         
@@ -1160,6 +1276,10 @@ body, h1, h2, h3, h4, h5, p{
     section.banner{
         .bg_img( "../images/bg/fast-food-bg.png ");
          
+    }
+    .demos{
+     
+        .bg_img( "../images/bg/fast-food-bg.png");
     }
     
     .icon_map{
@@ -1268,6 +1388,10 @@ body, h1, h2, h3, h4, h5, p{
         .bg_img( "../images/bg/shop-bg.png");
          
     }
+    .demos{
+     
+        .bg_img( "../images/bg/shop-bg.png");
+    }
     
 }
 
@@ -1326,7 +1450,11 @@ body, h1, h2, h3, h4, h5, p{
                 background-color: @white;            
             }  
         }
-    } 
+    }
+    .demos{
+     
+        .bg_img( "../images/bg/bar.png");
+    }
     
 }
 .cafe{
@@ -1346,6 +1474,10 @@ body, h1, h2, h3, h4, h5, p{
     section.banner{
         .bg_img( "../images/bg/coffee-house-bg.png ");
          
+    }
+    .demos{
+     
+        .bg_img( "../images/bg/coffee-house.jpg");
     }
 }
 
@@ -1383,6 +1515,41 @@ body, h1, h2, h3, h4, h5, p{
         .bg_img( "../images/bg/bg-terminal.png");
          text-align: center;  
     }
+    .terminal_map{
+        background-color: @white;
+
+       
+            h2{
+                color: @blue;
+                font-size: @h2;
+                text-align: center;
+            }
+        
+      
+           h3{
+            color: @blue_gray;
+            font-size: @h3;
+            text-align: center;
+            }
+            img{
+
+                padding: 1% 30%;
+            } 
+       
+            .single-service {
+                padding: 0px;
+                margin-bottom: 1%;
+            }
+        .single-service-main{
+            .single-service;
+//            background-color: @ll_blue;
+            padding: 2%;
+            border-radius: 20px;
+        }
+        
+        
+       
+    }
     .terminal_for_business{
         background-color: @moloko;
         
@@ -1419,41 +1586,109 @@ body, h1, h2, h3, h4, h5, p{
             }
         }
     }
-    .terminal_for_device{
-        text-align: center;
-        .testimonial-single{
-            background-color: rgba(1, 1, 1 , 0.7);
-        }
-       .bg_img( "../images/bg/kass.jpg");
+//    .terminal_for_device{
+//        text-align: center;
+//        .testimonial-single{
+//            background-color: rgba(1, 1, 1 , 0.7);
+//        }
+//       .bg_img( "../images/bg/kass.jpg");
+//        
+//         h2{
+//           color: @white;
+//           font-size: @h2;  
+//        }
+//        
+//        .owl-carousel.student-review .owl-nav button{
+//            background-color: rgba(1, 1, 1 , 0.7) !important;
+//            margin-top: 20px;
+//            i.fa {
+//                color: @white;
+//            }
+//            
+//        }
+//        
+//        .owl-carousel.student-review .owl-nav button:hover{
+//            background-color: rgba(1, 1, 1 , 0.9) !important;
+//        }
+//        .style--two{
+//            
+//            h5{
+//                color: @white;
+//                font-size: @h3; 
+//                text-align: center;
+//            } 
+//        }
+//        
+//        
+//    }
+    
+     .terminal_for_device{
+        background-color: @white;
         
-         h2{
-           color: @white;
-           font-size: @h2;  
-        }
-        
-        .owl-carousel.student-review .owl-nav button{
-            background-color: rgba(1, 1, 1 , 0.7) !important;
-            margin-top: 20px;
-            i.fa {
-                color: @white;
+        .style--three{
+            h2{
+                color: @blue;
+                font-size: @h2;
+               
             }
-            
-        }
-        
-        .owl-carousel.student-review .owl-nav button:hover{
-            background-color: rgba(1, 1, 1 , 0.9) !important;
-        }
-        .style--two{
-            
-            h5{
-                color: @white;
-                font-size: @h3; 
+            text-align: center;
+         }
+        .feature-content{
+            .section-title{
+                h3.black{
+                     margin-top: 40px;
+                     margin-bottom: 20px;
+                     color: @blue;
+                     font-size: @h3;
+                }
+                p{
+                    color: @black;
+                    font-size: @p;
+                    text-align: left;
+                }
+            }
+            ul.list-check{
+                li{
+                    h4{
+                        color: @blue;
+                        font-size: @p;
+                        text-align: left;
+                    }
+                    &:after{
+                        color: @blue;
+                    }
+                }
+            }
+            a{
+                width: 100%;
+                color: @blue;
                 text-align: center;
-            } 
+                &:hover{
+                   color: @m_blue; 
+                }
+            }
+            .line-btn{
+                color: @blue;
+                &:hover{
+                    color:  @m_blue;
+                }
+                &:before{
+                    background-color:  @blue;
+                }
+                &:after{
+                    background-color: @m_blue;
+                }
+            }
+      
         }
-        
-        
+        .feature-img {
+            img{
+                width: 85%;
+            }
+        }
     }
+    
+    
     .terminal_for_oborud{
         background-color: @moloko;
         h2{
@@ -1462,15 +1697,56 @@ body, h1, h2, h3, h4, h5, p{
         }
         h3{
            color: @red;
-           font-size: @h3;
+           font-size: @p;
         }
         img{
-            width: 40%;
+            width: 100%;
         }
     }
     
     
      .terminal_for_funk{
+        
+        background-color: @moloko;
+        h2{
+           color: @red;
+           font-size: @h2;  
+        }
+//         .swiper-container.how-work-slider {
+//             .swiper-slide{
+//                 height: 80px !important;
+//                
+//                 border-radius:5px;
+//                 padding: 2% 6% ;
+//               
+//                 .content{
+//                     h3{
+//                        font-size: @h3; 
+//                     }
+//                 } 
+//             }
+//         }
+//         .swiper-container.how-work-slider {
+//             .swiper-slide.active{
+//                 background-color: @white;
+//                 border-radius: 5px;
+//             }
+//         }
+         .single-service .service-icon{
+             width: 80%;
+             height: auto;
+         }
+         .single-service.style--three {
+            padding: 2%;
+            margin-bottom: 6%;
+        }
+         p{
+             text-align: left;
+         }
+          
+    }
+    
+    .terminal_for_menus{
         
         background-color: @moloko;
         h2{
@@ -1492,41 +1768,29 @@ body, h1, h2, h3, h4, h5, p{
              }
          }
          .swiper-container.how-work-slider {
+             height: 100%;
              .swiper-slide.active{
                  background-color: @white;
                  border-radius: 5px;
              }
          }
-          
+         .single-service .service-icon{
+             width: 80%;
+             height: auto;
+         }
+       
     }
-    
-    
      .terminal_for_tems{
-        h2{
+        h3{
            color: @blue;
-           font-size: @h2;  
+           font-size: @h2;
+        text-align: center;
         }
          background-color: @white;
-        .owl-carousel.student-review .owl-nav button{
-            background-color: @l_blue !important;
-            margin-top: 20px;
-            i.fa {
-                color: @white;
-            }
-            
-        }
-        
-        .owl-carousel.student-review .owl-nav button:hover{
-            background-color: @blue !important;
-        }
-        .style--two{
-            
-            h5{
-                color: @blue;
-                font-size: @h3; 
-                text-align: center;
-            } 
-        }
+         p{
+             text-align: center;
+             margin-top: 3%;
+         }
     }
     
     .caf-form{
@@ -1777,7 +2041,12 @@ body, h1, h2, h3, h4, h5, p{
 }
 
 
-
+.equipment{
+    .swiper-slide{
+        margin: 2px;
+        padding: 2px;
+    }
+}
 
 
 
