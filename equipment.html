@@ -52,12 +52,9 @@ rgb(75%, 9%, 18%);
         
         <!-- ======= Main Stylesheet ======= -->
         <link rel="stylesheet" href="assets/css/slider.css">
-
-       
-
     </head>
 
-    <body class="page_contacts">
+    <body class="price equipment">
     <!-- Preloader -->
         <div class="preloader">
             <div class='loader-circle'>
@@ -127,9 +124,9 @@ rgb(75%, 9%, 18%);
                             </ul>
                             <!-- End Submenu -->
                         </li>
-                        <li><a href="price.html">Цены</a></li>
+                        <li class="current-menu-parent"><a href="price.html">Цены</a></li>
                         <li><a href="pricing.html">Оборудование</a></li>
-                        <li class="current-menu-parent"><a href="contacts.html">Контакты</a></li>
+                        <li><a href="pricing.html">Контакты</a></li>
                        
                     </ul>
                 </div>
@@ -197,9 +194,8 @@ rgb(75%, 9%, 18%);
                                             <!-- End Submenu -->
                                         </li>
                                         <li><a href="price.html">Цены</a></li>
-                                        <li><a href="pricing.html">Оборудование</a></li>
-                                      
-                                        <li class="current-menu-parent"><a href="contacts.html">Контакты</a></li>
+                                        <li><a href="#">Оборудование</a></li>
+                                        <li><a href="contacts.html">Контакты</a></li>
 
                                     </ul>
                                 </div>
@@ -225,86 +221,186 @@ rgb(75%, 9%, 18%);
                     
                     <div class="col-lg-4 col-md-12">
                         <div class="banner-content">
-                            <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">Наши контакты</h1>
+                            <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">CAFFESTA</h1>
                             
-                            
+                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Наши предложения - самые выгодные!</p>
                         </div>
                     </div>
-                   
+                    <div class="col-md-12" style="padding: 0px;">
+                        <button class="tablinks active" onclick="openPrice(event, 'cafe')">Для кафе и ресторанов</button>
+                        <button class="tablinks" onclick="openPrice(event, 'coffee-house')">Для кофеен и баров</button>
+                        
+                        <button class="tablinks" onclick="openPrice(event, 'shop')">Для магазинов</button>
+                        
+                        <button class="tablinks" onclick="openPrice(event, 'services')">Для фаст-фуда</button>
+                    </div>
+                    
                 </div>
             </div>
         </section>
         <!-- End Banner -->
- 
-       <!-- Service Style 6 -->
-        <section class="pb-60 pt-50 analytic-fbg p_contacts">
-            <div class="container">
+        <section  id="cafe" class="tabcontent container pb-40">
+            <div class="row justify-content-center" > 
                 
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Service -->
-                        <div class="single-service style--six align-items-center media">
-                            <div class="service-content media-body">
-                                <h3>Беларусь:</h3>
-                                <p>Viber/Telegram/WhatsApp: <a href="tel:+375297933757">+375 29 793-37-57</a> </p>
-                                <p><a href="tel:+375297628100">+375 29 762-81-00</a>  MTS <br/>
-                                   <a href="tel:+375291821461">+375 29 182-14-61</a> Velcom
-                                </p>
-                                <p>sales@caffesta.com</p>
-                            </div>
+                <div  class="col-lg-10 col-12">
+                    <h2>ЕЩЁ НЕ ГОТОВО</h2>
+                    <p> На второе и последующие заведения - скидка 50% от указанного тарифного плана, но не менее 6$ в месяц! </p>
+                </div>
+                
+            
+                
+            </div>
+            <div class="row">
+                <div  class="col-lg-4 col-12">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"> </div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
                         </div>
-                        <!-- End Single Service -->
-                    </div>
-                    
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Service -->
-                        <div class="single-service style--six align-items-center media">
-                            <div class="service-content media-body">
-                                <h3>Москва, Курск:</h3>
-                                <p>Айк Харатян</p>
-                                <p><a href="tel:+79037648360">+7 903 764 83 60</a> <br>
-                                   <a href="tel:+74996483789">+7 499 648-37-89 </a>
-                                </p>
-                                <p>aik@caffesta.com</p>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                      </div>
+
+                </div>
+                 <div  class="col-lg-4 col-12">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <img src="assets/images/img-businesses/bar/bar-main-mini.png"> 
+                              <h4>  POS-Моноблок POSBANK APEXA G</h4>
+                              <p>
+                                TouchScreen 15", Intel Celeron J1900 (2.0 GHz), SSD 64Gb, 4Gb (DDR3L) поддержка до 6USB и 5 COM, LAN
+                              </p>
                             </div>
-                        </div>
-                        <!-- End Single Service -->
-                    </div>
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Service -->
-                        <div class="single-service style--six align-items-center media">
-                            <div class="service-content media-body">
-                                <h3>Россия:</h3>
-                                <p>Яроцкая Елена Владимировна</p>
-                                <p><a href="tel:+79602293672">+7 960 229-36-72</a> Beeline Russia
-                                </p>
-                                <p>sales@caffesta.com</p>
+                          <div class="swiper-slide">
+                              <img src="assets/images/img-businesses/bar/bar-main-mini.png">
                             </div>
-                        </div>
-                        <!-- End Single Service -->
-                    </div>
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Service -->
-                        <div class="single-service style--six align-items-center media">
-                           
-                            <div class="service-content media-body">
-                                <h3>Узбекистан:</h3>
-                                <p>Хамраев Алмат Егемович</p>
-                                <p>
-                                <a href="tel:+998935222020">+998 93 522-2020</a>
-                                </p>
-                                <p>
-                                akhamraev@caffesta.com
-                                </p>
+                          <div class="swiper-slide">
+                              <img src="assets/images/img-businesses/bar/bar-main-mini.png">
                             </div>
+                          <div class="swiper-slide">
+                              <img src="assets/images/img-businesses/bar/bar-main-mini.png">
+                            </div>
+                          <div class="swiper-slide">
+                              <img src="assets/images/img-businesses/bar/bar-main-mini.png">
+                            </div>
+                          <div class="swiper-slide">
+                              <img src="assets/images/img-businesses/bar/bar-main-mini.png">
+                            </div>
+                       
                         </div>
-                        <!-- End Single Service -->
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                      </div>
+
+                </div>
+                 <div  class="col-lg-4 col-12">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"> </div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                          <div class="swiper-slide"><img src="assets/images/img-businesses/bar/bar-main-mini.png"></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                      </div>
+
+                </div>
+    
+            </div>
+        </section>
+        <section  id="coffee-house" class="tabcontent container pb-40" style="display: none;">
+            <div class="row justify-content-center" > 
+                
+<!--
+                <div  class="col-lg-10 col-12">
+                    <h2>Ценовые предложения для кофеен:</h2>
+                    <p> На второе и последующие заведения - скидка 50% от указанного тарифного плана, но не менее 6$ в месяц!</p>
+                </div>
+-->
+            
+            </div>            
+        </section>
+        <section  id="shop" class="tabcontent container pb-40" style="display: none;">
+            <div class="row justify-content-center"> 
+                
+<!--
+                <div  class="col-lg-10 col-12">
+                    <h2>Ценовые предложения для магазинов:</h2>
+                    <p> На второе и последующие заведения - скидка 50% от указанного тарифного плана!</p>
+                </div>
+-->
+               
+                
+            </div>            
+        </section>
+        <section  id="services" class="tabcontent container pb-40" style="display: none;">
+            
+        </section>
+        
+        
+        
+        
+      <!-- Contact -->
+        <section class="caf-form pt-80">
+            <div class="container">
+                <div class="row pb-140 justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="contact-form-left">
+                            <div class="content">
+                                <h2>Попробовать бесплатно</h2>
+                                <p>Начните работать уже сегодня, первые 14 дней бесплатно.</p>
+                            </div>
+                            <img src="assets/images/contact-caffesta.png" width="85%" alt="">
+                        </div>
                     </div>
-                    
+                    <div class="col-lg-5">
+                        <div class="contact-form">
+                            <form method="POST" action="sendmail.php">
+                                
+                                
+                                <input type="text" name="name" id="name" class="theme-input-style" placeholder="Ваше имя*" required>
+                            
+                                
+                                <input type="email" name="email" id="email" class="theme-input-style" placeholder="Ваш Email*" required>
+
+                                
+                                <input type="text" name="subject" id="subject"  placeholder="Название компании*"class="theme-input-style">
+                            
+                                <input type="text" name="subject" id="subject"  placeholder="Телефон*"class="theme-input-style">
+                                
+                                <input type="text" name="subject" id="subject"  placeholder="Регион (страна, город)**"class="theme-input-style">
+                            
+                                <!-- Submit Button -->
+                                <button type="submit" class="all_caf_btn">Отправить</button>
+                                <!-- End Submit Button -->
+                                
+                            </form>
+                            
+                            <div class="form-response"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- End Service Style 6 -->
+        <!-- End Contact -->
+
+        
         
         
 
@@ -404,6 +500,7 @@ rgb(75%, 9%, 18%);
             <i class="fa fa-angle-up"></i>
         </a>
         <!-- End Back to Top Button -->
+       
 
         <!-- ======= jQuery Library ======= -->
         <script src="assets/js/jquery.min.js"></script>
@@ -440,5 +537,18 @@ rgb(75%, 9%, 18%);
         
         <!-- ======= Custom JS ======= -->
         <script src="assets/js/custom.js"></script>
+        
+        
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 1,
+              spaceBetween: 5,
+              centeredSlides: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+            });
+        </script>
     </body>
 </html>
