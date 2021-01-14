@@ -52,7 +52,11 @@
 button, button[type="submit"], input[type="submit"] {
     background-color: @red;
 }
-
+.banner.analytic{
+    padding: 0px;
+    padding-top: 8%;
+    margin: 0px;
+}
 
 
 @keyframes btn_anime {
@@ -1187,6 +1191,7 @@ body, h1, h2, h3, h4, h5, p{
                     line-height: @p+3;
                     padding: 1% 5%;
                     color: @black;
+                    color: @white;
                 }
                 a{
                     padding: 15px;
@@ -1196,7 +1201,7 @@ body, h1, h2, h3, h4, h5, p{
                    
                 }
                 p.log{
-                    
+                    color: @black;
                     b{
                       color: @m_blue;  
                     }
@@ -1266,7 +1271,13 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
-
+.caf-form_red{
+        background-color: @moloko;
+        padding-top: 80px;
+        h2{
+           color: @red; 
+        }
+    }
 
 
 //стили для страницы  fastfood
@@ -1993,7 +2004,7 @@ body, h1, h2, h3, h4, h5, p{
             
             h3{
                 color: @blue_gray;
-                font-size:@p;
+                font-size:@h3;
                 padding: 15px 0;
                 border-radius: 5px;
                 
@@ -2001,7 +2012,7 @@ body, h1, h2, h3, h4, h5, p{
             h3.active{
                 padding: 15px 0;
                 color: @blue;
-                font-size:@p+4;
+                font-size:@h3;
                 border-radius: 5px;
                 
                 box-shadow: 0 0 25px rgba(122,122,122,0.3);

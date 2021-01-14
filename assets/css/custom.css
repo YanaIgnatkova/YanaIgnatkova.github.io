@@ -22,6 +22,11 @@ button[type="submit"],
 input[type="submit"] {
   background-color: #8f313e;
 }
+.banner.analytic {
+  padding: 0px;
+  padding-top: 8%;
+  margin: 0px;
+}
 @keyframes btn_anime {
   0% {
     background-color: #8f313e;
@@ -917,12 +922,16 @@ p {
   line-height: 21px;
   padding: 1% 5%;
   color: #333333;
+  color: #ffffff;
 }
 .demos .demos_card div a {
   padding: 15px;
 }
 .demos .demos_card div a i {
   font-size: 18px;
+}
+.demos .demos_card div p.log {
+  color: #333333;
 }
 .demos .demos_card div p.log b {
   color: #90bef5;
@@ -1132,6 +1141,13 @@ p {
 .restaurant #bring-order .single-service p {
   color: #777777;
   font-size: 18px;
+}
+.caf-form_red {
+  background-color: #e7e3d4;
+  padding-top: 80px;
+}
+.caf-form_red h2 {
+  color: #8f313e;
 }
 .fastfood section.banner {
   background-image: url("../images/bg/fast-food-bg.png ");
@@ -2488,14 +2504,14 @@ p {
 }
 .inline_nav .service-content h3 {
   color: #8590aa;
-  font-size: 18px;
+  font-size: 24px;
   padding: 15px 0;
   border-radius: 5px;
 }
 .inline_nav .service-content h3.active {
   padding: 15px 0;
   color: #4d7ab0;
-  font-size: 22px;
+  font-size: 24px;
   border-radius: 5px;
   box-shadow: 0 0 25px rgba(122, 122, 122, 0.3);
 }
