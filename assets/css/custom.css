@@ -24,8 +24,13 @@ input[type="submit"] {
 }
 .banner.analytic {
   padding: 0px;
-  padding-top: 8%;
+  padding-top: 16%;
   margin: 0px;
+}
+@media only screen and (max-device-width: 720px) {
+  .banner.analytic {
+    padding-top: 30%;
+  }
 }
 @keyframes btn_anime {
   0% {
@@ -154,6 +159,35 @@ p {
 .slider3 .work-slider .work-slide-text p {
   color: #8590aa;
   font-size: 18px;
+}
+.slider3 .swiper-container.how-work-slider {
+  height: 400px !importan;
+}
+.slider3 .tab-btn h3 {
+  text-align: center;
+}
+.slider3 .tab-content h3 {
+  color: #8f313e;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 3%;
+  padding: 1% 20%;
+}
+.slider3 .part_left {
+  width: 100%;
+  float: left;
+  padding: 1% 24%;
+}
+.slider3 .part_right {
+  width: 100%;
+  float: right;
+  padding: 1% 10%;
+}
+@media only screen and (max-width: 991px) {
+  .swiper-container.how-work-slider {
+    height: 400px !important;
+    margin-bottom: 40px;
+  }
 }
 .slider3_r {
   background-color: #e7e3d4;
@@ -716,8 +750,8 @@ p {
   height: 200px;
   border-radius: 300px;
 }
-.main .businesses .service-content {
-  color: #8590aa;
+.main .businesses .service-content h3 {
+  color: #333333;
 }
 .main .back_front {
   background-color: #ffffff;
@@ -931,7 +965,7 @@ p {
   font-size: 18px;
 }
 .demos .demos_card div p.log {
-  color: #333333;
+  color: #90bef5;
 }
 .demos .demos_card div p.log b {
   color: #90bef5;
@@ -1040,6 +1074,7 @@ p {
 .restaurant .back_office .chaptar-img p {
   margin-top: 3%;
   text-align: left;
+  text-align: center;
 }
 .restaurant .back_office .chaptar-img a.linkB {
   text-align: center;
@@ -1253,6 +1288,7 @@ p {
 .fastfood .back_office .chaptar-img p {
   margin-top: 3%;
   text-align: left;
+  text-align: center;
 }
 .fastfood .back_office .chaptar-img a.linkB {
   text-align: center;
@@ -1368,6 +1404,7 @@ p {
 .shop .back_office .chaptar-img p {
   margin-top: 3%;
   text-align: left;
+  text-align: center;
 }
 .shop .back_office .chaptar-img a.linkB {
   text-align: center;
@@ -1510,6 +1547,7 @@ p {
 .bar .back_office .chaptar-img p {
   margin-top: 3%;
   text-align: left;
+  text-align: center;
 }
 .bar .back_office .chaptar-img a.linkB {
   text-align: center;
@@ -1683,6 +1721,7 @@ p {
 .cafe .back_office .chaptar-img p {
   margin-top: 3%;
   text-align: left;
+  text-align: center;
 }
 .cafe .back_office .chaptar-img a.linkB {
   text-align: center;
@@ -1916,6 +1955,7 @@ p {
 .coffee_house .back_office .chaptar-img p {
   margin-top: 3%;
   text-align: left;
+  text-align: center;
 }
 .coffee_house .back_office .chaptar-img a.linkB {
   text-align: center;
@@ -2533,9 +2573,51 @@ p {
 .inline_nav.red .service-content h3.active:hover {
   color: #4d7ab0;
 }
-.equipment .swiper-slide {
+.equipments .all_price {
+  text-align: right;
+  color: #4d7ab0;
+}
+.equipments .all_price #sum {
+  font-size: 24px;
+}
+.equipments .equipment {
+  margin-bottom: 10%;
+}
+.equipments .equipment h2 {
+  font-size: 32px;
+}
+.equipments .equipment .toggler {
+  color: #333333;
+}
+.equipments .equipment .toggler.toggler--is-active {
+  color: #333333;
+}
+.equipments .equipment .toggle {
+  background-color: #4d7ab0;
+}
+.equipments .equipment .swiper-slide {
+  height: 150% !important;
   margin: 2px;
   padding: 2px;
+}
+.equipments .equipment .swiper-slide img {
+  width: 72%;
+  margin: 0% 14%;
+  margin-bottom: 6%;
+}
+.equipments .equipment .swiper-slide h4 {
+  font-size: 24px;
+  color: #4d7ab0;
+  text-align: center;
+}
+.equipments .equipment .swiper-slide p {
+  font-size: 18px;
+  color: #8590aa;
+  text-align: center;
+}
+.equipments .equipment .swiper-slide span {
+  font-size: 24px;
+  color: #4d7ab0;
 }
 .footer {
   padding: 0px;
@@ -2592,6 +2674,58 @@ p {
 }
 .footer .copyright-footer {
   color: #ffffff;
+}
+.modal-header button.close {
+  background-color: #8f313e !important;
+  color: #ffffff;
+}
+.modal-dialog .modal-content {
+  padding: 3%;
+}
+.modal-dialog .modal-content h4 {
+  color: #8f313e;
+  font-size: 24px;
+}
+.modal-dialog .modal-content .modal-body h4 {
+  color: #8f313e;
+  font-size: 24px;
+  text-align: center;
+}
+.modal-dialog .modal-content .modal-body div.first h5 {
+  text-align: center;
+  padding-left: 3%;
+  color: #8f313e;
+  font-size: 18px;
+  margin-bottom: 1%;
+}
+.modal-dialog .modal-content .modal-body div.first p {
+  text-align: center;
+  padding-left: 5%;
+  margin-bottom: 1%;
+  font-size: 18px;
+}
+.modal-dialog .modal-content .modal-body div {
+  padding-bottom: 5%;
+}
+.modal-dialog .modal-content .modal-body div h5 {
+  text-align: left;
+  padding-left: 3%;
+  color: #8f313e;
+  font-size: 18px;
+  margin-bottom: 1%;
+}
+.modal-dialog .modal-content .modal-body div p {
+  text-align: left;
+  padding-left: 5%;
+  margin-bottom: 1%;
+  font-size: 18px;
+}
+.modal-dialog .modal-content .modal-body div p b {
+  color: #8f313e;
+}
+.modal-dialog .modal-content .modal-body div p.child {
+  text-align: left;
+  padding-left: 7%;
 }
 .back-to-top {
   width: 46px;
@@ -2692,6 +2826,17 @@ button.tablinks {
   border-radius: 8px  8px 0 0  ;
 }
 button.active {
+  background-color: #ffffff;
+}
+a.tablinks {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #4d7ab0;
+  font-size: 24px;
+  padding: 1% 2%;
+  margin: 0 5px;
+  border-radius: 8px  8px 0 0  ;
+}
+a.tablinks.active {
   background-color: #ffffff;
 }
 /*!

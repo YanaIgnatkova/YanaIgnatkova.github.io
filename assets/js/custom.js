@@ -1,7 +1,7 @@
 $(function(){
         $("a[href^='#']").click(function(){
                 var _href = $(this).attr("href");
-                $("html, body").animate({scrollTop: $(_href).offset().top+"px"}, 5000);
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"}, 1500);
                 return false;
         });
 });
@@ -23,6 +23,8 @@ function openPrice(evt, priceName) {
 
     document.getElementById(priceName).style.display = "block";
     evt.currentTarget.className += " active";
+    
+   $('#coffee-house').html(entry);
 }
 
 			

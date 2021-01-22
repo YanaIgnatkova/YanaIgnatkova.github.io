@@ -54,10 +54,14 @@ button, button[type="submit"], input[type="submit"] {
 }
 .banner.analytic{
     padding: 0px;
-    padding-top: 8%;
+    padding-top: 16%;
     margin: 0px;
 }
-
+@media only screen and (max-device-width: 720px) {
+    .banner.analytic{
+        padding-top: 30%;
+    }
+}
 
 @keyframes btn_anime {
     0% {
@@ -223,7 +227,47 @@ body, h1, h2, h3, h4, h5, p{
             }
         }
     }
+    
+    .swiper-container.how-work-slider{
+        height: 400px !importan;
+    }
+    .tab-btn{
+        h3{
+            text-align: center;
+        }
+    }
+    .tab-content{
+         h3{
+            color: @red;
+            font-size: @h3;
+            text-align: center;
+             margin-bottom: 3%;
+             padding: 1% 20%;
+        }
+    }
+   
+    .part_left{
+        width: 100%;
+        float: left;
+        padding: 1% 24%;
+    }
+    .part_right{
+        width: 100%;
+        float: right;
+        padding: 1% 10%;
+        
+    }
+    
+    
 }
+@media only screen and (max-width: 991px){
+    .swiper-container.how-work-slider{
+         height: 400px !important;
+         margin-bottom: 40px;
+        
+    }
+}
+    
 .slider3_r{
     h2{
            color: @red;
@@ -960,7 +1004,10 @@ body, h1, h2, h3, h4, h5, p{
             border-radius: 300px;
         }
         .service-content{
-            color: @blue_gray;
+            h3{
+               color: @black; 
+            }
+            
         }
     }
     .back_front{
@@ -1201,7 +1248,7 @@ body, h1, h2, h3, h4, h5, p{
                    
                 }
                 p.log{
-                    color: @black;
+                    color: @m_blue;
                     b{
                       color: @m_blue;  
                     }
@@ -1374,7 +1421,7 @@ body, h1, h2, h3, h4, h5, p{
             p{
                 margin-top: 3%;
                 text-align: left;
-                
+                text-align: center;
             }
              a.linkB{
                      text-align: center;
@@ -1499,6 +1546,7 @@ body, h1, h2, h3, h4, h5, p{
         h2.black{
             color: @blue; 
         }
+        
         .chaptar{
             
             .chaptar-box.active{
@@ -2052,11 +2100,63 @@ body, h1, h2, h3, h4, h5, p{
 }
 
 
-.equipment{
-    .swiper-slide{
-        margin: 2px;
-        padding: 2px;
+.equipments{
+    
+    .all_price{
+        text-align: right;
+        color: @blue;
+        #sum{
+            font-size: @h3;
+        }
     }
+    
+    .equipment{
+        h2{
+            font-size: @h2;
+            
+        }
+        .toggler{
+            color: @black;
+        }
+        .toggler.toggler--is-active{
+            color: @black;
+        }
+        .toggle{
+            background-color: @blue;
+        }
+        
+        
+        .swiper-slide{
+            height: 150% !important;
+            margin: 2px;
+            padding: 2px;
+
+            img{
+                width: 72%;
+                margin: 0% 14%;
+                margin-bottom: 6%;
+                
+            }
+            h4{
+               font-size: @h3; 
+               color: @blue;
+                text-align: center;
+            }
+            p{
+                font-size: @p; 
+                color: @blue_gray;
+                text-align: center;
+            }
+            span{
+                font-size: @h3; 
+                color: @blue;
+            }
+        }
+       
+        
+        margin-bottom: 10%;
+    }
+    
 }
 
 
@@ -2109,6 +2209,67 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
+
+.modal-header button.close{
+    background-color: @red !important;
+    color: @white;
+   
+}
+.modal-dialog{
+    .modal-content{
+        padding: 3%;
+        h4{
+            color: @red;
+            font-size: @h3;
+        }
+        .modal-body{
+            h4{
+                color: @red;
+                font-size: @h3;
+                text-align: center;
+            }
+            div.first{
+                h5{
+                  text-align: center; 
+                  padding-left: 3%;
+                  color: @red;
+                  font-size: @p;
+                  margin-bottom: 1%;
+                }
+                p{
+                  text-align: center;
+                  padding-left: 5%;
+                  margin-bottom: 1%;
+                  font-size: @p;
+                }   
+            }
+            div{
+                padding-bottom: 5%;
+                h5{
+                  text-align: left; 
+                  padding-left: 3%;
+                  color: @red;
+                  font-size: @p;
+                  margin-bottom: 1%;
+                }
+                p{
+                    b{
+                        color: @red;
+                    }
+                  text-align: left;
+                  padding-left: 5%;
+                  margin-bottom: 1%;
+                  font-size: @p;
+                }
+                p.child{
+                   text-align: left;
+                    padding-left: 7%;
+                }
+            }
+        }
+}
+}
+
 .back-to-top{
     width: 46px;
     height: 46px;
@@ -2156,10 +2317,6 @@ body, h1, h2, h3, h4, h5, p{
 }
 
 //media
-
-
-
-
 
 
 
@@ -2229,6 +2386,19 @@ body, h1, h2, h3, h4, h5, p{
     }
 
 
+    a.tablinks{
+        background-color: rgba(255,255,255, 0.7);
+        color: @blue;
+        font-size: @h3;
+        padding: 1% 2%;
+        margin: 0 5px;
+        border-radius: 8px  8px 0 0  ;
+        
+    }
+    a.tablinks.active{
+        background-color: rgba(255,255,255, 1);
+//      
+    }
 
 
 

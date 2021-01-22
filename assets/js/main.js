@@ -324,7 +324,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     var syncedSecondary = true;
     sync1.owlCarousel({
         items: 1,
-        slideSpeed: 2000,
+        slideSpeed: 2000000,
         autoplay: true,
         loop: true,
         dots: false,
@@ -338,7 +338,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     sync2.on('initialized.owl.carousel', function () {
         setTimeout(function () {
         sync2.find(".owl-item").eq(0).addClass("current");
-        }, 100);
+        }, 100000);
     }).owlCarousel({
         items: slidesPerPage,
         dots: false,
@@ -551,7 +551,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     //POS Page How It Work Slider
     new Swiper('.how-work-slider', {
         direction: 'vertical',
-        slidesPerView: 7,
+        slidesPerView: 4,
         mouseDrage:false,
         mouseMove: false,
         mousewheel: false,
