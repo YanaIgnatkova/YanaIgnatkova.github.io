@@ -324,7 +324,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-140 {
-    padding-top: 80px;
+    padding-top: 90px;
   }
 }
 
@@ -334,7 +334,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-130 {
-    padding-top: 70px;
+    padding-top: 90px;
   }
 }
 
@@ -344,7 +344,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-120 {
-    padding-top: 60px;
+    padding-top: 90px;
   }
 }
 
@@ -354,7 +354,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-110 {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 }
 
@@ -364,7 +364,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-100 {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 }
 
@@ -374,7 +374,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-90 {
-    padding-top: 30px;
+    padding-top: 60px;
   }
 }
 
@@ -384,7 +384,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-80 {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 }
 
@@ -394,7 +394,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-70 {
-    padding-top: 10px;
+    padding-top: 45px;
   }
 }
 
@@ -404,7 +404,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-60 {
-    padding-top: 0;
+    padding-top: 30px;
   }
 }
 
@@ -414,7 +414,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-50 {
-    padding-top: 0;
+    padding-top: 30px;
   }
 }
 
@@ -424,7 +424,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-40 {
-    padding-top: 0;
+    padding-top: 20px;
   }
 }
 
@@ -434,7 +434,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-30 {
-    padding-top: 0;
+    padding-top: 30px;
   }
 }
 
@@ -454,7 +454,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pt-10 {
-    padding-top: 0;
+    padding-top: 10px;
   }
 }
 
@@ -544,7 +544,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-70 {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
   }
 }
 
@@ -554,7 +554,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-60 {
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
 }
 
@@ -564,7 +564,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-50 {
-    padding-bottom: 0;
+    padding-bottom: 25px;
   }
 }
 
@@ -574,7 +574,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-40 {
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 }
 
@@ -584,7 +584,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-30 {
-    padding-bottom: 0;
+    padding-bottom: 15px;
   }
 }
 
@@ -594,7 +594,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-20 {
-    padding-bottom: 0;
+    padding-bottom: 10px;
   }
 }
 
@@ -604,7 +604,7 @@ body {
 
 @media only screen and (max-width: 991px) {
   .pb-10 {
-    padding-bottom: 0;
+    padding-bottom: 10px;
   }
 }
 
@@ -9415,9 +9415,10 @@ form.search-form .theme-input-group .submit-btn, form.widget.widget_search .them
    ********************* */
 .swiper-container {
   width: 100%;
-  height: 400px;
+  height: 80%;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .swiper-container.style--two {
