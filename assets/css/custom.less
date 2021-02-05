@@ -37,9 +37,10 @@
 @h2: 32px;
 @h1: 46px;
 
-.h1_less{
-    font-size: 46px;
-}
+@p_mob: 16px;
+@h3_mob: 18px;
+@h2_mob: 22px;
+@h1_mob: 26px;
 
 @media only screen and (max-device-width: 720px) {
     @p: 16px;
@@ -57,11 +58,7 @@ button, button[type="submit"], input[type="submit"] {
     padding-top: 16%;
     margin: 0px;
 }
-@media only screen and (max-device-width: 720px) {
-    .banner.analytic{
-        padding-top: 30%;
-    }
-}
+
 
 @keyframes btn_anime {
     0% {
@@ -75,7 +72,7 @@ button, button[type="submit"], input[type="submit"] {
 .all_caf_btn{
     background-color: @red;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 10px 0;
     color: @white;
     border-radius: 5px;
    
@@ -143,6 +140,16 @@ button, button[type="submit"], input[type="submit"] {
     padding-bottom: 40px;
      
 } 
+.mobile-main-menu{
+     .all_caf_btn{
+       
+        width: 100%;
+        display: block;
+        margin: 25% 0%;
+         text-align: center;
+    }
+}
+  
 
 //стили для шапки и подвала
 body, h1, h2, h3, h4, h5, p{
@@ -161,6 +168,16 @@ body, h1, h2, h3, h4, h5, p{
 }
 .header .header-main.plugin .main-menu .nav li.current-menu-parent > a, .header .header-main.plugin .main-menu .nav li.current-menu-item > a, .header .header-main.plugin.sticky .main-menu .nav > li.current-menu-parent > a,  .header .header-main.plugin .main-menu .nav li:hover > a {
     color: @m_blue !important;
+    
+}
+.header .header-main .main-menu .nav > li > a{
+    font-size: @p;
+}
+.menu-wrapper{
+    margin-top: 18px;
+}
+.header-main{
+    margin-top: -16px;
 }
 .header .header-main.sticky .logo .default-logo {
      display: block;
@@ -177,7 +194,12 @@ body, h1, h2, h3, h4, h5, p{
 .header .header-main.plugin #menu-button span, .header .header-main.plugin #menu-button span:before, .header .header-main.plugin #menu-button span:after {
     background: @red;
 }
-
+.single-service.style--seven{
+    h3{
+        font-size: @h3;
+    }
+    
+}
 
 .header .header-main.sticky .main-menu .nav > li > a {
     color: @white !important;
@@ -199,6 +221,16 @@ body, h1, h2, h3, h4, h5, p{
         margin: 10px 20px;
     }
 } 
+.accordion.management{
+     .accordion-title {
+         h3{
+             &:after{
+                 right:0px;
+             }
+         }
+    }
+}
+
 .slider3{
     h2{
            color: @blue;
@@ -242,24 +274,61 @@ body, h1, h2, h3, h4, h5, p{
             font-size: @h3;
             text-align: center;
              margin-bottom: 3%;
-             padding: 1% 20%;
+             padding: 1% 2%;
         }
     }
    
     .part_left{
-        width: 100%;
+        width: 45%;
         float: left;
-        padding: 1% 24%;
+        padding: 1% ;
+        margin-top: 5%;
     }
     .part_right{
-        width: 100%;
+        margin-top: 5%;
+        
+        width: 55%;
         float: right;
-        padding: 1% 10%;
+        padding: 1%;
         
     }
     
     
 }
+@media only screen and (max-width: 991px){
+    .slider3{
+        .part_left{
+            width: 100%;
+       
+        }
+        .part_right{
+
+            width: 100%;
+
+        }
+        .work-slider{
+            .work-slide-text{
+                h2{
+                    font-size: @p;  
+                }
+                    
+            }
+        }
+
+        .tab-content{
+            h3{
+                font-size: @p;
+                  
+            }
+        }
+    }
+    
+   
+}
+
+
+
+
 @media only screen and (max-width: 991px){
     .swiper-container.how-work-slider{
          height: 400px !important;
@@ -298,39 +367,6 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
-.slider2{
-        h2{
-           color: @red;
-           font-size: @h2;  
-        }
-         background-color: @moloko;
-        .owl-carousel.student-review .owl-nav button{
-            background-color: @red !important;
-            margin-top: 20px;
-            i.fa {
-                color: @moloko;
-            }
-            
-        }
-        
-        .owl-carousel.student-review .owl-nav button:hover{
-            background-color: @red_dark !important;
-        }
-        .style--two{
-            
-            h5{
-                color: @red;
-                font-size: @h3; 
-                text-align: center;
-            } 
-        }
-    }
-
-
-.cl1{
-  
-}
-
 //стили для страницы терминала ресторана
 
 .banner.analytic {
@@ -357,81 +393,17 @@ body, h1, h2, h3, h4, h5, p{
         
     }
 
-//.feature-box{
-//    .img{
-//         margin-bottom: 1%;
-//        img{
-//          width: 70%;
-//          margin: 5% 15%;
-//        } 
-//    }
-//    p{
-//        padding: 1% 8%;
-//    }
-//}
 
-.feature-box{
-    .img{
-         margin-bottom: 1%;
-        img{
-          width: 90%;
-          margin:  5%;
-        } 
+@media only screen and (max-device-width: 720px) {
+    .banner.analytic{
+        padding-top: 40%;
+        .banner-content{
+            h1{
+                font-size: @h2;
+            }
+        }
+        
     }
-    p{
-        padding: 1% 8%;
-    }
-}
-
-.feature-box:before {
-    position: absolute;
-    content: "Шаг 1";
-    width: 100%;
-    text-align: center;
-    background-color: @l_blue;
-    padding: 5px;
-    border-radius: 10px;
-    left: 0;
-    //top: 50px;
-    font-size: @h2;
-    font-weight: 600;
-    line-height: 1;
-    color: @blue;
-}
-.feature-box:before {
-    content: "Шаг 1.";
-}
-.feature-box.twoo:before {
-    content: "Шаг 2.";
-}
-.feature-box:after{
-  background: rgba(0,0,0,0);
-  position: absolute;
-  width: 1116%;
-  height: 100%;
-  content: "";
-  left: -1000%;
-  top: 0;
-  z-index: -1;
-  border-top-right-radius: 150px;
-}
-.feature-box.three:before {
-    content: "Шаг 3.";
-}
-.feature-box.four:before {
-    content: "Шаг 4.";
-}
-.feature-box.five:before {
-    content: "Шаг 5.";
-}
-.feature-box.six:before {
-    content: "Шаг 6.";
-}
-//.feature-box:before, .feature-box.two:before, .feature-box.two h2, .feature-box.three:before, .feature-box.three h2, .rating strong {
-//    color: @red;
-//}
-.feature-box:before, .feature-box.two:before, .feature-box.two h2, .feature-box.three:before, .feature-box.three h2, .rating strong {
-    color: @blue;
 }
 
 
@@ -450,252 +422,18 @@ body, h1, h2, h3, h4, h5, p{
           padding-left: 0;
       }
 
-.steps{
-        
-    .col-lg-4{
-        margin: 0;
-        padding: 0;
-    }
-    .step{
-    background-color: @l_blue;
-    border-radius: 80px 80px 5px 5px;
-    .img{
-        background-color: @white;
-        border-radius: 80px;
-        
-        img{
-            width: 70%;
-            margin:  15%;
-        }
-    }
-    .desk{
-        margin: 0 10%;
-        h3{
-            font-size: @h2;
-            text-align: center;
-            color: @black;
-            padding-top: 7%;
-            padding-bottom: 3%;
-        }
-        .img{
-            background-color: @white;
-            
-        
-            img{
-                width: 84%;
-                margin: 10% 8%;
-                margin-bottom: 5%;
-            }
-        }
-        .part_left{
-            p{
-              width: 48%;
-                padding-left: 15px;
-                position:absolute; /* добавили */
-	           bottom: 25px; /* добавили */  
-            }
-            
-        }
-        .part_right{
-            p{
-              width: 48%;
-                padding-right: 15px;
-                position:absolute; /* добавили */
-	           bottom: 25px; /* добавили */  
-            }
-            
-        }
-        h3{
-            color: @blue_gray;
-            font-size: @h2;
-            text-align: center;
-            margin-bottom: 5%;
-        }
-    }
-    
-    
-}
+
+@media only screen and (max-device-width: 720px) {
+    .part_left{
+          float: left;
+          width: 90%;
+      }
 
 
-.step2{
-    background-color: @l_blue;
-    border-radius: 5px 5px 80px 80px ;
-    .img{
-        background-color: @white;
-        border-radius: 80px;
-        padding: 2px;
-        img{
-            width: 80%;
-            margin: 10%;
-        }
-    }
-    .desk{
-        margin: 0 10%;
-        h3{
-            font-size: @h2;
-            text-align: center;
-            color: @black;
-            padding-top: 7%;
-            padding-bottom: 3%;
-        }
-        p{
-            padding-bottom: 5%;
-        }
-    }
-}
-}
-
-
-
-.steps2{
-    .step{
-        box-shadow: 0 0 15px rgba(122,122,122,0.5);
-        height: 100%;
-        .img{
-            background-color: @white;
-            img{
-                width: 70%;
-                margin: 10% 15%;
-                margin-bottom: 5%;
-            }
-        }
-        
-        h3{
-            color: @white;
-            font-size: @h2;
-            text-align: center;
-            margin-bottom: 5%;
-            margin-top: 10%;
-            width:  100%;
-        }
-        p{
-            margin: 0 4%;
-        }
-    }
-    .arrow {
-	width: 300px;
-	padding: 10px 10px;
-	position: relative;
-	//background: @l_blue;
-    background: @blue;
-        
-	border-radius: 3px;   
-    }
-    .arrow:before {
-        content: ""; 
-        border: solid transparent;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        //border-top-color: @l_blue;
-        border-top-color: @blue;
-        border-width: 16px;
-        margin-left: -16px;
-    }
-  
-}
-
-
-
-//выбрано
-.steps3{
-    .step3{
-        display: block;
-        border-radius: 10px;
-        //border: solid 2px @l_blue;
-        background-color: @l_blue;
-        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.3);
-        box-shadow: 0 0 15px rgba(122,122,122,0.5);
-        height: 90%;
-        margin: 50px 0;
-        .img{
-            img{
-                
-                width: 84%;
-                margin: 10% 8%;
-                margin-bottom: 5%;
-            }
-        }
-        .part_left{
-            background-color: @white;
-            height: 100%;
-            float: left;
-            width: 50%;
-            
-            p{
-                margin: 10%;
-                max-height: 90%;
-                overflow-Y: auto;
-                color: @black;
-                  
-            }
-            
-        }
-        .part_right{
-            height: 100%;
-            width: 50%;
-            float: right;
-            p{
-                margin: 10%;
-                color: @black;
-                max-height: 100%;
-                overflow-Y: auto;
-            
-            }
-            
-        }
-        h3{
-            color: @blue;
-            font-size: @p;
-            text-align: center;
-            margin-bottom: 5%;
-        }
-        .arrow_right {
-            
-            padding: 2% 1%;
-            position: relative;
-            background: @white;
-            border-radius: 3px;   
-        }
-        .arrow_right:before {
-            content: ""; 
-            border: solid transparent;
-            position: absolute;    
-            left: 100%;
-            top: 50%;
-            border-left-color: @white;
-            border-width: 20px;
-            margin-top: -20px;
-        }
-        
-        .arrow_left {
-            
-            padding: 20px 10px;
-            position: relative;
-            background: @white;
-            border-radius: 3px;   
-        }
-        .arrow_left:before {
-            content: ""; 
-            border: solid transparent;
-            position: absolute;  
-            right: 100%;
-            top: 50%;
-            border-right-color: @white;
-            border-width: 20px;
-            margin-top: -20px;
-        }
-    }
-    
-    .step3.two{
-      .part_left{
-            background-color: @l_blue;
-          
-        }
-        .part_right{
-            background-color: @white;            
-        }  
-    }
+    .part_right{
+          float: right;
+          width: 90%;
+      }
 }
 
 .steps_for_work{
@@ -758,180 +496,6 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
-.steps5{
-   
-    .section-title{
-        h2.black{
-            color: @blue;
-            font-size: @h2;
-            
-            margin-bottom: 0px;
-        }
-        margin-bottom: 10px;
-    } 
-     .owl-carousel.student-review .owl-nav button{
-            background-color: @l_blue !important;
-            margin-top: 20px;
-            i.fa {
-                color: @white;
-            }
-            
-        }
-        
-        .owl-carousel.student-review .owl-nav button:hover{
-            background-color: @blue !important;
-        }
-        .style--two{
-            
-            h5{
-                color: @blue;
-                font-size: @p; 
-                text-align: center;
-            } 
-        }
-    .owl-carousel.student-review .owl-nav button {
-        top: -60px;
-    }
-   
-    .step5{
-        
-        display: block;
-        border-radius: 10px;
-        //border: solid 2px @l_blue;
-//        background-color: @l_blue;
-//        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.3);
-//        box-shadow: 0 0 15px rgba(122,122,122,0.5);
-        height: 90%;
-        margin:  0;
-        
-        .img{
-            
-            img{
-                
-                width: 65%;
-                margin-left: 22%;
-                margin-bottom: 5%;
-                z-index: 2;
-                .fon_circle{
-                    position: absolute;
-                    z-index: 0;
-                    left: 0;
-                    top: 40px;
-                    width: 40%;
-                    height: calc(100% - 180px);
-                    background-color: #857dfb;
-                }
-            }
-           
-        }
-        
-        
-        
-        p{
-            padding: 0% 2%;
-        }
-      
-        h3{
-            color: @blue;
-            font-size: @p;
-            text-align: center;
-            margin-bottom: 5%;
-        }
-        
-       
-    }
-}
-
-
-
-  
-@media screen and (max-width: 768px) {
-    
-  .steps3{
-    .step3{
-        .part_left{    
-            float:left;
-            width: 100%;
-            height: auto;
-            padding-bottom: 10px;
-            
-        }
-        .part_right{   
-            float:right;
-            width: 100%; 
-            height: auto;
-            padding-bottom: 10px;
-        }
-        
-        .arrow_right {
-            //down
-           
-	       padding: 10px 10px;
-	       position: relative;
-	       background: @white;
-	       border-radius: 3px;    
-        }
-        .arrow_right:before {
-            //down
-            content: ""; 
-	        border: solid transparent;
-            position: absolute;
-            top: 104%;
-            left: 50%;
-            border-top-color: @white;
-            border-width: 20px;
-            margin-left: -20px;
-        }
-        
-        .arrow_left {
-             //down
-           
-	       padding: 10px 10px;
-	       position: relative;
-	       background: @white;
-	       border-radius: 3px;     
-        }
-        .arrow_left:before {
-            //down
-            content: ""; 
-	        border: solid transparent;
-            position: absolute;
-            top: 104%;
-            left: 50%;
-            border-top-color: @white;
-            border-width: 20px;
-            margin-left: -20px;
-        }
-    }
-    
-       .step3.two{
-          .part_left{
-                float:none ;
-
-            }
-            .part_right{
-               float:none;           
-            }  
-        }
-    } 
-    
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -955,6 +519,7 @@ body, h1, h2, h3, h4, h5, p{
             margin-bottom: 3%;
         }
         .feature-content{
+           
             p{
                 color: @gray;
                 font-size: @p;
@@ -976,6 +541,10 @@ body, h1, h2, h3, h4, h5, p{
                     color: @blue;
                     text-align: center;
                     font-size: @h3;
+                }
+                p{
+                    overflow: auto;
+                    height: 170px;
                 }
             }
         }
@@ -1000,15 +569,23 @@ body, h1, h2, h3, h4, h5, p{
 //            background-color: lighten(@blue_gray, 10%);
             background-color: @moloko;
             width: 200px;
+            margin: auto;
             height: 200px;
             border-radius: 300px;
         }
         .service-content{
             h3{
-               color: @black; 
+               color: @black;
+               font-weight: 200;
+                font-size: @h3;
             }
             
         }
+        .single-service.style--seven{
+            h3{
+                font-size: @h3;
+            }
+        } 
     }
     .back_front{
         background-color: @white;
@@ -1126,6 +703,7 @@ body, h1, h2, h3, h4, h5, p{
         }
         p{
             color: @white;
+            
         }
         .question_card{
             .single-service{
@@ -1133,8 +711,8 @@ body, h1, h2, h3, h4, h5, p{
            
                       
                 .service-content{
-                    min-height: 300px;
-
+                    height: 280px;
+                    overflow: auto;
                     h4{
                         color: @red;
                         font-size: @h3;
@@ -1221,7 +799,8 @@ body, h1, h2, h3, h4, h5, p{
             box-shadow: 0 0 15px rgba(122,122,122,0.5);
             border-radius: 10px;
             padding: 2% 1%;
-            padding-bottom: 30px;
+            padding-bottom: 4%;
+            margin-bottom: 2%;
             
             h3{
                 color: @m_blue;
@@ -1281,6 +860,23 @@ body, h1, h2, h3, h4, h5, p{
     }
     .slider3{
         .slider3_r;
+        .how-work-slider2{
+            .swiper-slide{
+                padding: 20px 0;
+                background-color: rgba(0,0,0,0);
+                h3{
+                    margin: 0;
+                    color: @black;
+                    font-size: @h3;
+                    
+                }
+            } 
+            .swiper-slide.active{
+                border-radius: 5px;
+                background-color: @white;
+            }
+        }
+        
     }
     #chief_screen{
         h2{
@@ -1318,6 +914,7 @@ body, h1, h2, h3, h4, h5, p{
     }
 }
 
+
 .caf-form_red{
         background-color: @moloko;
         padding-top: 80px;
@@ -1325,6 +922,9 @@ body, h1, h2, h3, h4, h5, p{
            color: @red; 
         }
     }
+
+
+
 
 
 //стили для страницы  fastfood
@@ -1411,9 +1011,7 @@ body, h1, h2, h3, h4, h5, p{
     
     .back_office{
         background-color: @white; 
-        .chaptar-box{
-            margin: 15% 0;
-        }
+        
         .chaptar-img{
             img{
                 width: 80%;
@@ -1515,17 +1113,8 @@ body, h1, h2, h3, h4, h5, p{
     }
     
 }
-.cafe{
-   
-  .restaurant;
-  section.banner{
-        .bg_img( "../images/bg/cafe-bg.png");
-         
-    }
-    #bring-order{
-        .bg_img( "../images/img-businesses/cafe/cafe-order-bg.jpg");
-    }
-}
+
+
 .coffee_house{
     
     .bar;
@@ -1545,6 +1134,7 @@ body, h1, h2, h3, h4, h5, p{
 .back_office{
         h2.black{
             color: @blue; 
+            font-size: @h2;
         }
         
         .chaptar{
@@ -1553,8 +1143,9 @@ body, h1, h2, h3, h4, h5, p{
                 background-color: @blue; 
             }
             .chaptar-box{
-                padding: 20px;
-                padding-top: 25px;
+                padding: 6%;
+                padding-top: 7%;
+                margin: 12% 0;
                 h3{
                   font-size: @p;
                   text-align: center;
@@ -1567,7 +1158,21 @@ body, h1, h2, h3, h4, h5, p{
         }
     }
 
-
+@media only screen and (max-device-width: 800px) {
+    .back_office{    
+        h2.black{
+           font-size: @h3;
+        }
+        .chaptar{
+            .chaptar-box{
+                
+                margin: 2% 0;
+              
+            }
+            
+        }
+    }
+}
 
 .terminal{
     section.banner{
@@ -1597,7 +1202,7 @@ body, h1, h2, h3, h4, h5, p{
        
             .single-service {
                 padding: 0px;
-                margin-bottom: 1%;
+                margin-bottom: 2%;
             }
         .single-service-main{
             .single-service;
@@ -1645,42 +1250,7 @@ body, h1, h2, h3, h4, h5, p{
             }
         }
     }
-//    .terminal_for_device{
-//        text-align: center;
-//        .testimonial-single{
-//            background-color: rgba(1, 1, 1 , 0.7);
-//        }
-//       .bg_img( "../images/bg/kass.jpg");
-//        
-//         h2{
-//           color: @white;
-//           font-size: @h2;  
-//        }
-//        
-//        .owl-carousel.student-review .owl-nav button{
-//            background-color: rgba(1, 1, 1 , 0.7) !important;
-//            margin-top: 20px;
-//            i.fa {
-//                color: @white;
-//            }
-//            
-//        }
-//        
-//        .owl-carousel.student-review .owl-nav button:hover{
-//            background-color: rgba(1, 1, 1 , 0.9) !important;
-//        }
-//        .style--two{
-//            
-//            h5{
-//                color: @white;
-//                font-size: @h3; 
-//                text-align: center;
-//            } 
-//        }
-//        
-//        
-//    }
-    
+
      .terminal_for_device{
         background-color: @white;
         
@@ -1797,7 +1367,7 @@ body, h1, h2, h3, h4, h5, p{
          }
          .single-service.style--three {
             padding: 2%;
-            margin-bottom: 6%;
+            margin-bottom: 20%;
         }
          p{
              text-align: left;
@@ -1861,6 +1431,11 @@ body, h1, h2, h3, h4, h5, p{
     }
     
     
+}
+@media only screen and (max-width: 1199px){
+    .single-feature {
+        padding: 0px;
+    }
 }
 .three_part_menu{
        h2.black{
@@ -1954,6 +1529,11 @@ body, h1, h2, h3, h4, h5, p{
             } 
         }
     }
+    .accordion.management{
+        .accordion-card{
+            padding: 4% 2%;
+        }  
+    }
     
 }
 
@@ -2011,7 +1591,7 @@ body, h1, h2, h3, h4, h5, p{
     .bace-back;
     section.banner{
         .bg_img( "../images/bg/security-bg.png ");
-         text-align: center;  
+         text-align: right;  
     }
 }
 .marketing{
@@ -2047,7 +1627,7 @@ body, h1, h2, h3, h4, h5, p{
     }
     background-color: @white;
     .service-content{
-        
+        margin: 0px;
         
             
             h3{
@@ -2070,6 +1650,9 @@ body, h1, h2, h3, h4, h5, p{
                 
             }
         
+    }
+    .single-service.style--seven{
+        margin-bottom: 5%;
     }
 }
 
@@ -2193,13 +1776,19 @@ body, h1, h2, h3, h4, h5, p{
     }
     
     .imgIcons{
-        margin: 40px;
+        margin: 20px;
+        align-content: center;
         .imgIcon{
-        width: 46px;
-        height: 46px;
-        margin: 6px;
+            width: 15%;
+            margin: 4%;
+            height: auto;
+//            margin: 6px;
         }
         
+    }
+    .badge{
+        width: 40%;
+        margin: 0% 4% ;
     }
     .imgShops{
            width: 150px;
@@ -2294,39 +1883,691 @@ body, h1, h2, h3, h4, h5, p{
     
     
     .p_contacts{
-    background-color: @moloko;
-    .service-content{
-        text-align: center;
-        h3{
-            color: @red;
-            font-size:@h3;
-        }
-        p{
-            color: @black;
-            
-            a{
+        background-color: @moloko;
+        .service-content{
+            text-align: center;
+            h3{
                 color: @red;
-                
-                &:hover{
-                    color: @blue;
+                font-size:@h3;
+            }
+            p{
+                color: @black;
+
+                a{
+                    color: @red;
+
+                    &:hover{
+                        color: @blue;
+                    }
                 }
             }
         }
     }
 }
-}
 
 //media
+@media only screen and (max-device-width: 720px) {
+    
+    .steps_for_work{
+        .step{
+            h2.black{
+                font-size: @h3;
+            }
+            .img.two{
+                     h3{
+                    font-size: @p;
+                    }
+                }
+            .img{
+                h3{
+                    font-size: @p;
+                }
+            }
+        }
+    }
+    .main{
+
+        .about{
+         
+            h2{   
+                font-size: @h3;
+            }
+        }
+
+        .about_programm{
+           
+            h2.black{
+            
+                font-size: @h3;
+            }
+            .single-service{
+                
+                .service-content{
+                    h3{
+                       
+                        font-size: @p;
+                    }
+                }
+            }
+
+        }
+        .diagramm{
+           h2.black{
+                font-size: @h3;
+            } 
+        }
+        .businesses{
+            
+             h2.black{
+                font-size: @h3;
+            }
+            
+            .service-content{
+                h3{
+                    font-size: @p;
+                }
+
+            }
+            .single-service.style--seven{
+                h3{
+                    font-size: @p;
+                }
+            } 
+        }
+        .back_front{
+            h2{
+                font-size: @h3;
+            }
+            .feature-content{
+                .section-title{
+                    h3.black{
+                         font-size: @p;
+                    }
+                    p{
+                        font-size: @p;
+                    }
+                }
+                ul.list-check{
+                    li{
+                        h4{
+                            font-size: @p;
+                        }
+                    }
+                }
+            }
+        }
+        .demos{
+            h2{
+                font-size: @h3;
+            }
+            .demos_card{
+                h3{
+                    font-size: @p;
+                }
+            }
+        }
+        .questions{
+            h2.black{
+                font-size: @h3;
+            }
+            .question_card{
+                .single-service{
+                    .service-content{
+                        
+                        h4{
+                            font-size: @p;
+                        }
+                        p{
+                            font-size: @p;
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
+    .advantage_part{
+
+       i{
+           font-size: @h3;
+       }
+        .service-content{
+            h3{
+                font-size: @p;
+            }
+
+        }
+
+    }
+
+
+    .all_devices{
+       i{
+           font-size: @h3;
+       }
+
+
+        .feature-content{
+            h3.black{
+                font-size: @h3;
+            }
+        }
+    }
+
+    .demos{
+            .section-title {
+                    h2{
+
+                    font-size: @h3;
+                }
+                
+            }
+            .demos_card{
+
+                h3{
+                    font-size: @p;
+                }
+
+                div{
+                    a{
+                        padding: 15px;
+                        i{
+                            font-size: @p;
+                        }
+
+                    }
+                    
+                }
+
+            }
+        }
+
+
+    //стили для страницы restaurant
+    .restaurant{
+        .steps_for_work{
+            h1{
+                font-size: @h3;
+            }
+
+        }
+        .icon_map{
+            .section-title{
+                h2 {
+                    font-size: @h3;
+                }
+            } 
+        } 
+        .menu_online{
+            .section-title{
+                h2{
+                    font-size: @h3;
+                } 
+            } 
+        }
+        .slider3{
+             h2{
+                font-size: @h3;
+
+            }
+            .how-work-slider2{
+                .swiper-slide{
+                    h3{
+                        font-size: @p;
+
+                    }
+                } 
+            }
+
+        }
+        #chief_screen{
+            h2{
+                font-size: @h3;
+            }
+        }
+        .menu_online{
+            .section-title{
+                h2{
+                    color: @red;
+                }
+            }
+        }
+
+        #bring-order{
+            h2{
+               font-size: @h3;  
+            }
+            .single-service{
+
+                p{ 
+                    font-size: @p; 
+
+                }
+            }
+        }
+        .section-title.host{
+            margin-bottom: 0;
+        }
+        .admin_order{
+            h2{
+               font-size: @h3;  
+            }
+        }
+       
+    }
+    
+   
+    //стили для страницы  fastfood
+
+    .fastfood{
+
+        .icon_map{
+            background-color: @moloko; 
+            .section-title{
+               margin-bottom: 0 !important;
+               h2{
+                   color: @black;
+                   font-size: @h3;
+                } 
+            }
+
+        }
+
+        .steps_for_work{
+            h1{
+                font-size: @h3;
+            }
+            .dot-line.style--two:before { 
+            }
+            .swiper-slide  p {
+                font-size: @p;
+            }
+
+        }
+
+
+        .order_screen, .admin_order{
+            h2{
+                font-size: @h3;
+            }
+           
+        }
+        .chef_screen{
+            h2{
+               font-size: @h3;  
+            }
+            .single-service{
+
+                p{ 
+                    font-size: @p; 
+
+                }
+            }
+        }
+
+    }
+    .shop{ 
+       .fastfood;
+
+    }
+    .coffee_house{
+         .fastfood;
+    }
+    //стили для страницы  bar
+    .bar{
+        .steps_for_work{
+            h1{
+    
+                font-size: @h3;
+            }
+            .swiper-slide{
+                p{
+                    font-size: @p;
+                }
+            }
+
+        }
+        .steps3{
+            .step3{
+                h3{
+                    font-size: @h3;
+                }
+
+            }
+        }
+        
+
+    }
+
+    .terminal{
+           
+            .terminal_map{
+                h2{
+                        font-size: @h3;
+                       
+                    }
+                h3
+                {
+                    font-size: @p;
+                    margin-bottom: 10%;
+                }
+                
+
+            }
+            .terminal_for_business{
+                h2{
+                    font-size: @h3;
+                }
+                
+            }
+            .terminal_for_platforms{
+                h2{
+                    font-size: @h3;
+                }
+                .single-service{
+                   
+                    h3{
+                        font-size: @p;
+                    }
+                }
+            }
+
+             .terminal_for_device{
+               
+                .style--three{
+                    h2{
+                        font-size: @h3;
+                    }
+                   
+                 }
+                .feature-content{
+                    .section-title{
+                        h3.black{
+                             font-size: @p;
+                        }
+                        
+                    }
+                    
+
+                }
+               
+            }
+
+
+            .terminal_for_oborud{
+                
+                h2{
+                   font-size: @h3;  
+                }
+                h3{
+                   font-size: @p;
+                }
+            }
+
+
+             .terminal_for_funk{
+                h2{
+                   color: @red;
+                   font-size: @h3;  
+                }
+
+            }
+
+            .terminal_for_menus{
+
+                h2{
+                   font-size: @h3;  
+                }
+                 .swiper-container.how-work-slider {
+                     .swiper-slide{
+                         .content{
+                             h3{
+                                font-size: @p; 
+                             }
+                         } 
+                     }
+                 }
+            }
+             .terminal_for_tems{
+                h3{
+                  
+                   font-size: @h3;
+                }
+                
+        }
+
+
+        }
+    
+    .three_part_menu{
+        .chaptar{
+            .chaptar-box.active{
+            }
+            .chaptar-box{
+                h3{
+                  font-size: @p;
+                }
+            }
+            
+        } 
+    }
+
+    .swiper-container.how-work-slider .swiper-slide .content h3{
+        font-size: @p; 
+    }
+
+    .bace-back{
+
+        .management_c1{
+            font-size: @h3;
+        }
+        .for_funk{
+
+            .accordion.management{
+               .accordion-card{
+                   .accordion-title{
+                       h3{
+                           font-size: @p;
+                       }
+                   } 
+                }  
+            }   
+
+
+        }
+
+    }
+    .warehouse{
+        .bace-back;
+    }
+
+
+    .finance{
+        .bace-back;
+       
+    }
+    .security{
+        .bace-back;
+       
+    }
+    .marketing{
+        
+        .bace-back;
+    }
+    .sales-report{
+        .bace-back;
+    }
+    .cooking-dish{
+        .bace-back;
+
+    }
+    .accordion.management{
+        .accordion-card{
+            .accordion-title{
+                h3{
+                    font-size: @p;
+                }
+            } 
+        }  
+    }   
+
+    .opportunities_part{
+        .section-title{
+            h2{
+                font-size: @h3;
+            }
+
+        }
+        .single-service{
+            i{
+                font-size: @h3;
+            }
+
+            .service-content{
+               h3{
+                    font-size: @p;
+                }
+                p{
+                    font-size: @p;
+                } 
+            }
+        }
+
+    }
+
+    .for_boss{;
+        .feature-content{
+            .section-title{
+                h2.black{
+                     font-size: @h3;
+                }
+                p{
+                    font-size: @p;
+                }
+            }
+            ul.list-check{
+                li{
+                    p{
+                        font-size: @p;
+                    }
+                    
+                }
+            }
+        }
+    }
+  
+
+    .inline_nav{
+        .section-title{
+            h2.black{
+                font-size: @h3;
+            }
+        }
+        
+        .service-content{
+                h3{
+                    font-size:@p;
+
+                }
+                h3.active{
+                    font-size:@p;
+                    }
+
+                }
+
+        }
+       
+   
+
+ 
+
+
+    .equipments{
+        .all_price{
+            #sum{
+                font-size: @p;
+            }
+        }
+
+        .equipment{
+            h2{
+                font-size: @h3;
+
+            }
+            .swiper-slide{
+                h4{
+                   font-size: @p; 
+                }
+                p{
+                    font-size: @p; 
+                }
+                span{
+                    font-size: @p;
+                }
+            }
+
+        }
+
+    }
+
+    .caf-form_red{
+        h2{
+            font-size: @h3;
+        }
+    }
+
+    .caf-form{
+        h2{
+            font-size: @h3;
+        }
+    }
+    .single-service.style--seven{
+        h3{
+            font-size: @p;
+        }
+    }
+
+    .single-service{
+        padding: 5%;
+    }
+    
+
+    .price{
+        .tabcontent {
+            h2{
+                font-size: @h3;
+            }
+        }
+        .content{
+            h2{
+                font-size: @h3;
+            }
+        }
+        
+    }
+    .section-title.style--three{
+        margin-bottom: 0%;
+    }
+}
 
 
 
+@media only screen and (max-width: 991px){
+    .contact-form-left{
+        margin-bottom: 10px;
+    }
+     .section-title {
+        margin-bottom: 10px;
+    }
+}
+    
 
 
 
-
-
-
-
+////price
 
 
 .price{
