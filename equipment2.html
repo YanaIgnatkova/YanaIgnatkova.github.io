@@ -3,51 +3,52 @@
 
     <head>
         <!-- Page Title -->
-        <title>Автоматизация ресторана быстрого питания – программа Caffesta</title>
+        <title>Каффеста</title>
 
         <!-- Meta Data -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="Онлайн-программа для фастфуда на планшете или POS-системе. В одной программе: удобное меню, быстрое принятие заказа и оплата, учёт всех товаров на складе, внедрение акций и скидок, управление финансами и др. Первые 14 дней бесплатно. Простая установка."/>
-        <meta name="keywords" content="автоматизация фастфуда, терминал самообслуживания, Удобная касса для фаст фуда,  автоматизация и контроль ресторана быстрого питания"/>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="../assets/images/icon-caffesta.png"/>
+        <link rel="shortcut icon" href="assets/images/icon-caffesta.png"/>
+
+        <!-- Web Fonts -->
+<!--        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700%7cUbuntu:300,300i,400,400i,500,500i,700&display=swap" rel="stylesheet">-->
 
         <!-- ======= Bootstrap CSS ======= -->
-        <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
 
         <!-- ======= Font Awesome CSS ======= -->
-        <link rel="stylesheet" href="../assets/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
 
         <!-- ======= Owl Carousel CSS ======= -->
-        <link rel="stylesheet" href="../assets/plugins/owlcarousel/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css"/>
 
         <!-- ======= Magnific PopUp CSS ======= -->
-        <link rel="stylesheet" href="../assets/plugins/magnific-popup/magnific-popup.css"/>
+        <link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.css"/>
 
         <!-- ======= Swiper Slider CSS ======= -->
-        <link rel="stylesheet" href="../assets/plugins/swiper-slider/swiper.min.css"/>
+        <link rel="stylesheet" href="assets/plugins/swiper-slider/swiper.min.css"/>
 
         <!-- ======= Main Stylesheet ======= -->
-        <link rel="stylesheet" href="../assets/css/style.css"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
 
         <!-- ======= Custom Stylesheet ======= -->
-        <link rel="stylesheet" href="../assets/css/custom.css"/>
+        <link rel="stylesheet" href="assets/css/custom.css"/>
         
         <!-- ======= Main Stylesheet ======= -->
-        <link rel="stylesheet" href="../assets/css/slider.css"/>
-
-       
+<!--        <link rel="stylesheet" href="assets/css/slider.css"/>-->
         
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="assets/css/styleForSliderForPosters.css">
     </head>
 
-    <body class="fastfood">
+    <body class="price equipments">
     <!-- Preloader -->
         <div class="preloader">
             <div class='loader-circle'>
@@ -55,7 +56,7 @@
                     <div class="loader-line"></div>
                 </div>
                 <div class="content">  </div>
-                <img width="300px" src="../assets/images/icon-caffesta.svg">
+                <img width="300px" src="assets/images/icon-caffesta.svg">
             </div>
         </div>
         <!-- End Preloader -->
@@ -64,9 +65,8 @@
         <div class="offcanvas-overlay"></div>
         <!-- End Offcanvas Overlay -->
 
-            <!-- Mobile Menu -->
-      
-          <div id="mobile_menu" class="offcanvas-panel">
+        <!-- Mobile Menu -->
+        <div id="mobile_menu" class="offcanvas-panel">
             <!-- Panel -->
             <div class="panel">
                 <!-- Offcanvas Header -->
@@ -74,8 +74,8 @@
                     <!-- Offcanvs Logo -->
                     <div class="d-flex align-items-center">
                         <!-- Logo -->
-                        <a href="../index.html" class="logo">
-                            <img src="../assets/images/logoB-caffesta.png" alt="Логотип программы Caffesta в мобильной версии">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logoB-caffesta.png" alt="Логотип программы Caffesta в мобильной версии">
                         </a>
                         <!-- End Logo -->
                     </div>
@@ -83,7 +83,7 @@
 
                     <!-- Offcanvas Close -->
                     <div class="offcanvas-close">
-                         <img src="../assets/images/icons/close.svg" class="svg" alt="Иконка закрыть">
+                         <img src="assets/images/icons/close.svg" class="svg" alt="Иконка закрыть">
                     </div>
                     <!-- End Offcanvas Close -->
                 </div>
@@ -92,15 +92,15 @@
                 <!-- Offcanvas Menu -->
                 <div class="mobile-main-menu plugin">
                     <ul class="nav flex-column">
-                        <li class="current-menu-parent"><a href="#">Бизнесы</a>
+                        <li ><a href="#">Бизнесы</a>
                             <!-- Submenu -->
                             <ul class="sub-menu">
-                                <li ><a href="shop.html">Магазин</a></li>
-                                <li class="current-menu-parent"><a href="fast-food.html">Фаст-фуд</a></li>
-                                <li><a href="bar.html">Бар</a></li>
-                                <li><a href="coffee-house.html">Кофейня</a></li>
-                               
-                                <li><a href="restaurant.html">Ресторан/Кафе</a></li>
+                                <li><a href="businesses/shop.html">Магазин</a></li>
+                                <li><a href="businesses/fast-food.html">Фаст-фуд</a></li>
+                                <li><a href="businesses/bar.html">Бар</a></li>
+                                <li><a href="businesses/coffee-house.html">Кофейня</a></li>
+                                
+                                <li><a href="businesses/restaurant.html">Ресторан/Кафе</a></li>
                             </ul>
                             <!-- End Submenu -->
                         </li>
@@ -108,24 +108,23 @@
                         <li><a href="#">Возможности</a>
                             <!-- Submenu -->
                             <ul class="sub-menu">
-                                <li><a href="../opportunities/terminal.html">Терминал</a></li>
-                                <li><a href="../opportunities/sales-report.html">Отчёты продаж</a></li>
-                                <li><a href="../opportunities/cooking-dish.html">Общепит</a></li>
-                                <li><a href="../opportunities/warehouse.html">Склад</a></li>
-                                <li><a href="../opportunities/finance.html">Финансы</a></li>
-                                <li><a href="../opportunities/marketing.html">Маркетинг</a></li>
-                                <li><a href="../opportunities/security.html">Доступ и безопасность</a></li>
+                                <li><a href="opportunities/terminal.html">Терминал</a></li>
+                                <li><a href="opportunities/sales-report.html">Отчёты продаж</a></li>
+                                <li><a href="opportunities/cooking-dish.html">Общепит</a></li>
+                                <li><a href="opportunities/warehouse.html">Склад</a></li>
+                                <li><a href="opportunities/finance.html">Финансы</a></li>
+                                <li><a href="opportunities/marketing.html">Маркетинг</a></li>
+                                <li><a href="opportunities/security.html">Доступ и безопасность</a></li>
                             </ul>
                             <!-- End Submenu -->
                         </li>
-                        <li><a href="../price.html">Цены</a></li>
-                        <li><a href="../equipment.html">Оборудование</a></li>
-                        <li><a href="../contacts.html">Контакты</a></li>
+                        <li><a href="price.html">Цены</a></li>
+                        <li class="current-menu-parent"><a href="#">Оборудование</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
                        
                     </ul>
-                    <a href="#form" class="all_caf_btn">Попробовать бесплатно</a>
+                     <a href="#form" class="all_caf_btn">Попробовать бесплатно</a>
                 </div>
-                 
                 <!-- End Offcanvas Menu -->
             </div>
             <!-- End Panel -->
@@ -141,8 +140,8 @@
                         <div class="col-lg-2 col-sm-4 col-8">
                             <!-- Logo Begin -->
                             <div class="logo">
-                                <a href="../index.html">
-                                    <img class="default-logo" src="../assets/images/logoW-caffesta.png" data-rjs="2" alt="Логотип программы Caffesta">
+                                <a href="index.html">
+                                    <img class="default-logo" src="assets/images/logoW-caffesta.png" data-rjs="2" alt="Логотип программы Caffesta">
                                 
                                 </a>
                             </div>
@@ -161,15 +160,15 @@
                                 <!-- Main Menu -->
                                 <div class="main-menu d-flex align-items-center justify-content-start">
                                     <ul class="nav align-items-center">
-                                        <li s ><a href="#">Бизнесы</a>
+                                        <li ><a href="#">Бизнесы</a>
                                             <!-- Submenu -->
                                             <ul class="sub-menu">
-                                                <li><a href="shop.html">Магазин</a></li>
-                                                <li class="current-menu-parent"><a href="fast-food.html">Фаст-фуд</a></li>
-                                                <li><a href="bar.html">Бар</a></li>
-                                                <li><a href="coffee-house.html">Кофейня</a></li>
-                                               
-                                                <li><a href="restaurant.html">Ресторан/Кафе</a></li>
+                                                <li><a href="businesses/shop.html">Магазин</a></li>
+                                                <li><a href="businesses/fast-food.html">Фаст-фуд</a></li>
+                                                <li><a href="businesses/bar.html">Бар</a></li>
+                                                <li><a href="businesses/coffee-house.html">Кофейня</a></li>
+                                                
+                                                <li><a href="businesses/restaurant.html">Ресторан/Кафе</a></li>
 
                                             </ul>
                                             <!-- End Submenu -->
@@ -178,19 +177,20 @@
                                         <li><a href="#">Возможности</a>
                                             <!-- Submenu -->
                                             <ul class="sub-menu">
-                                                <li><a href="../opportunities/terminal.html">Терминал</a></li>
-                                                <li><a href="../opportunities/sales-report.html">Отчёты продаж</a></li>
-                                                <li><a href="../opportunities/cooking-dish.html">Общепит</a></li>
-                                                <li><a href="../opportunities/warehouse.html">Склад</a></li>
-                                                <li><a href="../opportunities/finance.html">Финансы</a></li>
-                                                <li><a href="../opportunities/marketing.html">Маркетинг</a></li>
-                                                <li><a href="../opportunities/security.html">Доступ и безопасность</a></li>
+                                                <li><a href="opportunities/terminal.html">Терминал</a></li>
+                                                <li><a href="opportunities/sales-report.html">Отчёты продаж</a></li>
+                                                <li><a href="opportunities/cooking-dish.html">Общепит</a></li>
+                                                <li><a href="opportunities/warehouse.html">Склад</a></li>
+                                                <li><a href="opportunities/finance.html">Финансы</a></li>
+                                                <li><a href="opportunities/marketing.html">Маркетинг</a></li>
+                                                <li><a href="opportunities/security.html">Доступ и безопасность</a></li>
+                                                <li><a href="job-details1.html">Интеграция</a></li>
                                             </ul>
                                             <!-- End Submenu -->
                                         </li>
-                                        <li><a href="../price.html">Цены</a></li>
-                                        <li><a href="../equipment.html">Оборудование</a></li>
-                                        <li><a href="../contacts.html">Контакты</a></li>
+                                        <li><a href="price.html">Цены</a></li>
+                                        <li class="current-menu-parent"><a href="#">Оборудование</a></li>
+                                        <li><a href="contacts.html">Контакты</a></li>
 
                                     </ul>
                                 </div>
@@ -206,543 +206,308 @@
             </div>
             <!-- Header Style One End -->
         </header>
-        <!-- End Header -->
+        <!-- End Header -->  
         
         <!-- Banner -->
         <section class="banner analytic">
+            
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-5 col-md-12 text-right order-2 
-                        order-sm-2 order-lg-1">
-                        <div class="banner-img wow fadeInRight2" data-wow-duration="1.35s" data-wow-delay=".0s">
-                            <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/fast-food-main-big.png"><img src="../assets/images/img-businesses/fast-food/fast-food-main-mini.png"  width="80%"  class="b-thumb" data-rjs="2" alt="Внешний вид терминала и экрана выдачи заказов в ресторане быстрого питания" ></a>
-                           
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-12 order-1 
-                        order-sm-1 order-lg-1">
+                    
+                    <div class="col-lg-4 col-md-12">
                         <div class="banner-content">
-                            <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">Доступная автоматизация ресторана быстрого питания</h1>
+                            <h1 class="wow fadeInLeft2" data-wow-duration="1.5s">CAFFESTA</h1>
                             
-                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Комплексное приложение Caffesta для облегчения работы всех вашего заведения.</p>
-                            
-                            <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                <div class="banner-btn-group">
-                                    <a href="#demo" class="all_caf_btn">Демоверсия</a>
-                                    <a href="#" class="link line-btn">Смотреть видео</a>
-                                </div>
-
-                            </div>
+                            <p class="wow fadeInRight2" data-wow-duration="1.5s">Наши предложения - самые выгодные!</p>
                         </div>
+                    </div>
+                    <div class="col-md-12" style="padding: 0px;">
+                        <a href="#" class="tablinks active">Для кафе и ресторанов</a>
+                        <a  href="equipment-coffee-house.html"  class="tablinks" >Для кофеен и баров</a>
+                        
+                        <a  href="equipment-shop.html"  class="tablinks">Для магазинов</a>
+                        
+                        <a href="equipment-fast-food.html" class="tablinks">Для фаст-фуда</a>
                     </div>
                     
                 </div>
             </div>
         </section>
-        <!-- End Banner -->
-         <!-- Service Style 4 -->
-        <section class="pb-90 pt-140 analytic-fbg icon_map" >
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 col-md-8 col-12 text-center">
-                        <!-- Section Title -->
-                        <div class=" section-title wow fadeInUp10" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <h2 >Этапы обработки заказа</h2>
-                            <p>Caffesta автоматизирует обработку заказа покупателя на всех его этапах. </p>
-                        </div>
-                        <!-- End Section Title -->
-                    </div>
-                </div>
-                <div class="row justify-content-between mt-50">
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <!-- Single Feature -->
-                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".1s">
-                             <a href="#take-order" >
-                                 <img src="../assets/images/icons/terminal-icons/take-order-ff.svg" data-rjs="2" alt="Иконка приема заказа и оплаты">
-
-                                <div class="service-content">
-                                    <h3>1. Кассир принимает заказ и оплату</h3>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- End Single Feature -->
-                    </div>
-               
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <!-- Single Feature -->
-                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".3s">
-                             <a href="#chief_screen" >
-                                 <img src="../assets/images/icons/terminal-icons/chef.svg" data-rjs="2" alt="Иконка получения поваром списка блюд ">
-
-                                <div class="service-content">
-                                    <h3>2.1. Заказ клиента отправляется на кухню к повару</h3>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- End Single Feature -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <!-- Single Feature -->
-                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
-                             <a href="#order_screen" >
-                                 <img src="../assets/images/icons/terminal-icons/wait.svg" data-rjs="2" alt="Иконка получения поваром списка блюд">
-
-                                <div class="service-content">
-                                    <h3>2.2. Клиент ожидает готовности своего заказа в зале</h3>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- End Single Feature -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <!-- Single Feature -->
-                        <div class="single-service style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".4s">
-                             <a href="#admin_order" >
-                                <img src="../assets/images/icons/terminal-icons/receive-order.svg" data-rjs="2" alt="Иконка получения посетителем заказа">
-
-                                <div class="service-content">
-                                    <h3>3. Выдача</h3>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- End Single Feature -->
-                    </div>
-                    
+        <section>
+            <div class="row justify-content-center" > 
                 
-                </div>
-            </div>
-        </section>
-        <!-- End Service Style 4 -->
-        <section class="pb-90 pt-90 steps_for_work" id="take-order">
-            <div>
-                <h1>Для кассира: быстрые прием и оплата заказа</h1>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Feature Box -->
-                        <div class=" wow grow step" data-wow-duration="2s" data-wow-offset="200">
-                            
-                            <div class="img">
-                               <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/terminal-fastfood-menu-big.png"><img src="../assets/images/img-businesses/fast-food/terminal-fastfood-menu-mini.png" alt="Вид терминала при приёме заказа"></a>
-                             
-                               <h3> 1. Создание заказа</h3>
-                            </div>
-                            <div>
-                                <p>Используя разделы меню с тематическими надписями и картинками, кассир быстро и точно формирует заказ. </p>
-                            </div>
-                        </div>
-                        <!-- End Single Feature Box -->
-                    </div>
-
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Feature Box -->
-                        <div class="wow grow step" data-wow-duration="2s" data-wow-offset="200">
-                             <div class="img" >
-                                <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/terminal-fastfood-order-big.png"><img src="../assets/images/img-businesses/fast-food/terminal-fastfood-order-min.png" alt="Экран добавление блюд к заказу" ></a>
+                <div  class="col-lg-8 col-12">
+                    <h2>Варианты оборудования для кофейни или бара</h2>
                     
-                                <h3>2.	Выбор блюд</h3>
-                            </div>
-                            <div>
-                                <p>После нажатия на карточку блюда оно попадает в заказ, который отображается в панели слева. На ней же отображены цены, количество блюд и итоговая сумма.  </p>
-                            </div>
-                            
-                            
-                            
-                        </div>
-                        <!-- End Single Feature Box -->
-                    </div>
-
-                    <div class="col-lg-5 col-md-12">
-                        <!-- Single Feature Box -->
-                        <div class=" wow grow step two" data-wow-duration="2s" data-wow-offset="200">
-                             <div class="img">
-                                 <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/terminal-fastfood-sale-big.png"><img src="../assets/images/img-businesses/fast-food/terminal-fastfood-sale-mini.png" alt="Экран со всеми акциями и скидками"></a>
-                               
-                                 <h3> 3.	Добавление скидки</h3>
-                            </div>
-                            <div>
-                                <p> К заказу можно применить скидку или акцию. Для этого нужно нажать на соответствующую кнопку и выбрать во всплывающем окошке нужное. </p>
-                            </div>
-                            
-                            
-                        </div>
-                        <!-- End Single Feature Box -->
-                    </div>
-
-                     <div class="col-lg-5 col-md-12">
-                        <!-- Single Feature Box -->
-                        <div class="wow grow step" data-wow-duration="2s" data-wow-offset="200">
-                             <div class="img">
-                                 <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/terminal-fastfood-pay-big.png"><img src="../assets/images/img-businesses/fast-food/terminal-fastfood-pay-min.png" alt="Экран для выбора типа оплаты и её проведения"></a>
-                              
-                                 <h3>4. Отправка заказа на кухню и оплата</h3>
-                            </div>
-                            <div>
-                                <p>Когда чек полностью сформирован, можно выбрать один из видов оплаты: наличными, банковской картой или другим имеющимся типом оплаты. После нажатия кнопки «Оплатить» заказ автоматически отправляется на кухню, а для клиента печатается чек. </p>
-                            </div>
-                            
-                            
-                            
-                        </div>
-                        <!-- End Single Feature Box -->
-                    </div>
+                    
                 </div>
-            </div>
+                <div  class="col-lg-7 col-12">
+                    
+                    
+                    <p> Данные наборы оборудования являются лишь рекомендуемыми и могут быть любым образом изменены или дополнены в соответствии со спецификой именно Вашего заведения.</p>
+                </div>
+                <div  class="col-lg-3 col-12 all_price">
+                    <p>Минимальная общая сумма: <br/>
+                     <span id="sum">0</span>
+                        бел. руб.
+                    </p>
+                </div>
+                
             
-           
-        </section> 
-  
-        
-        <!-- Features -->
-        <section class="order_screen pt-80 pb-80" id="order_screen">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-12">
-                        <h2> Для посетителя: наглядный экран степени готовности заказа
-                        </h2>
-                        
-                    </div>
-
-                <div class="row align-items-center justify-content-center pb-20 mb-60">
-                    <div class="col-lg-5 order-1 order-lg-0">
-                        <div class="feature-img analytic">
-                            <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/order-screen-big.png"><img src="../assets/images/img-businesses/fast-food/order-screen-mini.png" class="feature-map2 wow grow2" data-wow-duration="2s" alt="Вид экрана готовности заказов заведения"></a>
-                            
-                         
-                        </div>
-                    </div>
-                    <div class="col-lg-5 order-0 order-lg-1">
-                        <div>
-                            <div class="section-title analytic m-less">
-                               
-                                <p>Все текущие активные заказы заведения отображены на экране в зале. Любой посетитель, имея чек с номером своего заказа, может отследить процесс его приготовления.  
-                                </p>
-                                <ul>У заказа есть два состояния, которые отображены на экране: 
-                                    <li>«ГОТОВЯТСЯ» - заказанная продукция находится на кухне и готовится.</li>
-                                    <li>«ГОТОВЫ» - заказы, которые уже собраны работником заведения и могут быть выданы.</li>
-                                
-                                
-                                </ul>
-                                <p>
-                               После оплаты посетитель следит за экраном выдачи и ждёт свой заказ. Когда его номер перемещается в раздел «ГОТОВЫ», клиент подходит к окну выдачи и получает всю заказанную продукцию.
-                                 </p>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-                                
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#demo" class="all_caf_btn">Попробовать демоверсию</a>
-                    </div>
-                </div>
-            </div>
+                
             </div>
         </section>
-        <!-- End Features -->
-        <section class="pb-80 pt-80 chef_screen  justify-content-center" id="chief_screen">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <!-- Section Title -->
-                        <div class="section-title host">
-                           
-                            <h2> Для повара: режим управления готовности блюд 
-                        </h2>
-                        </div>
-                        <!-- End Section Title -->
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 col-md-12">
-                        
-                        <!-- Single Service -->
-                        <div class="single-service align-items-center row">
-                            
-                            
-                            <div class="col-lg-6 col-md-12">
-                                <p>
-                                    На экране для повара отображены все активные заказы заведения. Повар может выбрать из списка нужный, нажав кнопку «начать работу», и приступить к его готовке. 
-                                </p>
-                                <p>По мере готовности он меняет статус заказа. Все заказы можно фильтровать по степени готовности: активный, готовится, приготовлен.</p>
-                            </div>
-                            <div class=" col-lg-6 col-md-12">
-                                <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/chef-screen-big.png"><img class="feature-map wow grow2" src="../assets/images/img-businesses/fast-food/chef-screen-mini.png"   data-wow-duration="2s" alt="Экран повара с возможностью выбора заказов" ></a>
-                            </div>
-                            
-                           
-                            
-                            
-                        </div>
-                        <!-- End Single Service -->
-                   
-                    </div>
-                   
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#demo" class="all_caf_btn">Попробовать демоверсию</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Features -->
-        <section class=" pt-80 pb-80 admin_order" id="admin_order">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-12">
-                         <h2>Для работника: организация выдачи заказа</h2>
-                        
-                    </div>
-                    <div class="col-lg-5 text-center">
-                        <div class="feature-img analytic m-less">
-                             <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/admin-screen-big.png"><img src="../assets/images/img-businesses/fast-food/admin-screen-mini.png" alt="Терминал для работника, выдающего приготовленные заказы"></a>
-                           <br/>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div>
-                            <div class="section-title analytic m-less">
-                               
-                                <p>
-                                    Работник ресторана видит все заказы и степень их готовности. Готовую продукцию он собирает, упаковывает и меняет её статус на «Собран». При этом на экране в зале отображается, что заказ готов. После того, как клиент заберёт свои блюда, работник помечает, что они выданы.  
-                                    
-                                </p>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                                
-                <div class="row" style="margin-top: 30px;">
-                    <div class="col-lg-12 text-center">
-                        <a href="#demo" class="all_caf_btn">Попробовать демoверсию</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Features -->
-         <!-- Service Style 6 -->
-             <!-- End Service Style 6 -->
-        <section class="back_office pt-100 pb-100">
-        
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <!-- Section Title -->
-                        <div class="section-title book">
-                            <h2 class="black">Как этим управлять?</h2>
-                            <p>Управляйте всеми процессами заведения при помощи панели администратора.</p>
-                        </div>
-                        <!-- End Section Title -->
-                    </div>
-                </div>
-                <div class="row mt-30 justify-content-center">
-                    <div class="col-lg-3 col-md-6 col-12 order-0 order-md-1 order-lg-0">
-                        <!-- Chaptar -->
-                        <div class="chaptar tab-btn">
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box active" data-tab-select="tab1">
-                                <a><h3>Отчёты о продажах</h3> </a>
-                                
-                                
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab2">
-                                <h3>Общепит</h3>
-                               
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab3">
-                                <h3>Склад</h3>
-                                
-                            </div>
-                            <!-- End Chaptar Box -->
-                          
-                        </div>
-                        <!-- End Chaptar -->
-                    </div>
-                    <div class="col-lg-5 col-md-12 order-2 order-md-0 order-lg-1 text-center">
-                        <div class="tab-content chaptar-img">
-                            <div class="active" data-tab="tab1">
-                                 <a data-fancybox="gallery" href="../assets/images/img-opportunities/sales-report/report-main-big.png"><img src="../assets/images/img-opportunities/sales-report/report-main-min.png" alt="Раздел отчётов о продажах на ноутбуке" title="Раздел с отчётами о продажах"></a>
-                                <p>
-                                    Узнавайте актуальную информацию о продажах, анализируйте наиболее популярные товары и многое другое. Административная часть приложения Caffesta не упустит ни одной детали.
-                                    
-                                </p>
-                                <a href="../opportunities/sales-report.html" class="linkB"> Читать подробнее...</a>
-                            </div>
-                            <div data-tab="tab2">
-                                 <a data-fancybox="gallery" href="../assets/images/img-opportunities/cooking-dish/dish-main-big.png"><img src="../assets/images/img-opportunities/cooking-dish/dish-main-mini.png" alt="Экран управления товарами на ноутбуке" title="Экран управления товарами"></a>
-                                <p>
-                                   Создавайте техкарты ваших товаров, учитывайте полуфабрикаты и добавляйте модификаторы. Настраивайте создание и разделку товара по вашему желанию.  
-                                    
-                                </p>
-                                <a href="../opportunities/cooking-dish.html" class="linkB"> Читать подробнее...</a>
-                            </div>
-                            <div data-tab="tab3">
-                                <a data-fancybox="gallery" href="../assets/images/img-opportunities/warehouse/warehouse-main-big.png"><img src="../assets/images/img-opportunities/warehouse/warehouse-main-mini.png" alt="Экран управления складом" title="Экран управления складом"></a>
-                                <p>
-                                    Управляйте поставками и списанием товара в любой точке мира с помощью приложения. Все необходимые операции осуществляются в несколько кликов и автоматически сохраняются. 
-                                    
-                                </p>
-                                <a href="../opportunities/warehouse.html" class="linkB">Читать подробнее...</a>
-                            </div>
-                            <div data-tab="tab4">
-                                 <a data-fancybox="gallery" href="../assets/images/img-opportunities/security/security-main-big.png"><img src="../assets/images/img-opportunities/security/security-main-mini.png" alt="Вкладка для настройки доступа к приложению" title="Вкладка для настройки доступа к приложению"></a>
-                                <p>
-                                    Разделяйте доступ к данным и управлению между сотрудниками, управляйте точками продаж и имеющимися данными. Caffesta тонко настроит защиту данных.
-                                    
-                                </p>
-                                <a href="../opportunities/security.html" class="linkB"> Читать подробнее...</a>
-                            </div>
-                            <div data-tab="tab5">
-                                <a data-fancybox="gallery" href="../assets/images/img-opportunities/marketing/marketing-main-big.png"><img src="../assets/images/img-opportunities/marketing/marketing-main-mini.png" alt="Все функции маркетинга заведения в приложении" title="Функции маркетинга заведения в приложении"></a>
-                                <p>
-                                    При помощи приложения вы сможете добавлять и изменять скидки или акции, создавать скидочные группы, настраивать программу лояльности. Это поможет удержать клиентов и улучшить показатели продаж.
-                                    
-                                </p>
-                                <a href="../opportunities/marketing.html" class="linkB">Читать подробнее...</a>
-                            </div>
-                            <div data-tab="tab6">
-                                 <a data-fancybox="gallery" href="../assets/images/img-opportunities/finance/finance-main-big.png"><img src="../assets/images/img-opportunities/finance/finance-main-min.png" alt="Отчёты по финансам " title="Отчёты по финансам"></a>
-                                <p>
-                                    Следите за всеми денежными потоками вашего бизнеса, не выходя из дома. Составить финансовый отчёт или посчитать дополнительные расходы становится простым действием с приложением Caffesta.
-                                    
-                                </p>
-                                <a href="../opportunities/finance.html" class="linkB">Читать подробнее...</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12 order-1 order-md-2">
-                        <!-- Chaptar -->
-                        <div class="chaptar tab-btn">
-                            
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab4">
-                                <h3>Доступ и безопасность  </h3>
-                               
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab5">
-                                <h3>Маркетинг </h3>
-                               
-                            </div>
-                            <!-- End Chaptar Box -->
-                            <!-- Chaptar Box -->
-                            <div class="chaptar-box" data-tab-select="tab6">
-                                <h3>Финансы</h3>
-                                
-                            </div>
-                            <!-- End Chaptar Box -->
-                         
-                        </div>
-                        <!-- End Chaptar -->
-                    </div>
-                </div>
-            </div>
-        
-        </section>
-      
-        <section class="pb-80 pt-80 analytic-fbg demos" id="demo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        
-                        <div class="section-title style--three wow fadeInUp10" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <h2 class="black">Демоверсия для фаст-фуда:</h2>
-                            <p>Это ознакомительная демоверсия, все данные в ней периодически очищаются. Так же не печатаются чеки! Для работы рекомендуем воспользоваться <a href="#" class="link line-btn">персональной</a>.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-12">
-                       
-                        <div class="demos_card style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".1s">
-                            
-                          
-                            <div>
-                                <p>Рабочее место владельца, администратора, бухгалтера, маркетолога:
-                                </p>
-                                <p class="log">Логин: <b>admin</b>, Пароль:  <b>111</b></p>
-                                <a href="https://demo.caffesta.com/admin/login" class="link line-btn">Админ панель <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                
-                                
-                            </div>
-                         
-                            
-                        </div>
-                      
-                    </div>
-                    
-                    <div class="col-lg-4 col-12">
-                      
-                        <div class="demos_card style--seven text-center wow fadeInRight2" data-wow-duration="1s" data-wow-delay=".1s">
-                            
-                            
-                            <div>
-                                <p>Рабочее место кассира, бармена, официанта:
-                                </p>
-                                <p class="log">Пароль: <b>0002</b></p>
-                                <a href="http://coffe.caffesta.com:8081/"  class="link line-btn">Терминал <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                
-                                
-                            </div>
-                            
-                        </div>
-                       
-                    </div>
-                    
-                   
-                     
-                </div>
-            </div>
-        </section> 
         
         
        
-           <!-- Feature 3 -->
-        <section class="pt-80 pb-80 position-relative all_devices">
-            
-            <div class="container">
-                <div class="row align-items-center justify-content-center ">
-                    <div class="col-lg-5 col-md-12 ">
-                        <div class="feature-content plug">
-                            <!-- Section Title -->
-                            <div class="section-title">
-                                <h3 class="black">Caffesta доступна на любом оборудовании!</h3>
-                                <p>Для начала работы вам не нужно специальное оборудование. Достаточно будет простого планшета или даже мобильного телефона. Для увеличения скорости работы можно использовать POS-систему. </p>
-                                <p>
-                                Caffesta работает на всех популярных операционных системах, что даёт большую свободу в выборе оборудования.
-                                </p>
-                               <a href="../equipment.html" class="linkB">Подробнее...</a>
+        <!-- End Banner -->
+        
+        <section  class="container pb-40">
+            <div class="row justify-content-center">
+                <div  class="col-lg-6 col-12  obj-active">
+                    <h2>Для официанта</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
                                 </div>
-                            <!-- End Section Title -->
+                                <div class="slide_right ">
+                                    <h4>POS-система </h4>
+                                    <p>Профессиональное монофункциональное устройство для быстрого принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      бел.руб
 
-                            
-                            
-                           
-                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                    <p>Самое популярное устройство для принятия заказа. Удобно брать к столику.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      до <span class="price_max">350</span> бел.руб
+
+                                    </p>
+                                </div>
+                                
+                                
+
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/laptop.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Ноутбук</h4>
+                                    <p>Можно использовать в качестве терминала, если нужно быстро начать работу.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      до <span class="price_max">350</span> бел.руб
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->        
                     </div>
-                    <div class="col-lg-5 col-md-12 ">
-                        <div class="feature-img plug text-center">
-                              <a data-fancybox="gallery" href="../assets/images/img-businesses/fast-food/all-devices-big.png"><img src="../assets/images/img-businesses/fast-food/all-devices-mini.png" data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt="Пример оборудования, которое может быть использовано для работы в ресторане быстрого питания" title="Пример оборудования, которое может быть использовано для работы в ресторане быстрого питания" ></a>
-                           
-                        </div>
+                </div>
+                
+           
+                <div  class="col-lg-6 col-12  obj-active">
+                   <h2>Для покупателя</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет</h4>
+                                    <p>Используется для отображения электронного меню заведения. Используется для отображения</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                   
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                             
+                    </div>
+                </div>
+                
+                <div  class="col-lg-6 col-12  obj-active">
+                   <h2>Для кассы</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Денежный ящик </h4>
+                                    <p>Нужен для хранения выручки ресторана. Имеет специальные отделения под купюры и монеты. Закрывается на ключ.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                    
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                         
+                    </div>
+                </div>
+                
+                <div  class="col-lg-6 col-12  obj-active">
+                   <h2>Для официанта</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система </h4>
+                                    <p>Профессиональное монофункциональное устройство для быстрого принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                    <p>Самое популярное устройство для принятия заказа. Удобно брать к столику.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      до <span class="price_max">350</span> бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/laptop.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Ноутбук</h4>
+                                    <p>Можно использовать в качестве терминала, если нужно быстро начать работу.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      до <span class="price_max">350</span> бел.руб
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->        
+                    </div>
+                </div>
+                
+           
+         
+                <div  class="col-lg-6 col-12  obj-active">
+                    <h2>Для официанта</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система </h4>
+                                    <p>Профессиональное монофункциональное устройство для быстрого принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                    <p>Самое популярное устройство для принятия заказа. Удобно брать к столику.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      до <span class="price_max">350</span> бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/laptop.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Ноутбук</h4>
+                                    <p>Можно использовать в качестве терминала, если нужно быстро начать работу.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                      до <span class="price_max">350</span> бел.руб
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->        
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Feature 3 --> 
+          
+            
         
+        </section>
         
         
         
@@ -757,7 +522,7 @@
                                 <h2>Попробовать бесплатно</h2>
                                 <p>Начните работать уже сегодня, первые 14 дней бесплатно.</p>
                             </div>
-                            <img src="../assets/images/contact-caffesta.png" width="85%" alt="Изображение планшета с терминалом Caffesta и мобильного телефона с приложением Caffesta Boss" title="Планшет с терминалом Caffesta и мобильны телефон с приложением Caffesta Boss">
+                            <img src="assets/images/contact-caffesta.png" width="85%" alt="Изображение планшета с терминалом Caffesta и мобильного телефона с приложением Caffesta Boss" title="Планшет с терминалом Caffesta и мобильны телефон с приложением Caffesta Boss">
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -790,6 +555,11 @@
             </div>
         </section>
         <!-- End Contact -->
+
+        
+        
+        
+
         <!-- Footer -->
         <footer class="footer style--two analytic">
             <!-- Footer Main -->
@@ -825,7 +595,7 @@
                                 <div class="footer_center">
                                     <div>
                                         <p>
-                                            <a  href="index.html"> <img src="../assets/images/logoB-caffesta.png" alt="Логотип программы  для автоматизации бизнеса Caffesta"> </a> 
+                                            <a  href="index.html"> <img src="assets/images/logoB-caffesta.png" alt="Логотип программы  для автоматизации бизнеса Caffesta"> </a> 
                                         </p>
                                     </div>
                             
@@ -1141,21 +911,21 @@
                                 <div class="">
                                     <!-- Widget Title -->
                                     <div class="widget_title">
-                                        <a href="https://play.google.com/store/apps/details?id=com.Caffesta.PosTerminal" target="_blank" class="badge googleplay"><img class="imgShops" alt="Get it on Google Play" src="../assets/images/icons/appStore.jpg"></a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.Caffesta.PosTerminal" target="_blank" class="badge googleplay"><img class="imgShops" alt="Get it on Google Play" src="assets/images/icons/appStore.jpg"></a>
                                         
-                                        <a href="https://itunes.apple.com/us/app/caffesta-pos/id1308069676?l=ru&amp;ls=1&amp;mt=8" target="_blank" class="badge appstore"><img  class="imgShops"alt="Get it on Google Play" src="../assets/images/icons/google.jpg">
+                                        <a href="https://itunes.apple.com/us/app/caffesta-pos/id1308069676?l=ru&amp;ls=1&amp;mt=8" target="_blank" class="badge appstore"><img  class="imgShops"alt="Get it on Google Play" src="assets/images/icons/google.jpg">
                                         </a>
                                     </div>
                                     <!-- End Widget Title -->
 
                                     <div class="imgIcons">
-                                        <img class="imgIcon" src="../assets/images/icons/linux-logo.png" alt="Иконка операционной системы linux">
+                                        <img class="imgIcon" src="assets/images/icons/linux-logo.png" alt="Иконка операционной системы linux">
                                         
-                                        <img class="imgIcon"  src="../assets/images/icons/apple-logo.png" alt="Иконка операционной системы apple"> 
+                                        <img class="imgIcon"  src="assets/images/icons/apple-logo.png" alt="Иконка операционной системы apple"> 
                                         
-                                        <img class="imgIcon"  src="../assets/images/icons/windows-logo.png" alt="Иконка операционной системы windows"> 
+                                        <img class="imgIcon"  src="assets/images/icons/windows-logo.png" alt="Иконка операционной системы windows"> 
                                         
-                                        <img class="imgIcon"  src="../assets/images/icons/android-logo.png" alt="Иконка операционной системы android"> 
+                                        <img class="imgIcon"  src="assets/images/icons/android-logo.png" alt="Иконка операционной системы android"> 
                                     </div>
                                 </div>
                                 <!-- End Footer Menu -->
@@ -1172,47 +942,68 @@
         </footer>
         <!-- End Footer -->
 
-
         <!-- Back to Top Button -->
         <a href="#" class="back-to-top">
             <i class="fa fa-angle-up"></i>
         </a>
         <!-- End Back to Top Button -->
+       
 
         <!-- ======= jQuery Library ======= -->
-        <script src="../assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
         
         <!-- ======= Bootstrap Bundle JS ======= -->
-        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
 
         <!-- ======= Owl Carousel JS ======= -->
-        <script src="../assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+        <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
 
         <!-- ======= Retina JS ======= -->
-        <script src="../assets/plugins/retinajs/retina.min.js"></script>
+        <script src="assets/plugins/retinajs/retina.min.js"></script>
 
         <!-- ======= Count-Down JS ======= -->
-        <script src="../assets/plugins/countdown-timer/countdown.min.js"></script>
+        <script src="assets/plugins/countdown-timer/countdown.min.js"></script>
 
         <!-- ======= Jquery UI JS ======= -->
-        <script src="../assets/plugins/ui-slider/jquery-ui.js"></script>
+        <script src="assets/plugins/ui-slider/jquery-ui.js"></script>
 
         <!-- ======= Wow JS ======= -->
-        <script src="../assets/plugins/animate/wow.min.js"></script>
+        <script src="assets/plugins/animate/wow.min.js"></script>
 
         <!-- ======= Swiper Slider JS ======= -->
-        <script src="../assets/plugins/swiper-slider/swiper.min.js"></script>
+        <script src="assets/plugins/swiper-slider/swiper.min.js"></script>
 
         <!-- ======= Megnific PopUp JS ======= -->
-        <script src="../assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 
         <!-- ======= Google API ======= -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjkssBA3hMeFtClgslO2clWFR6bRraGz0"></script>
 
         <!-- ======= Main JS ======= -->
-        <script src="../assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         
         <!-- ======= Custom JS ======= -->
-        <script src="../assets/js/custom.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/jsForSlider.js"></script>
+        
+        <script src="assets/js/equip.js"></script>
+<!--        <script src="assets/js/oport.js"></script>-->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 1,
+              spaceBetween: 5,
+              centeredSlides: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+             
+              },
+              
+            });
+            
+    
+        </script>
     </body>
 </html>

@@ -252,10 +252,11 @@ rgb(75%, 9%, 18%);
                     
                     
                     <p> Данные наборы оборудования являются лишь рекомендуемыми и могут быть любым образом изменены или дополнены в соответствии со спецификой именно Вашего заведения.</p>
+                    <p> Вы можете выбирать нужное оборудование в слайдерах ниже и автоматически сумма всей выбранной технике отобразиться в правом вернем углу.</p>
                 </div>
                 <div  class="col-lg-3 col-12 all_price">
                     <p>Минимальная общая сумма: <br/>
-                     <span id="sum">0</span>
+                     <span id="sum3">0</span>
                         бел. руб.
                     </p>
                 </div>
@@ -265,267 +266,555 @@ rgb(75%, 9%, 18%);
             </div>
         </section>
         <!-- End Banner -->
-        <section class="tabcontent container pb-40">
-            
+          <section  class="container pb-40">
             <div class="row justify-content-center">
-               <div  class="col-lg-4 col-12 equipment obj-active">
-                    <h2>Для официанта</h2>
-                    <div class="pricing-toogle text-center">
-                        <label class="toggler filt-monthly  ">
-                           Нужно
-                        </label>
-                        <div class="toggle">
-                            <input type="checkbox" class="switcher check ">
-                            <b class="b switch"></b>
-                        </div> 
-                        <label class="toggler filt-yearly">Есть </label>
-                    </div>
-                    <hr/> 
-                     <div class="swiper-container ">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/pos-sistem-two.jpg"   alt="">
-                                <h4>POS-система с двумя экранами </h4>
-                                <p>Отличается POS-системы дополнительным экраном, на котором клиент может видеть оформляемый заказ.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
-                                <h4>POS-система </h4>
-                                <p>Профессиональное монофункциональное устройство для быстро принятия заказа.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
-                                <h4>Планшет </h4>
-                                <p>Популярное устройство для оформления заказа. </p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/laptop.jpg"  alt="">
-                                <h4>Ноутбук</h4>
-                                <p>Можно использовать в качестве терминала, если нужно быстро начать работу.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                        
-                        </div>
+                <div  class="col-lg-6 col-12 equipment3 obj-active">
+                    <h2>Устройство для кассира</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-two.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система с двумя экранами </h4>
+                                    <p>Позволяет одновременно принимать заказ и отобрать его клиенту.</p>
+                                    <p>
+                                      от  <span class="price_min">1500</span>
+                                      бел.руб
 
-                        <div class="swiper-pagination"></div>
-                         
-                      </div>
-                    <hr/>
-                </div>
-               <div  class="col-lg-4 col-12 equipment obj-active">
-                    <h2>Для повара</h2>
-                    <div class="pricing-toogle text-center">
-                        <label class="toggler filt-monthly  ">
-                           Нужно
-                        </label>
-                        <div class="toggle">
-                            <input type="checkbox" class="switcher check ">
-                            <b class="b switch"></b>
-                        </div> 
-                        <label class="toggler filt-yearly">Есть </label>
-                    </div>
-                    <hr/> 
-                     <div class="swiper-container ">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
-                                <h4>Планшет</h4>
-                                <p>Размешается на кухне. Отображет все заказы для повара.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
+                                    </p>
+                                </div>
                             </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-chief/printer.jpg"  alt="">
-                                <h4>Чековый принтер</h4>
-                                <p>Быстрый и удобный способ отправления заказа от официанта к повару. Размещается на кухне.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            
-                        
-                        </div>
+                            <!-- End Testimonial Single Slide -->
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система </h4>
+                                    <p>Профессиональное монофункциональное устройство для быстрого принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">1500</span>
+                                      бел.руб
 
-                        <div class="swiper-pagination"></div>
-                         
-                      </div>
-                    <hr/>
-                </div>
-               <div  class="col-lg-4 col-12 equipment obj-active">
-                    <h2>Для покупателя</h2>
-                    <div class="pricing-toogle text-center">
-                        <label class="toggler filt-monthly  ">
-                           Нужно
-                        </label>
-                        <div class="toggle">
-                            <input type="checkbox" class="switcher check ">
-                            <b class="b switch"></b>
-                        </div> 
-                        <label class="toggler filt-yearly">Есть </label>
-                    </div>
-                    <hr/> 
-                     <div class="swiper-container ">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-chief/tv.jpg" alt="">
-                                <h4>Телевизор</h4>
-                                <p>Отображает готовые и готовящиеся заказы. Доступен для ожидающих посетителей.  </p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                    <p>Самое мобильное устройство для принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                       бел.руб
+
+                                    </p>
+                                </div>                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/laptop.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Ноутбук</h4>
+                                    <p>Можно использовать в качестве терминала, если нужно быстро начать работу.</p>
+                                    <p>
+                                      от  <span class="price_min">1800</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
                                 
                             </div>
-                            
-                        
-                        </div>
-
-                        <div class="swiper-pagination"></div>
-                         
-                      </div>
-                    <hr/>
+                            <!-- End Testimonial Single Slide --> 
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/none.svg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Не нужно</h4>
+                
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->  
+                       
+                    </div>
+                    <hr>
                 </div>
                 
-                <div  class="col-lg-4 col-12 equipment obj-active">
-                    <h2>Для кассы</h2>
-                    <div class="pricing-toogle text-center">
-                        <label class="toggler filt-monthly  ">
-                           Нужно
-                        </label>
-                        <div class="toggle">
-                            <input type="checkbox" class="switcher check ">
-                            <b class="b switch"></b>
-                        </div> 
-                        <label class="toggler filt-yearly">Есть </label>
-                    </div>
-                    <hr/> 
-                     <div class="swiper-container ">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-kassa/money-box.jpg"  alt="">
-                                <h4>Денежный ящик</h4>
-                                <p>Нужен для хранения выручки ресторана. Имеет специальные отделения под купюры и монеты. Закрывается на ключ.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
+           
+                <div  class="col-lg-6 col-12 equipment3 obj-active">
+                   <h2>Фискальное оборудование</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/titan-black-a.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Titan-A</h4>
+                                    <p></p>
+                                    <p>
+                                      от  <span class="price_min">650</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/titan-plus.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Titan+ </h4>
+                                    <p></p>
+                                    <p>
+                                      от  <span class="price_min">480</span>
+                                      бел.руб
+
+                                    </p>
+                                   
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/none.svg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Не нужно</h4>
+                
+                                </div>
                                 
                             </div>
-                            
-                        
-                        </div>
-
-                        <div class="swiper-pagination"></div>
-                         
-                      </div>
-                    <hr/>
+                            <!-- End Testimonial Single Slide -->  
+                             
+                    </div>
+                    <hr>
                 </div>
                 
-                <div  class="col-lg-4 col-12 equipment obj-active">
+                <div  class="col-lg-6 col-12 equipment3 obj-active">
+                   <h2>Чековый принтер</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/printer-80.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Принтер </h4>
+                                    <p>Для бумаги 80 мм</p>
+                                    <p>
+                                      от  <span class="price_min">980</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/printer-57.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Принтер </h4>
+                                    <p>Для бумаги 57 мм</p>
+                                    <p>
+                                      от  <span class="price_min">570</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/none.svg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Не нужно</h4>
+                
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->  
+                    </div>
+                    <hr>
+                </div>
+                
+                <div  class="col-lg-6 col-12 equipment3 obj-active">
+                   <h2>Для отображения заказов</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-chief/tv.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Телевизор </h4>
+                                    <p>Можно использовать для отображения всех текущих заказов.</p>
+                                    <p>
+                                      от  <span class="price_min">3800</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/tablet-ord.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Планшет </h4>
+                                    <p>Можно использовать для небольшого заведения.</p>
+                                    <p>
+                                      от  <span class="price_min">180</span>
+                                    бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/computer-ord.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Компьютер</h4>
+                                    <p>Доступный аналог телевизору или планшету.</p>
+                                    <p>
+                                      от  <span class="price_min">2800</span>
+                                     бел.руб
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->     
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/none.svg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Не нужно</h4>
+                
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->  
+                    </div>
+                    <hr>
+                </div>
+                
+           
+         
+                <div  class="col-lg-6 col-12 equipment3 obj-active">
                     <h2>Дополнительно</h2>
-                    <div class="pricing-toogle text-center">
-                        <label class="toggler filt-monthly  ">
-                           Нужно
-                        </label>
-                        <div class="toggle">
-                            <input type="checkbox" class="switcher check ">
-                            <b class="b switch"></b>
-                        </div> 
-                        <label class="toggler filt-yearly">Есть </label>
-                    </div>
-                    <hr/> 
-                     <div class="swiper-container ">
-                          <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/other/terninal.jpg"  alt="">
-                                <h4>Терминал самообслуживания </h4>
-                                <p>Отдельный экран для посетителей, которые хотят самостоятельно сделать заказ.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"  alt="">
-                                <h4>POS-система </h4>
-                                <p>Профессиональное монофункциональное устройство для быстро принятия заказа.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/laptop.jpg"  alt="">
-                                <h4>Ноутбук</h4>
-                                <p>Можно использовать в качестве терминала, если нужно быстро начать работу.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/img-equipment/for-order/tablet.jpg"  alt="">
-                                <h4>Планшет </h4>
-                                <p>Самое популярное устройство для принятия заказа. Удобно брать к столику.</p>
-                                <p>
-                                  от  <span class="price_min">180</span>
-                                  до <span class="price_max">350</span> бел.руб
-                                
-                                </p>
-                                
-                            </div>
-                            
-                        
-                        </div>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/magnetic_card_reader.png"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Cчитыватель магнитных карт</h4>
+                                    <p>Можно докупить если нет встроенного.</p>
+                                    <p>
+                                      от  <span class="price_min">320</span>
+                                      бел.руб
 
-                        <div class="swiper-pagination"></div>
-                         
-                      </div>
-                    <hr/>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                             <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/other/terninal.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Терминал для самообслуживания </h4>
+                                    <p>Отдельный экран для посетителей, которые хотят самостоятельно сделать заказ.</p>
+                                    <p>
+                                      от  <span class="price_min">8500</span>
+                                       бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                         <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-two.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система с двумя экранами </h4>
+                                    <p>Позволяет одновременно принимать заказ и отобрать его клиенту.</p>
+                                    <p>
+                                      от  <span class="price_min">1500</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система </h4>
+                                    <p>Профессиональное монофункциональное устройство для быстрого принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">1500</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/printer-80.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Принтер </h4>
+                                    <p>Для бумаги 80 мм</p>
+                                    <p>
+                                      от  <span class="price_min">980</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/printer-57.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Принтер </h4>
+                                    <p>Для бумаги 57 мм</p>
+                                    <p>
+                                      от  <span class="price_min">570</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                            
+                        <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/none.svg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Не нужно</h4>
+                
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->    
+                       
+                    </div>
+                    <hr>
                 </div>
                 
-    
+                
+                <div  class="col-lg-6 col-12 equipment3 obj-active">
+                    <h2>Дополнительно</h2>
+                   <div class="app-testimonial-slider owl-carousel" data-owl-nav="true" data-bg-img="assets/img/feature/app-testimonial-shape.png">
+                             <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/other/terninal.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Терминал для самообслуживания </h4>
+                                    <p>Отдельный экран для посетителей, которые хотят самостоятельно сделать заказ.</p>
+                                    <p>
+                                      от  <span class="price_min">8500</span>
+                                       бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                         <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-two.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система с двумя экранами </h4>
+                                    <p>Позволяет одновременно принимать заказ и отобрать его клиенту.</p>
+                                    <p>
+                                      от  <span class="price_min">1500</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                            <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/for-order/pos-sistem-one.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>POS-система </h4>
+                                    <p>Профессиональное монофункциональное устройство для быстрого принятия заказа.</p>
+                                    <p>
+                                      от  <span class="price_min">1500</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/printer-80.jpg"   alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Принтер </h4>
+                                    <p>Для бумаги 80 мм</p>
+                                    <p>
+                                      от  <span class="price_min">980</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/printer-57.jpg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Принтер </h4>
+                                    <p>Для бумаги 57 мм</p>
+                                    <p>
+                                      от  <span class="price_min">570</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Testimonial Single Slide -->
+                       <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/fiscal-equipment/magnetic_card_reader.png"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Cчитыватель магнитных карт</h4>
+                                    <p>Можно докупить если нет встроенного.</p>
+                                    <p>
+                                      от  <span class="price_min">320</span>
+                                      бел.руб
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->     
+                        <!-- Testimonial Single Slide -->
+                            <div class="single-slide">
+                                <div class="slide_left">
+                                    <img src="assets/images/img-equipment/none.svg"  alt="">
+                                </div>
+                                <div class="slide_right ">
+                                    <h4>Не нужно</h4>
+                
+                                </div>
+                                
+                            </div>
+                            <!-- End Testimonial Single Slide -->    
+                       
+                    </div>
+                     <hr>
+                </div>
+               
+            </div>
+          
+            
+        
+        </section>
+        <!-- Feature 3 -->
+        <section class="pb-140 position-relative back_front">
+            
+            <div class="container">
+                 <div class="row justify-content-center">
+                    <div class="col-md-7 text-center">
+                        <!-- Section Title -->
+                        <div class="style--three wow fadeInUp10 pb-40" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <h2> Своё оборудование? </h2>
+                            <p>Если Вы планируете использовать своё оборудование на точке продаж, то оно должно соответствовать следующим минимальным системным требованиям:</p>
+                            
+                        </div>
+                        <!-- End Section Title -->
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center ">
+                    <div class="col-lg-5 col-md-12 ">
+                        <div class="feature-content plug">
+                            <!-- Section Title -->
+                            <div class="section-title">
+                                <h3 class="black">Планшет: </h3>
+                                <p>Андроид 4.4, двухядерный процессор, минимум 2Гб оперативной памяти.</p>
+                            </div>
+                            <!-- End Section Title -->
+                            <!-- Section Title -->
+                            <div class="section-title">
+                                <h3 class="black">Компьютер: </h3>
+                                <p>Минимум Win7 и 2 Гб оперативной памяти, (3Гб для Win10), процессор в 2 ядра по 1.5ГГц. Так же работаем с Linux.</p>
+                            </div>
+                            <!-- End Section Title -->
+
+                           
+                            
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="feature-img plug text-center">
+                             <img src="assets/images/img-opportunities/login-admin.png" data-rjs="2" class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s" alt="Страница входа в административную панель (Бэк-офис)" >
+                           
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        
+        <!-- Feature 3 -->
         
         
       <!-- Contact -->
