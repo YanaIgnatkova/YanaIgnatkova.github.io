@@ -404,16 +404,18 @@ We may release future updates so it will overwrite this file. it's better and sa
             items: checkData($t.data('owl-items'), 1),
             margin: checkData($t.data('owl-margin'), 0),
             loop: checkData($t.data('owl-loop'), true),
-            smartSpeed: 450,
-            autoplay: checkData($t.data('owl-autoplay'), true),
-            autoplayTimeout: checkData($t.data('owl-speed'), 8000),
+//            smartSpeed: 450,
+//            autoplay: checkData($t.data('owl-autoplay'), true),
+//            autoplayTimeout: checkData($t.data('owl-speed'), 80),
             center: checkData($t.data('owl-center'), false),
             animateIn: checkData($t.data('owl-animate-in'), false),
             animateOut: checkData($t.data('owl-animate-out'), false),
-            nav: checkData($t.data('owl-nav'), false),
+            nav: checkData($t.data('owl-nav'), true),
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-            dots: checkData($t.data('owl-dots'), false),
-            responsive: checkData($t.data('owl-responsive'), {})
+            dots: checkData($t.data('owl-dots'), true),
+            responsive: checkData($t.data('owl-responsive'), {}),
+            touchDrag  : false,
+            mouseDrag  : false,
         });
     });
 
@@ -559,6 +561,37 @@ We may release future updates so it will overwrite this file. it's better and sa
           el: '.swiper-pagination',
           clickable: false,
         },
+    });
+     new Swiper('.how-work-slider2', {
+       
+        slidesPerView: 4,
+        mouseDrage:false,
+        mouseMove: false,
+        mousewheel: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: false,
+        },
+         breakpoints: {
+            // when window width is <= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10
+            },
+            // when window width is <= 480px
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            // when window width is <= 640px
+            720: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            }
+         },
+         autoplay: {
+            delay: 5000,
+          },
     });
 
     /*==================================

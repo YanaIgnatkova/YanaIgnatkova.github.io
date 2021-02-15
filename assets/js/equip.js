@@ -89,3 +89,92 @@ $(function() {
     });
   
 });
+
+
+//eq2
+
+
+$(function() {
+  
+    var flag = false;
+
+    if (flag==false){
+        changeEQ2();
+        flag = true;
+    }
+    
+    
+    
+    
+  function changeEQ2() {
+     var isSet=0;
+     var sum=0;
+      
+      
+     var allPrice = $(".equipment2 .owl-item.active .price_min ");
+     console.log(allPrice);
+      
+    for (var i=0; i<allPrice.length; i++){
+        
+        console.log(allPrice[i].offsetParent.classList.value); 
+         sum += Number.parseInt(allPrice[i].innerHTML);
+    }
+        $("#sum2").text(sum);
+      console.log(sum);
+      
+    }
+    
+    $('.owl-prev').click(function () {
+       changeEQ2();
+    });
+    $('.owl-next').click(function () {
+       changeEQ2();
+    });
+    $('.owl-dot').click(function () {
+       changeEQ2();
+    });
+  
+});
+
+//eq3
+$(function() {
+  
+    var flag = false;
+
+    if (flag==false){
+        changeEQ3();
+        flag = true;
+    }
+    
+    
+    
+    
+  function changeEQ3() {
+     var isSet=0;
+     var sum=0;
+      
+      
+     var allPrice = $(".equipment3 .owl-item.active .price_min ");
+     console.log(allPrice);
+      
+    for (var i=0; i<allPrice.length; i++){
+        
+        console.log(allPrice[i].offsetParent.classList.value); 
+         sum += Number.parseInt(allPrice[i].innerHTML);
+    }
+        $("#sum3").text(sum);
+      console.log(sum);
+      
+    }
+    
+    $('.owl-prev').click(function () {
+       changeEQ3();
+    });
+    $('.owl-next').click(function () {
+       changeEQ3();
+    });
+    $('.owl-dot').click(function () {
+       changeEQ3();
+    });
+  
+});

@@ -475,9 +475,9 @@ body, h1, h2, h3, h4, h5, p{
             }
             img.shop{
                 
-                width: 60%;
+                width: 90%;
                 padding-top: 8%;
-                margin-left: 20%;
+//                margin-left: 5%;
                 margin-bottom: 5%;
             }
             h3{
@@ -1692,7 +1692,32 @@ body, h1, h2, h3, h4, h5, p{
             font-size: @h3;
         }
     }
-    
+    #form{
+        background-color: @white;
+//        background-color: red ;
+        
+    }
+    .back_front{
+        background-color: @moloko;
+        img{
+                width: 90%;
+                margin-top: 0px;
+            }
+        .style--three{
+            h2{
+                color: @red;
+                font-size: @h2; 
+            }
+        }
+        .section-title{
+            h3{
+                color: @red;
+                font-size: @h3; 
+            }
+            
+            
+        }
+    }
     .equipment{
         h2{
             font-size: @h2;
@@ -1710,7 +1735,7 @@ body, h1, h2, h3, h4, h5, p{
         
         
         .swiper-slide{
-            height: 150% !important;
+            height: 20  0% !important;
             margin: 2px;
             padding: 2px;
 
@@ -1737,12 +1762,100 @@ body, h1, h2, h3, h4, h5, p{
         }
        
         
-        margin-bottom: 10%;
+//        margin-bottom: 10%;
     }
     
 }
 
+.equipments{
+    .equipment2{
+        h2{
+            margin-top: 50%;
+        }
+        
+    }
+    .equipment3{
+        padding: 0 2%;
+        .owl-carousel.app-testimonial-slider{
+            .single-slide{
+            
+                margin-top: 0%;
+                height: 430px !important;
+                
+            }
+            margin-bottom: 10%;
+        }
+        
+    }
+    .owl-carousel.app-testimonial-slider{
+        .single-slide{
+            
+//            margin-top: 10%;
+            .slide_right{
+                padding: 5%;
+                width: 50%;
+                float: right;
+                margin-top: 10%;
+                h4{
+                   font-size: @h3; 
+                   color: @blue;
+                    text-align: center;
+                }
+                p{
+                    font-size: @p; 
+                    color: @blue_gray;
+                    text-align: center;
+                    font-style: normal; 
+                }
+                span{
+                    font-size: @h3; 
+                    color: @blue;
+                }
+            }
+            .slide_left{
+                
+                width: 50%;
+                float: left;
+                img{
+                    width: 90%;
+                    padding: 15% 5%;
+                }
+                
+            }
+        }
+        .owl-nav{
+            button{
+                i{
+                    display: block;
+                    color: @blue;
+                    font-size: 50px;
+                }
+            } 
+        }
+        .owl-dots{
+            position:relative;
+            width: 25%;
+            margin: 0 45%; 
+            
+            
+        }
+       
 
+    }
+    
+    .owl-carousel button.owl-dot{
+        width: 16x;
+        height: 16px;
+        border-radius: 8px;
+        margin-left: 2px;
+        background-color: @l_blue;
+        
+        
+    }
+    .owl-carousel button.owl-dot.active{
+        background-color: @blue;
+    }
+}
 
 
 
@@ -2509,6 +2622,11 @@ body, h1, h2, h3, h4, h5, p{
                 }
             }
 
+        }
+        .caf-form{
+          background-color: rgba(0, 0, 0, 0.03);
+//            background-color: @ll_blue;
+        
         }
 
     }

@@ -319,9 +319,8 @@ p {
   margin-bottom: 5%;
 }
 .steps_for_work .step .img img.shop {
-  width: 60%;
+  width: 90%;
   padding-top: 8%;
-  margin-left: 20%;
   margin-bottom: 5%;
 }
 .steps_for_work .step .img h3 {
@@ -2036,8 +2035,23 @@ p {
 .equipments .all_price #sum {
   font-size: 24px;
 }
-.equipments .equipment {
-  margin-bottom: 10%;
+.equipments #form {
+  background-color: #ffffff;
+}
+.equipments .back_front {
+  background-color: #e7e3d4;
+}
+.equipments .back_front img {
+  width: 90%;
+  margin-top: 0px;
+}
+.equipments .back_front .style--three h2 {
+  color: #8f313e;
+  font-size: 32px;
+}
+.equipments .back_front .section-title h3 {
+  color: #8f313e;
+  font-size: 24px;
 }
 .equipments .equipment h2 {
   font-size: 32px;
@@ -2052,7 +2066,7 @@ p {
   background-color: #4d7ab0;
 }
 .equipments .equipment .swiper-slide {
-  height: 150% !important;
+  height: 20  0% !important;
   margin: 2px;
   padding: 2px;
 }
@@ -2074,6 +2088,68 @@ p {
 .equipments .equipment .swiper-slide span {
   font-size: 24px;
   color: #4d7ab0;
+}
+.equipments .equipment2 h2 {
+  margin-top: 50%;
+}
+.equipments .equipment3 {
+  padding: 0 2%;
+}
+.equipments .equipment3 .owl-carousel.app-testimonial-slider {
+  margin-bottom: 10%;
+}
+.equipments .equipment3 .owl-carousel.app-testimonial-slider .single-slide {
+  margin-top: 0%;
+  height: 430px !important;
+}
+.equipments .owl-carousel.app-testimonial-slider .single-slide .slide_right {
+  padding: 5%;
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+}
+.equipments .owl-carousel.app-testimonial-slider .single-slide .slide_right h4 {
+  font-size: 24px;
+  color: #4d7ab0;
+  text-align: center;
+}
+.equipments .owl-carousel.app-testimonial-slider .single-slide .slide_right p {
+  font-size: 18px;
+  color: #8590aa;
+  text-align: center;
+  font-style: normal;
+}
+.equipments .owl-carousel.app-testimonial-slider .single-slide .slide_right span {
+  font-size: 24px;
+  color: #4d7ab0;
+}
+.equipments .owl-carousel.app-testimonial-slider .single-slide .slide_left {
+  width: 50%;
+  float: left;
+}
+.equipments .owl-carousel.app-testimonial-slider .single-slide .slide_left img {
+  width: 90%;
+  padding: 15% 5%;
+}
+.equipments .owl-carousel.app-testimonial-slider .owl-nav button i {
+  display: block;
+  color: #4d7ab0;
+  font-size: 50px;
+}
+.equipments .owl-carousel.app-testimonial-slider .owl-dots {
+  position: relative;
+  width: 25%;
+  margin: 0 45%;
+}
+.equipments .owl-carousel button.owl-dot {
+  width: 16x;
+  height: 16px;
+  border-radius: 8px;
+  margin-left: 2px;
+  background-color: #c4dbf6;
+}
+.equipments .owl-carousel button.owl-dot.active {
+  background-color: #4d7ab0;
 }
 .footer {
   padding: 0px;
@@ -2570,6 +2646,9 @@ p {
   }
   .equipments .equipment .swiper-slide span {
     font-size: 18px;
+  }
+  .equipments .caf-form {
+    background-color: rgba(0, 0, 0, 0.03);
   }
   .caf-form_red h2 {
     font-size: 24px;
